@@ -1,0 +1,49 @@
+.orange1
+{
+    font-family: "Calibri",cursive;
+    font-size: 100%;
+    color: #F1B154;
+}
+h1
+{
+    font-family: "Calibri";
+    font-size: 350%;
+    color: #F1B154;
+    margin-bottom: 0px;
+}
+h2
+{
+    font-family: "Calibri";
+    font-weight: normal;
+    font-size: 170%;
+    color: #FBF1CB;
+    margin: 0px;
+    margin-left: 3%;
+}
+p
+{
+    font-family: "Calibri";
+    font-weight: 200;
+    font-size: 250%;
+    color: white;
+    margin: 10px;
+}
+html
+{
+    background: url("../images/background1.PNG");
+    background-size: 100%;
+}
+.screen1
+{
+    background-color: RGBa(44,44,44,0.9);
+    border-style: solid;
+    border-width: 2px;
+    border-color: #656258;
+    padding: 0px;
+    margin-left: 5%;
+    margin-right: 8%;
+}
+ul
+{
+    list-style-image: url("../images/orange-point1.png");
+}

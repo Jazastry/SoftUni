@@ -1,0 +1,10 @@
+@import url("main_sizes.css");
+
+hr{
+	border: 1px solid rgb(204,204,204);
+	margin: 4em 1em 0em 1em;
+}
+p{
+	color: #278CDA;
+	margin: 0.5em 2em 0em 2em;
+}

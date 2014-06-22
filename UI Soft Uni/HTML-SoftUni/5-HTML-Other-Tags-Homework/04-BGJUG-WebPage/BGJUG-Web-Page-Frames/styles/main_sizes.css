@@ -1,0 +1,19 @@
+html, p, a, h1, h2, hr, input, button,select {
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: Calibri;
+	font-size: 11px;
+	padding: 0rem 0.8rem 0rem 0.8rem;
+}
+hr{
+	border: 1px solid rgb(204,204,204);
+}
+p{
+	margin: 1rem;
+}
+.grey {
+	color: #9194A1;
+	letter-spacing: 1px;
+}

@@ -1,0 +1,79 @@
+body {
+    width: 70%;
+    font-family:Calibri;
+    background-color: rgb(235,237,235); 
+}
+
+input {
+    padding-left: 1%; 
+}
+.registerForm {
+    position:relative;
+    background-color: transparent;
+    width: 90%;
+    height: 100%;
+    padding: 0% 3% 0% 3%; 
+}
+.logInForm {
+    position:absolute;
+    left: 50%;
+    top: 0px;
+    width:50%;
+    height: 100%;
+    background-color: darkblue;
+    padding: 0% 3% 0% 3%;
+    color: white; 
+}
+
+form > div {
+    padding: 1%;
+}
+.small-field {
+    height: 25px;
+    width: 46%;
+}
+.bigger-fields {
+    
+    height:30px;
+    width:100%;
+}
+.login-box{
+    position: relative;
+}
+.btn-reg-div{
+    padding-left: 25%; 
+    
+}
+.submitBtn-reg{
+    border: 2px solid black;
+    background: transparent;
+    width: 29%;
+    height: 30px;
+    margin-right: 20%; 
+}
+.submitBtn-reg:hover {
+    cursor: pointer;
+}
+.submitBtn-logIn {
+    position: absolute;
+    right: 0%;
+    margin-top: 1%;
+    height: 30px;
+    width: 40%;
+    background-color: transparent;
+    border: 2px solid orange;
+    color:white;
+    cursor: pointer;
+}
+.submitBtn-logIn {
+    cursor: pointer;
+}
+.right-align-text {
+    padding-top: 10%;
+    text-align: right; 
+
+}
+ .right-align-text > a {
+
+    color: white; 
+ }

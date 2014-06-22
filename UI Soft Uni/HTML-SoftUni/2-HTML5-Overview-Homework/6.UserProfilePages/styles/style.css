@@ -1,0 +1,39 @@
+ 
+html
+{
+    background-color: #10F0FC; 
+}
+
+dl {
+    padding: 0.5em;
+}
+dt {
+    float: left;
+    clear: left;
+
+    text-align: left;
+    font-weight: bold;
+    color: black;
+}
+dt:after {
+    content: " :";
+}
+dd {
+    margin:0 0 6px;
+    float: left;
+    margin-left: 5px;
+}
+
+hr
+{
+    height: 1px;
+    color: #E1F0FC;
+    background-color: #E1F0FC;
+    border-top-color: 8F9980;
+    opacity: 10%;
+}
+img
+{
+    box-shadow: 2px 2px 1px #2A2D26;
+}
+  

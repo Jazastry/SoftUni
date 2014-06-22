@@ -1,0 +1,256 @@
+table, tr, td, th, h1, select, option, section {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+body {
+	font-family: Calibri;
+	font-size: 62.5%;
+}
+
+.worldCupTable {
+	width: 1219px;
+	height: 459px;
+	background-color: #00923E;
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+table{
+	border: 1px solid #000000; 
+	border-radius: 18px;
+	padding: 0px;
+	border-spacing: 0px;
+	width: 1179px;
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+tr {
+	height: 67px;
+}
+
+td, th, tr {
+	border: 1px solid #000000;
+	border-collapse: collapse;
+	
+}
+
+h1 {
+	font-size: 2.2rem;
+}
+
+td {
+	font-size: 1.45rem;
+	font-weight: 650;
+	padding: 0.47rem;
+}
+
+th {
+	padding: 0.5rem;
+	background-color: #F8C711;
+	width: auto;
+}
+.roundedLeft {
+	border-radius: 18px 0px 0px 0px;
+}
+
+.roundedRight {
+	border-radius: 0px 18px 0px 0px;
+}
+
+.roundedLefRighTop {
+	border-radius: 18px 18px 0px 0px;
+}
+
+.roundedLeftRightBtm {
+	border-radius: 0px 0px 18px 18px;
+}
+
+.roundedLeftBtm {
+	border-radius: 0px 0px 0px 18px;
+}
+
+.roundedRightBtm {
+	border-radius: 0px 0px 18px 0px;
+}
+
+td:nth-of-type(1), th:nth-of-type(1) {
+	width: 200px;
+	text-align: right;
+}
+
+td:nth-of-type(2), th:nth-of-type(2) {
+	width: 115px;
+	text-align: center;
+}
+
+td:nth-of-type(3), th:nth-of-type(3) {
+	width: 200px;
+	text-align: left;
+}
+
+td:nth-of-type(4), th:nth-of-type(4) {
+	width: 112px;
+	text-align: center;
+}
+
+td:nth-of-type(5), .br {
+	width: 170px;
+	text-align: right;
+}
+
+td:nth-of-type(6), .sel {
+	width: 144px;
+	text-align: center;
+	padding: 3px;
+}
+
+td:nth-of-type(7), .mx{
+	width: 169px;
+	text-align: left;
+}
+
+td:nth-of-type(8), .btn {
+	width: 67px;
+	text-align: center;
+}
+
+tr:nth-of-type(even) {
+	background-color: #C8C8C8; 
+}
+
+tr:nth-of-type(odd) {
+	background-color: #FFFFFF;
+}
+
+.redLeter {
+	background-color: #DCDCDC;
+	color: #FD100A;
+	font-size: 20px;
+	font-weight: 700;
+	height: 40px;
+	width: 40px;
+	border: 1px solid #B1B1B1;
+	padding: 0px;
+	margin: 0px;
+}
+
+.greenLeter {
+	color: #0E8110;
+	font-weight: 700;
+	font-size: 20px;
+	height: 40px;
+	width: 40px;
+	border: 1px solid #B1B1B1;
+	padding: 0px;
+}
+
+tr:nth-of-type(1) > td:nth-of-type(1) {
+	padding: 0rem 2.85rem 0rem 0rem;
+	background-image: url('../images/brasil-flag.PNG');
+	background-repeat: no-repeat;
+	background-position: 95% 55%;
+	background-size: 1.9rem 1.2rem;
+}
+
+tr:nth-of-type(2) > td:nth-of-type(1) {
+	padding: 0rem 2.85rem 0rem 0rem;
+	background-image: url('../images/spain-flag.PNG');
+	background-repeat: no-repeat;
+	background-position: 95% 55%;
+	background-size: 1.9rem 1.2rem;
+}
+
+tr:nth-of-type(3) > td:nth-of-type(1) {
+	padding: 0rem 2.85rem 0rem 0rem;
+	background-image: url('../images/italy-flag.PNG');
+	background-repeat: no-repeat;
+	background-position: 95% 55%;
+	background-size: 1.9rem 1.2rem;
+}
+
+tr:nth-of-type(4) > td:nth-of-type(1) {
+	padding: 0rem 2.85rem 0rem 0rem;
+	background-image: url('../images/argentina-flag.PNG');
+	background-repeat: no-repeat;
+	background-position: 95% 55%;
+	background-size: 1.9rem 1.2rem;
+}	
+
+tr:nth-of-type(5) > td:nth-of-type(1) {
+	padding: 0rem 2.85rem 0rem 0rem;
+	background-image: url('../images/germany-flag.PNG');
+	background-repeat: no-repeat;
+	background-position: 95% 55%;
+	background-size: 1.9rem 1.2rem;
+}
+
+tr:nth-of-type(1) > td:nth-of-type(3) {
+	padding: 0rem 0rem 0rem 2.7rem;
+	background-image: url('../images/mexico-flag.PNG');
+	background-repeat: no-repeat;
+	background-position: 5% 55%;
+	background-size: 1.9rem 1.2rem;
+}
+
+tr:nth-of-type(2) > td:nth-of-type(3) {
+	padding: 0rem 0rem 0rem 2.7rem;
+	background-image: url('../images/netherlands-flag.PNG');
+	background-repeat: no-repeat;
+	background-position: 5% 55%;
+	background-size: 1.9rem 1.2rem;
+}
+
+tr:nth-of-type(3) > td:nth-of-type(3) {
+	padding: 0rem 0rem 0rem 2.7rem;
+	background-image: url('../images/england-flag.PNG');
+	background-repeat: no-repeat;
+	background-position: 5% 55%;
+	background-size: 1.9rem 1.2rem;
+}
+
+tr:nth-of-type(4) > td:nth-of-type(3) {
+	padding: 0rem 0rem 0rem 2.7rem;
+	background-image: url('../images/bosnia-flag.PNG');
+	background-repeat: no-repeat;
+	background-position: 5% 55%;
+	background-size: 1.9rem 1.2rem;
+}
+
+tr:nth-of-type(5) > td:nth-of-type(3) {
+	padding: 0rem 0rem 0rem 2.7rem;
+	background-image: url('../images/portugal-flag.PNG');
+	background-repeat: no-repeat;
+	background-position: 5% 55%;
+	background-size: 1.9rem 1.2rem;
+}
+
+.greenBtn {
+	background-color: transparent; 
+	width: 47px;
+	height: 47px;
+	background: url("../images/btn-green1.PNG") no-repeat;
+	background-size: 47px 47px; 
+	cursor:pointer;
+    border:none;
+}
+
+.redBtn {
+	background-color: transparent;
+	width: 47px;
+	height: 47px;
+	background: url("../images/btn-red1.PNG") no-repeat; 
+	background-size: 47px 47px;
+	cursor:pointer;
+    border:none;
+}

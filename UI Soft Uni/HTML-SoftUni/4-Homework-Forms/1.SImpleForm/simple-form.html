@@ -1,0 +1,64 @@
+<!DOCTYPE html >
+<html>
+
+<head>
+	<title>Simple Form</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="styles/style-simple-form.css" />
+</head>
+
+<body>
+	<h1>Enter the System</h1>
+	<p>It is necesary to login in Your account in order to sign in for a course.</p>
+    <div class="registerForm">
+        <form method="get" action="">
+		    <h2><span>ARE YOU NEW?</span>REGISTER</h2>
+		
+		    <div>
+			    <input id="user-name-input" class="small-field" type="text" name="user-name" placeholder="User name" />
+		    </div>
+		
+		    <div>
+			    <input id="user-email" class="small-field" type="email" required name="user-name" 	placeholder="Email"/>
+		    </div>
+		
+		    <div>
+			    <input id="user-password-first" class="small-field" type="password" required name="user-password" placeholder="Password"/>
+		    </div>
+		
+		    <div>
+			    <input class="small-field" id="user-password-duble" type="password" required name="user-password-confirm" placeholder="Confirm password"/>
+		    </div>
+		
+		    <div class="btn-reg-div">
+			    <input type="submit" class="submitBtn-reg" name="submit-button-register" value="Register"/>
+		    </div>
+	    </form>
+        <div class="logInForm">
+	    <form method="get" action="">
+            <h2>ALREADY A STUDENT? LOGIN</h2>
+		
+		    <div>
+			    <input class="bigger-fields" id="user-name-login" type="text" name="user-name" placeholder="User name" />
+		    </div>
+		
+		    <div>
+			    <input class="bigger-fields" id="user-password-login" type="password" required name="user-password" placeholder="Password"/>
+		    </div>
+		
+		    <div class="login-box">
+			    <input id="agree" type="checkbox" name="agree" value="yes"/>
+                <label for="agree">Remember me ?</label>
+
+	            <span>
+	                <input class="submitBtn-logIn" type="submit" name="submit-button-signIn" value="Login" />
+	            </span>
+			</div>
+            <div class="right-align-text">
+                <a href="">Forgot Password</a>
+            </div>
+	    </form>
+    </div>
+    </div>
+</body>
+</html>

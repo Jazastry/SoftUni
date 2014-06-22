@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Flight Order</title>
+        <link rel="stylesheet" href="flight-order-styles/flight-order.css">
+    </head>
+    <body>
+    	<div class="whole-form">
+	        <form method="post" action="">
+	        	<h1>FLIGHT ORDER</h1>
+	
+	        	<div class="leftFlowDiv1">
+					<div>
+						<label for="from-city">From</label>
+					</div>
+					<div>	
+	        			<select class="selectField1" name="from-city">
+  							<option value="enter a city" selected="selected">enter a city</option>
+  							<option value="London">London</option>
+  							<option value="Sofia">Sofia</option>
+  							<option value="Moscow">Moscow</option>
+						</select>
+					</div>		
+				</div>
+				<div>	
+					<div>
+						<label for="to-city">To</label>
+					</div>
+					<div>	
+	        			<select class="selectField2" name="to-city">
+  							<option value="enter s city" selected="selected">enter a city</option>
+  							<option value="London">London</option>
+  							<option value="Sofia">Sofia</option>
+  							<option value="Moscow">Moscow</option>
+						</select>
+					</div>
+	        		<div>
+	        			<p><input type="checkbox" name="prefer-direct" value="yes">Prefer direct</p>
+	        		</div>
+	        	</div>
+	        	<div class="leftFlowDiv">
+	        		<div>
+	        			<label for="departureDate">Departure Date</label>	     
+	        		</div>
+	        		<div>
+	        			<input id="departureDate" name="departureDate" type="date" />
+	        		</div>
+	        	</div>
+	        	<div>
+	        		<div>
+	        			<label for="startTimeDepart">Time Interval</label>
+	        		</div>
+	        		<div>
+	        			<input id="startTimeDepart" name="startTimeDepart" type="time" />
+	        			<input id="startTimeDepart" name="startTimeDepart" type="time" />
+	        		</div>
+	        	</div>
+				
+				<div class="leftFlowDiv">
+	        		<div>
+	        			<label for="returnDate">Return Date</label>	     
+	        		</div>
+	        		<div>
+	        			<input id="returnDate" name="returnDate" type="date" />
+	        		</div>
+	        	</div>
+	        	<div>
+	        		<div>
+	        			<label for="startTimeReturn">Time Interval</label>
+	        		</div>
+	        		<div>
+	        			<input id="startTimeReturn" name="startTimeReturn" type="time" />
+	        			<input id="endTimeReturn" name="endTimeReturn" type="time" />
+	        		</div>
+	        	</div>
+	        	<div>
+		        	<div class="leftFlowDiv2">
+		        		<div>
+		        			<label for="twelvePl">12+</label>
+		        		</div>
+		        		<div>
+		        			<input name="twelvePl" type="number" min="12" max="100"/>
+		        		</div>
+		        	</div>
+	    			<div class="leftFlowDiv2">
+	    				<div>
+		        			<label for="two-twelve">2-12</label>
+		        		</div>
+		        		<div>
+		        			<input name="to-twelve" type="number" min="2" max="12"/>
+		        		</div>
+	    			</div>
+	    			<div class="leftFlowDiv2">
+	    				<div>
+		        			<label for="zero-two">0-2</label>
+		        		</div>
+		        		<div>
+		        			<input name="zero-two" type="number" min="0" max="2"/>
+		        		</div>
+	    			</div>		
+					<div>
+						<div>
+							<label for="choose-class">Choose class</label>
+						</div>
+						<div>	
+		        			<select class="selectPriority" name="choose-class">
+	  							<option value="Economy" selected="selected">Economy</option>
+	  							<option value="Business">Business</option>
+	  							<option value="VIP">VIP</option>
+							</select>
+						</div>
+					</div>
+					<div>
+						<input class="submitBtn" type="submit" value="Search">
+					</div>
+				</div>
+	        </form>
+        </div>
+    </body>
+</html>

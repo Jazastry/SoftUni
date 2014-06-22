@@ -1,0 +1,57 @@
+form{
+	background-color: rgb(251,162,249);
+	width: 40%;
+	/*height: 59%;*/
+	padding: 1%; 
+	font-style: italic;
+}
+select{
+	height: 25px;
+	font-weight: 700;
+	margin: 3px 3px 3px 3px;
+}
+p{
+	
+	margin:  0px 3px 0px 50%;
+}
+input{
+	height: 20px;
+	margin: 2px 0px 2px 0px; 
+}
+input[type="date"]{
+	width: 95%;
+}
+input[type="time"]{
+	width: 23%;
+}
+input[type="number"]{
+	padding-right: 3px; 
+	width: 89%;
+}
+.leftFlowDiv1{
+	width: 50%;
+	float: left;
+}
+.selectField1{
+	width: 97%;
+}
+.selectField2{
+	width: 48%;
+}
+.leftFlowDiv{
+	width: 50%;
+	float: left;
+}
+.leftFlowDiv2{
+	margin: 0px 3px 0px 0px; 
+	width: 16%;
+	float: left;
+}
+.selectPriority{
+	width: 48%;
+}
+.submitBtn{
+	height: 30px;
+	width: 49%;
+	margin-left: 50%;
+}

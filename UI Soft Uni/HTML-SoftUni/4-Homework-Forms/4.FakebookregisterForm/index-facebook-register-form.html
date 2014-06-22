@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Fakebok Register Form</title>
+        <link rel="stylesheet" href="styles/facebook-reg-style.css">
+    </head>
+
+    <body>
+    	<form>
+	    <header>
+	        <img src="images/fakebookLogo.PNG" alt="fakebook logo">
+	        <h1>Registration</h1>
+	        <p>It is safe and it will always be!</p>
+	    </header>    
+			<section>
+			 	<fieldset class="leftFieldSet">
+
+				  	<legend>None-Important: Information</legend>
+
+				  	<div class="floatLeft">
+					  	<input name="firstName" type="text" placeholder="First Name" >
+					</div> 
+					<div class="rightCol"> 	
+					  	<input name="lastName" type="text" placeholder="LastName"> 
+				  	</div>	
+
+				  	<div class="floatLeft">
+					  	<input name="email" type="email" placeholder="Your Email" >
+					</div> 
+					<div class="rightCol"> 	
+					  	<input name="phoneNumb" type="tel" placeholder="Phone Number"> 
+				  	</div>
+				  	
+				  	<div class="floatLeft">
+					  	<input name="password" type="password" placeholder="Your Password" >
+					</div> 
+					<div class="rightCol"> 	
+					  	<input name="webSite" type="text" placeholder="Website"> 
+				  	</div>
+					  
+					<div>
+		               	<div>
+							<label for="birdDate">Birthday</label>
+						</div>	
+						<input id="birdDate" name="birdDate" type="datetime-local"/>
+					</div>
+
+					<input type="radio" name="gender" id="radioFemale" value="female" />
+					<label for="radioFemale">Female</label>
+
+					<input type="radio" name="gender" id="radioMale" value="male" />
+					<label for="radioMale">Male</label>
+
+					<input type="radio" name="gender" id="radioOther" value="other" />
+					<label for="radioOther">Other</label>
+
+				</fieldset>
+				<fieldset class="rightFieldSet">
+					<legend>Important Information *required</legend>
+
+					<select name="country" required>
+						<option value="" disabled="disabled" selected>Country</option>
+						<option value="Bulgaria">Bulgaria</option>
+						<option value="Uzbekistan">Uzbekistan</option>
+						<option value="Russia">Russia</option>
+						<option value="USA">USA</option>
+					</select>
+
+					<input type="text" name="village" placeholder="Village" required pattren="[A-Z0-9.""''- ][A-Z0-9.""''- ]+"/>
+					<input type="text" name="district" placeholder="District" required pattren="[A-Z0-9.""''- ][A-Z0-9.""''- ]+"/>
+
+					
+						<input type="text" name="streetName" placeholder="Street" required pattren="[A-Z0-9.""''- ][A-Z0-9.""''- ]+"/>
+
+						<input class="smallINputs" type="text" name="buildingNumb" placeholder="Nr" required pattern="[0-9]+[a-zA-Z]*"/>
+						<input class="smallINputs" type="text" name="floorNumb" placeholder="Floor" required pattern="[0-9]+"/>
+						<input class="smallINputs" type="text" name="apartNumb" placeholder="Ap Nr" required pattern="[0-9]+"/>
+					
+					<div>
+						<label for="doorColor">Door Color</label>
+					</div>
+					<input type="color" id="doorColor" name="doorColor" required/>
+					<input type="text" name="waterMeterNumb" required placeholder="Water Meter Nr" pattern="[0-9]+">
+					<select name="auntPentiesSize" required>
+						<option selected disabled>Ant Panties' Size</option>
+						<option value="1">SS</option>
+						<option value="2">S</option>
+						<option value="3">M</option>
+						<option value="4">L</option>
+						<option value="5">XL</option>
+						<option value="6">XXXL</option>
+					</select>
+					<div>
+						<label for="moreInfo">More Personal Information</label>
+					</div>
+					<textarea name="moreInfo" id="moreInfo" placeholder="Give Us More Informayion !!!" required></textarea>
+				</fieldset>
+			</section>	
+			<div>
+			<button class="buttonReset" type="reset" name="resetBtn"><span>Clear Form</span></button>
+				<button class="buttonSubmit" type="submit" name="submitBtn"><span>Register</span></button>
+			</div>	
+		</form>
+    </body>
+</html>

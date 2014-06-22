@@ -1,0 +1,93 @@
+table
+{
+    width: 460px;
+    border: 1px solid black;
+    font-family: Calibri;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+    table th
+    {
+        border: 1px solid black;
+        font-size: 60px;
+        font-weight: 900;
+        padding: 20px;
+    }
+
+    table td
+    {
+        border: 1px solid black;
+        padding: 20px;
+    }
+
+    table table 
+    {
+        margin: -15px -32px -15px -16px;
+        width: 99px;
+        height: 100%;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .google 
+    {
+        padding: 2px 20px 82px 3px;
+    }
+
+    .git 
+    {
+        padding: 2px 3px 82px 20px;
+        text-align: right;
+    }
+
+    .fb
+    {
+      padding: 0px 29px 84px 44px;  
+    }
+    .gmail
+    {
+      padding: 40px 40px 40px 5px;  
+    }
+    .tube
+    {
+        padding: 80px 9px 0px 9px; 
+        text-align: center;
+    }
+
+    .digit
+    {
+        padding: 40px 50px 40px 5px;
+    }
+
+    .food
+    {
+        padding: 99px 5px 0px 49px;
+        text-align: right;
+    }
+
+    .game
+    {
+        padding: 99px 49px 0px 5px;
+    }
+
+    .soc
+    {
+        padding: 20px 10px 20px 16px;
+    }
+    .sleep
+    {
+        padding: 19px 19px 19px 26px;
+    }
+
+    .beer
+    {
+        padding: 35px 0px 35px 240px;
+        font-size: 36px;
+        font-weight: 600;
+    }
+
+    .wc
+    {
+      padding: 37px 50px 37px 4px;  
+    }

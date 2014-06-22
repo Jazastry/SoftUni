@@ -1,0 +1,17 @@
+
+html
+{
+    background-color: #10F0FC; 
+}
+hr
+{
+    height: 1px;
+    color: #E1F0FC;
+    background-color: #E1F0FC;
+    border-top-color: 8F9980;
+    opacity: 10%;
+}
+dt
+{
+  font-style: italic;
+}

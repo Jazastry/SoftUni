@@ -1,0 +1,31 @@
+table  
+{    
+    width: 300px; 
+    border: 1px solid black;
+}
+
+    table img
+    {
+        width: 160px;
+        padding: 10px;
+    }
+
+    table td
+    {
+        border: 1px solid black;
+    }
+
+    table table
+    {
+        margin: 10px;
+    }
+    
+        table table td 
+        {
+            font-family: Calibri;
+            font-size: 68px;
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+        }
+    

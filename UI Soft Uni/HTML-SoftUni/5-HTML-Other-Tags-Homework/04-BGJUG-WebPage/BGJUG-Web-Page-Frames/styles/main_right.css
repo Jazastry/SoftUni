@@ -1,0 +1,9 @@
+@import url("main_sizes.css");
+
+hr{
+	margin: 0rem 0rem 0.8rem 0rem;
+}
+p {
+	margin-bottom: 0.1rem;
+	margin-top: 2rem;
+}

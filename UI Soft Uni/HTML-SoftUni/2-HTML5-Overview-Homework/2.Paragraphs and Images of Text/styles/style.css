@@ -1,0 +1,10 @@
+.flower-div{
+	background-image: url("../images/flower-back1.jpg");
+	background-position: bottom;
+	width:700px;
+	height:400px;
+}
+.shark-div{
+	position: relative;
+    object-position: bottom;
+}

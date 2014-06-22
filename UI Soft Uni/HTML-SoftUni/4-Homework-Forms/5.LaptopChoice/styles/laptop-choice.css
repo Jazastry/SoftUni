@@ -1,0 +1,93 @@
+body {
+	position: relative;
+	width: 48.1em;
+	color: rgb(71,86,124);
+	font-family: Calibri;
+}
+.laptops{
+	width: 37em;
+	height: 32em;
+	padding: 0.5em;
+}
+a {
+	text-decoration: none;
+	color: rgb(71,86,124);
+}
+body{
+	float: left;
+}
+.apple1{
+	width: 11em;
+	border: 1px solid rgb(202,230,255);
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em; 
+	border-bottom-left-radius: 0.5em;
+	padding-left: 0.5em;
+	margin: 0.3em;
+	float: left;
+}
+.apple1 > h3{
+	margin: 0.4em 0em 0em 0em;
+}
+.apple1 > p{
+	margin: 0em 0em 0em 0em;
+}
+.imagesDiv{
+	width: 100%;
+	position:relative;
+}
+img{
+	width: 100%;
+}
+.newImg{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.apple1 > .price > p {
+	width: 51%;
+	color: rgb(255,255,255);
+	background-color: rgb(71,86,124);
+	text-align: center;
+	margin: 0% 0% 0% 40%;
+	border-top-left-radius: 0.5em;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+.rangeContainPrice{
+	margin: 0em 0.5em 0em 0.5em;
+}
+.sliders{
+	width: 10em;
+	height: 92%;
+	background-color: rgb(234,245,255);
+	position: absolute;
+	top: 0em;
+	right: 0em;
+	vertical-align: top;
+	border: 1px solid rgb(202,230,255);
+	padding: 0.5em 0.2em 0.5em 0.2em;
+}
+input[type = range]{
+	width: 100%;
+	margin: 0em 0em 0em 0em;
+}
+.sliders > h4 {
+	text-align: center;
+	margin: 0.5em 0em 0em 0em;
+	font-weight: 200;
+	font-size: 1.2em; 
+}
+.sliders > p {
+	margin: 0.5em 0em 1em 0em; 
+}
+.leftAlign {
+	width: 50%;
+	float: left;
+}
+.rightAlign {
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+
+

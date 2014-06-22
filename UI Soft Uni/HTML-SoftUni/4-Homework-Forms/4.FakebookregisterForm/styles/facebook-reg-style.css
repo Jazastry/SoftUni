@@ -1,0 +1,109 @@
+body{
+	background-color: #3D5B94;
+	font-family: Calibri;
+	font-size: 1.5em;
+	font-weight: 800;
+	color: white;
+	width: 60%;
+	height:100%;
+	padding: 1%;
+}
+.defSelect{
+    color: gray;
+}
+header > img{
+	width: 60%;
+	/*padding: 1% 1% 1% 1%;*/
+}
+header{
+	text-align: center;
+	padding: 0% 0% 0% 0%;	
+}
+h1{
+	margin: 0% 0% 0% 0%;
+}
+p{
+	margin-top:0%;
+}
+.leftFieldSet {
+	border-radius: 8px;
+	width:39%;
+	height: 16.7em;
+	font-size: 0.8em;
+	font-weight: 600;
+	padding: 1% 0% 1% 1%;
+	margin: 0% 2% 1% 2%;
+	float: left;
+}
+ input {
+	border-radius: 0.3em;
+	border: none;
+	padding-left: 1%; 
+	height: 2em;
+}
+ select {
+	border-radius: 0.3em;
+	border: none;
+	padding-left: 0.4%; 
+	height: 2em;
+}
+.leftFieldSet > .floatLeft{
+	width: 47%;
+	height: 2em;
+	float: left;
+	padding: 0% 1% 0% 1%;
+}
+.leftFieldSet > .floatLeft > input{
+	width: 94%;
+	margin-left: 1%;
+}
+.leftFieldSet > .rightCol{
+	width: 90%;
+	height: 2em;
+	padding: 0% 1% 0% 1%;
+}
+.leftFieldSet > .rightCol > input{
+	width: 44%;
+}
+.rightFieldSet{
+	width: 50%;
+	border-radius: 8px;
+	height: 100%;
+	font-size: 0.8em;
+	font-weight: 600;
+	padding: 1% 0% 1% 1%;
+	margin: 0% 2% 1% 2%;
+}
+textarea{
+	width: 95%;
+	height: 10em;
+}
+.rightFieldSet > input{
+	width: 30%;
+	margin: 0% 1% 2% 1%; 
+}
+.rightFieldSet > select{
+	width: 30%;
+	margin: 0% 0% 1% 1%; 
+}
+.rightFieldSet >.smallINputs{
+	width: 17%;
+}
+.buttonReset{
+	margin: 0% 1.6% 1% 2%;
+	width: 40.3%;
+	height: 4.5em;
+}
+.buttonSubmit{
+	width: 51.2%;
+	height: 4.5em;
+}
+button > span{
+	color: rgb(0,64,159);
+	font-size: 2em;
+}
+button{
+	background-color: rgb(209,214,214);
+	border-radius: 10px; 
+	border:none;
+}

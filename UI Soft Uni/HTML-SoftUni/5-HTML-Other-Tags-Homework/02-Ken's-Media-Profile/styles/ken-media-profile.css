@@ -1,0 +1,69 @@
+h1 {
+	text-align: center;
+	font-size: 3em;
+	margin: 0%; 
+}
+h2 {
+	text-align: left;
+	margin: 0% 0% 0% 0%;
+	padding: 0% 0% 0% 0%;
+}
+figure{
+	margin: 0% 0% 0% 0%; 
+}
+meter {
+	width: 80%;
+	height: 1.5em;
+	margin-top: 0.3em;
+}
+figure > img {
+	width: 100%;
+	height: 100%;
+	margin: 0% 0% 0% 0%;
+	padding: 0% 0% 0% 0%;
+}
+.mainBox{
+	background-color: rgb(249,210,242);
+	width: 80%;
+	height: 25em;
+	border-radius: 1em;
+	font-size: 1em;
+	font-family: Calibri;
+	font-weight: 300;
+	text-align: left;
+	padding-left: 1em;
+}
+.mainBox > .imageSec{
+	width: 23%;
+	height: 21em;
+	padding: 0.5em;
+	float: left;
+}
+.mainBox >.audioSec{
+	width: 25%;
+	padding: 0.5em;
+	float: left;
+}
+.audioSec audio{
+	width: 100%;
+}
+.audioBlack{
+	width: 100%;
+	height: 10em;
+	background-color: black;
+	position: relative;
+	margin-bottom: 0.3em;
+}
+.audioBlack > audio {
+	width: 100%;
+	position: absolute;
+	top: 2em;
+}
+.mainBox > .videoSect {
+	width: 46%;
+	float: left;
+	padding: 0.5em;
+}
+.videoSect > video {
+	width: 100%;
+}
