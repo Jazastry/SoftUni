@@ -12,16 +12,16 @@
         </form>
         <?php
 
-        $tagArr = explode(", ",$_POST['input']);
-
         if (isset($_POST["input"])) {
 
+            $tagArr = explode(", ",$_POST['input']);
+
             for ($i = 0; $i < count($tagArr); $i++) {
-               
+
                echo "<p>" . $i . " : " . $tagArr[$i] . "</p>";
+
             }
         }
         ?>
-
     </body>
 </html>
