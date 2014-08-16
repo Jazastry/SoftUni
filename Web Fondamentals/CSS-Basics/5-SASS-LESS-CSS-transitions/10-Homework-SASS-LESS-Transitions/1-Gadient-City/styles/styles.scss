@@ -1,0 +1,322 @@
+html,
+body,
+header,
+nav,
+ul,
+li,
+h1,
+h2,
+main,
+article,
+p
+	{
+	padding: 0px;
+	margin: 0px;
+}
+
+@mixin vertical-gradient($color) {
+	background: -webkit-linear-gradient(top, $color , rgba(255,255,255, 0.1)) no-repeat; 
+    background: -o-linear-gradient(bottom, $color, rgba(255,255,255, 0.1)) no-repeat; 
+    background: -moz-linear-gradient(bottom, $color, rgba(255,255,255, 0.1)) no-repeat; 
+    background: linear-gradient(to bottom, $color , rgba(255,255,255, 0.1)) no-repeat; 
+}
+
+@mixin horizontal-gradient($color) {
+  background: -webkit-linear-gradient(left, $color , #FFF); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, $color, #FFF); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, $color, #FFF); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, $color , #FFF); /* Standard syntax */
+}
+
+@mixin diagonal-gradient($color) {
+  background: -webkit-linear-gradient(left top, $color , #FFF); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, $color, #FFF); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, $color, #FFF); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, $color , #FFF); /* Standard syntax */
+}
+ 
+@mixin radial-grad($color) {
+	    background: -webkit-radial-gradient($color, white ); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient($color, white ); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient($color, white ); /* For Firefox 3.6 to 15 */
+    background: radial-gradient($color , white); /* Standard syntax (must be last) */
+} 
+@mixin double-bord-box {
+	
+	border: double #808080;
+}
+
+@mixin single-bord-box {
+	
+	border: 1px solid $greye-color;
+}
+
+@mixin color-box {
+	height: 100%;
+	width: 16%;
+	display: inline-block;
+	border-radius: 15px;
+	margin: 0px -2px 10px -2px;
+}
+
+@mixin color-box-vertical($color) {
+	@include color-box;
+	@include vertical-gradient($color);
+}
+
+@mixin color-box-horizontal($color) {
+	@include color-box;
+	@include horizontal-gradient($color);
+}
+
+@mixin color-box-diagonal($color) {
+	@include color-box;
+	@include diagonal-gradient($color);
+}
+
+@mixin color-box-radial($color) {
+	@include color-box;
+	@include radial-grad($color);
+}
+
+@mixin section-h1 {
+		font-size: 2rem;
+		text-decoration: underline;
+		font-weight: 700;
+}
+
+$purple-color: #300030;
+
+$blue-color: #0000AB;
+
+$green-color: #002500;
+
+$yellow-color: #F5F500;
+
+$orange-color: #EB9100;
+
+$red-color: #CD0000;
+
+$greye-color: #808080;
+
+$margin-initial: 20px;
+
+html {
+	width: 100%;
+	font-size: 62.5%;
+	font-family: "Arial";
+
+	body {
+		width: 100%;
+		color: $greye-color;
+		@include vertical-gradient($greye-color);
+
+		#wrapper {
+			@include double-bord-box;
+			background: #FFF;
+			margin: 0rem auto;
+			width: 900px;
+
+			header {
+				@include double-bord-box;
+				margin: $margin-initial;
+				text-align: center;
+				height: 11rem;
+				width: 95%;
+
+				h1 {
+					font-size: 4rem;
+					margin-bottom: 2rem;
+					margin-top: 1rem;
+				}
+				nav {
+					width: 100%; 
+
+					ul {
+						list-style: none;
+						width: 70%;
+						margin-left: 12%;
+					
+						li {
+							@include double-bord-box;
+							display: inline;
+							padding: 0.7rem 1rem;
+							margin-left: 8%;												
+
+							a {								
+								text-decoration: none;
+								color: $greye-color;
+								font-size: 1.5rem;	
+								margin-top: 10rem;	
+							}
+							&:hover {
+								@include vertical-gradient($greye-color);
+
+								a {
+									color: #FFF;									
+								}
+							}							
+						}						
+					}
+				}
+			}
+
+			section {
+				@extend header;
+				height: auto; 
+				width: 95%;
+				
+
+				header {
+					border: none;
+					height: 1.5rem;
+					width: 100%;
+
+					h1{
+						@include section-h1;
+					}
+				}
+				article {
+					@include single-bord-box;
+					margin: $margin-initial;
+					width: 95%;
+					padding-bottom: 2rem;
+					
+					header {
+						h2{
+							font-weight: 100;
+						}
+					}
+
+					header#vertical {
+						@extend header;						
+					}
+					.innerContainer {
+						width: 100%;
+						height: 140px;
+
+						div.purple{
+							@include color-box-vertical($purple-color);
+						}
+						div.blue {
+							@include color-box-vertical($blue-color);
+						}
+						div.green {
+							@include color-box-vertical($green-color);
+						}
+						div.yellow {
+							@include color-box-vertical($yellow-color);
+						}
+						div.orange {
+							@include color-box-vertical($orange-color);
+						}
+						div.red {
+							@include color-box-vertical($red-color);
+						}	
+					}					
+				}
+				article:nth-of-type(2) {
+
+					.innerContainer {
+						div.purple{
+							@include color-box-horizontal($purple-color);
+						}
+						div.blue {
+							@include color-box-horizontal($blue-color);
+						}
+						div.green {
+							@include color-box-horizontal($green-color);
+						}
+						div.yellow {
+							@include color-box-horizontal($yellow-color);
+						}
+						div.orange {
+							@include color-box-horizontal($orange-color);
+						}
+						div.red {
+							@include color-box-horizontal($red-color);
+						}
+					}
+				}
+				article:nth-of-type(3) {
+
+					.innerContainer {
+						div.purple{
+							@include color-box-diagonal($purple-color);
+						}
+						div.blue {
+							@include color-box-diagonal($blue-color);
+						}
+						div.green {
+							@include color-box-diagonal($green-color);
+						}
+						div.yellow {
+							@include color-box-diagonal($yellow-color);
+						}
+						div.orange {
+							@include color-box-diagonal($orange-color);
+						}
+						div.red {
+							@include color-box-diagonal($red-color);
+						}
+					}
+				}
+			}
+
+			section.radial {
+
+				article {					
+					padding-top: 2rem;
+					#innerContainer {
+						@extend .innerContainer;
+						
+						div.purple{
+							@include color-box-radial($purple-color);
+						}
+						div.blue {
+							@include color-box-radial($blue-color);
+						}
+						div.green {
+							@include color-box-radial($green-color);
+						}
+						div.yellow {
+							@include color-box-radial($yellow-color);
+						}
+						div.orange {
+							@include color-box-radial($orange-color);
+						}
+						div.red {
+							@include color-box-radial($red-color);
+						}
+					}	
+				}
+			}
+
+			footer {
+				@extend header;
+				height: auto; 
+				width: 95%;
+				text-align: center; 
+				padding-bottom: 2rem;
+
+				h3 {
+					@include section-h1;
+
+				}
+				ul{
+					list-style: none;
+					li {
+						
+
+						a {
+							text-decoration: none;
+							color: $greye-color;
+							font-size: 1.5rem;
+							line-height: 2.3rem;
+						}
+					}
+				}				
+			}
+		}		
+	}
+}

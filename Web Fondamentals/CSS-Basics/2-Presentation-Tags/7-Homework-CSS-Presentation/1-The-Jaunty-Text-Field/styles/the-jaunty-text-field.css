@@ -1,0 +1,110 @@
+body, section, p, h1 {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	text-align: none;
+}
+
+body {
+	font-family: Calibri;
+}
+
+body > section {
+
+	margin: 30px;
+	width: 730px;
+	height: 278px;
+	border-style: dotted solid double dashed;
+	border-color: #FFFF00 #008000 #0000FF #FF0000;
+	border-width: 7px 14px 10px 7px;
+	box-shadow: 20px 20px 8px #3F3F3F;
+}
+
+h1 {
+	margin-top: 12px;
+	padding: 0px;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 200;
+	text-shadow: 14px 14px 14px #A5A5A5;
+}
+
+body > section > section {
+	margin-left: 37px;
+	width: 645px;
+	height: 115px;
+	border: 3px solid #FF0000;
+	border-radius: 60px;
+	box-shadow:  0 0 0 3px #FFFF00, 0 0 0 6px #008000, 0 0 0 9px #0000FF;
+	margin-top: 34px;
+	text-align: center;
+	position: relative;
+}
+
+p {
+	font-size: 26px;
+	text-align: center;
+	margin-top: 14px;
+	text-shadow: 12px 12px 13px #A5A5A5;
+}
+
+body section section > section {
+	width:500px;
+	height: 32px;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+body section section section section {
+	width:221px;
+	height: 22px;
+	border: 5px outset #FFA500;
+	background-color: #D8921A;
+	font-size: 21.5px;
+	text-align: center;
+	line-height: 100%;
+} 
+
+.leftBtn {
+	margin-right: 5px;
+}
+
+.trans1, .trans2, .trans3 {
+	border: 3px;
+	border-style: dashed;
+	border-color: rgb(255,255,255);
+	border-radius: 50px;
+	background-color: rgba(150,150,150, 0.80);
+	box-shadow: 0 0 0 6px rgba(150,150,150, 0.80);
+	position: absolute;
+}
+
+.trans1 {
+	height: 78px;
+	width: 144px;
+	color: rgb(255,255,255);
+	font-weight: 700;
+	font-family: Tahoma;
+	top: -90px;
+	right: -150px;
+}
+
+.trans1 > p {
+	margin-top: 9px;
+	font-size: 23px;
+}
+
+.trans2 {
+	height: 33px;
+	width: 33px;
+	top: -18px;
+	right: 24px;
+}
+
+.trans3 {
+	height: 17px;
+	width: 17px;
+	top: 33px;
+	right: 90px;
+}
+

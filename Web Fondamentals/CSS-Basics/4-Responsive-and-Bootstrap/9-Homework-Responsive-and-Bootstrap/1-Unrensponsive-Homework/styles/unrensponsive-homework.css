@@ -1,0 +1,305 @@
+html, body, div, header, h1,
+a, nav, ul, li, section, aside, p,
+article {
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+	width: 100%;
+	height: 100%;
+	font-family: Arial;
+	background-color: #6698FF;
+} 
+
+ul {
+	list-style: none;
+}
+
+#wrapper {
+	width: 657px;
+	border: none;
+	margin: 0rem auto;
+}
+
+#wrapper > header {
+	width: 100%;
+	height: 107px;
+	position: relative;
+}
+
+#wrapper > header a {
+	text-decoration: none;
+}
+
+#wrapper > header > h1 > a > img {
+	width: 169px;
+	height: 47px;
+	margin-top: 11px;
+	margin-left: 8px;
+}
+
+#wrapper > header > h1 {
+	height: 82px;
+	border-bottom: 1px solid #000;
+}
+
+span {
+	color: rgb(255,255,255);
+	font-size: 1.7rem;
+}
+
+nav ul{
+	position: absolute;
+	bottom: 14px;
+	right: 10px;
+}
+
+nav ul li{
+	display: inline-block;
+	width: 88px;
+	height: 23px;
+	line-height: 22px;
+	text-align: center;
+	font-size: 0.95rem;
+	background-color: white;
+	border: 1px solid #000;
+	margin-right: 4px;
+}
+
+nav ul li a{
+	color: rgb(0,0,0);
+}	
+
+section {
+	float: left;
+	margin-right: 11px;
+}
+
+section > article {
+	width: 477px;
+	background-color: #E0EAFE;
+	border: 1px solid #000;
+	margin-bottom: 10px;
+}
+
+article > header,div {
+	margin: 9px 10px;
+}
+
+article > header > h1 {
+	font-size: 1.1rem;
+	font-weight: 900;
+	letter-spacing: 0px;
+	line-height: 1.44rem;
+}
+
+article > div > p {
+	text-align:justify;
+	letter-spacing: 0px;
+	font-size: 0.8rem;
+	line-height: 0.84rem;
+	margin-bottom: 1.2rem;
+}
+
+article > div > p::first-letter {
+	margin-left: 1.2rem;
+}
+
+aside {
+	float: left;
+	display: block;
+	width: 9.8rem;
+	background-color: #E0EAFE; 
+	margin-top: 0px; 
+	border: 1px solid #000;
+}
+
+.block {
+	margin-bottom: 0.3rem;
+}
+
+aside > div > ul > li {
+	line-height: 0.75rem;
+}
+
+aside > div > ul li > a {
+	text-decoration: none;
+	color : #000;
+	font-size: 0.7rem;
+	letter-spacing: 0px
+}
+
+aside > div > ul li:last-child {
+	margin-bottom: 1.1rem;
+}
+
+footer {
+	clear: both;
+	width: 99.5%;
+	background-color: #E0EAFE;
+	border: 1px solid #000;
+	text-align: center;
+}
+
+footer > h2 {
+	font-size: 0.9rem;
+	margin: 1rem auto 0rem auto;
+}
+
+@media screen and (max-width: 960px) {
+	html {
+		background-color: #FFF;
+	}
+	#wrapper {
+		width: 554px;
+		margin: 0px;
+		background-color: #6698FF;
+	}
+	section > article {
+		width: 397px;
+	}
+	aside {
+		width: 129px;
+		float: right;
+		margin-right: 3px;
+	}
+	aside > div > ul li > a {
+		letter-spacing: -1px
+	}
+}
+
+@media screen and (max-width: 780px) {
+	#wrapper {
+		width: 444px;
+	}
+	#wrapper > header {
+		height: 99px;
+	}
+	#wrapper > header > h1 > a > img {
+		width: 33.5%;
+		height: 59%;
+		margin-top: 9px;
+		margin-left: 3%;
+	}
+	#wrapper > header > h1 {
+		height: 71px;
+	}
+	span {
+		font-size: 1.5rem;
+		font-weight: 700;
+	}
+	nav ul{
+		bottom: 17%;
+		right: 6px;
+	}
+	nav ul li{
+		width: 78px;
+		height: 20px;
+		margin-right: 4px;
+		font-size: 12px;
+	}
+	article > header {
+		margin-top: 7px;
+	}
+	article > header > h1 {
+		font-size: 1rem;
+		line-height:  1.3rem;
+	}		
+	article > div > p {
+		font-size: 0.7rem;
+		line-height: 0.81rem;
+		letter-spacing: -1px;
+	} 
+	section {
+		width: 99.5%;
+		clear: both;
+		margin-right: 0px;
+	}
+	section > article , aside{
+		width: 100%;
+		margin-bottom: 7px;
+	}
+	aside {
+		clear: both;
+		width: 100%;
+		background-color: #E0EAFE; 
+		margin-top: 0px; 
+		margin-right: 0px;
+		border: 1px solid #000;
+	}
+	aside > div > ul {
+		line-height: 0.75rem;
+		display:inline;
+	}
+	aside > div > ul > .block {
+		display: inline-block;
+		width: 5.2rem;
+		height: 100%;
+		text-align: center;
+		vertical-align: top;
+		margin-left: 1.1rem;
+	}
+	aside > div > ul li:last-child {
+		margin-bottom: 1.1rem;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+	#wrapper {
+		width: 80%;
+	}
+	#wrapper > header {
+		height: 257px;
+	}
+	#wrapper > header > h1 > a > img {
+		width: 80%;
+		height: 72%;
+		margin-top: 9px;
+		margin-left: 10%;
+	}
+	#wrapper > header > h1 {
+		height: 81px;
+		border: none;
+		margin-left: 0%;
+	}
+	span {
+		height: 98px;
+		display: block;
+		text-align: center;
+		font-size: 2rem;
+		font-weight: 700;
+		border-bottom: 1px solid #000;
+	}
+	nav ul{
+		width: 70%;
+		bottom: 3%;
+		right: 6%;
+	}
+	nav ul li{
+		display: block;
+		width: 100%;
+		height: 20px;
+		margin-right: 4px;
+		font-size: 12px;
+	}
+	article > header {
+		text-align: center;
+	}
+	aside > div > ul {
+		line-height: 0.75rem;
+		display:block;
+	}
+	aside > div > ul > .block {
+		display: block;
+		width: 80%;
+		height: 100%;
+		text-align: center;
+		vertical-align: top;
+		margin-left: 1.1rem;
+		margin-bottom: 5%;
+	}
+}
+
+	

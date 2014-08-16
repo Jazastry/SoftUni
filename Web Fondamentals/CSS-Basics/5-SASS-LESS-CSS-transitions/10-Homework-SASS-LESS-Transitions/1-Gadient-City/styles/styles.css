@@ -1,0 +1,404 @@
+﻿html, body, header, html body #wrapper section, html body #wrapper section article header#vertical, html body #wrapper footer, nav, ul, li, h1, h2, main, article, p {
+  padding: 0px;
+  margin: 0px; }
+
+html {
+  width: 100%;
+  font-size: 62.5%;
+  font-family: "Arial"; }
+  html body {
+    width: 100%;
+    color: #808080;
+    background: -webkit-linear-gradient(top, #808080, rgba(255, 255, 255, 0.1)) no-repeat;
+    background: -o-linear-gradient(bottom, #808080, rgba(255, 255, 255, 0.1)) no-repeat;
+    background: -moz-linear-gradient(bottom, #808080, rgba(255, 255, 255, 0.1)) no-repeat;
+    background: linear-gradient(to bottom, #808080, rgba(255, 255, 255, 0.1)) no-repeat; }
+    html body #wrapper {
+      border: double #808080;
+      background: #FFF;
+      margin: 0rem auto;
+      width: 900px; }
+      html body #wrapper header, html body #wrapper html body #wrapper section, html body #wrapper html body #wrapper section, html body #wrapper html body #wrapper section article header#vertical, html body #wrapper section article html body #wrapper header#vertical, html body #wrapper html body #wrapper footer, html body #wrapper html body #wrapper footer {
+        border: double #808080;
+        margin: 20px;
+        text-align: center;
+        height: 11rem;
+        width: 95%; }
+        html body #wrapper header h1, html body #wrapper header html body #wrapper section, html body #wrapper html body #wrapper header section, html body #wrapper header html body #wrapper section article header#vertical, html body #wrapper section article html body #wrapper header header#vertical, html body #wrapper header html body #wrapper footer, html body #wrapper html body #wrapper header footer {
+          font-size: 4rem;
+          margin-bottom: 2rem;
+          margin-top: 1rem; }
+        html body #wrapper header nav, html body #wrapper header html body #wrapper section, html body #wrapper html body #wrapper header section, html body #wrapper header html body #wrapper section article header#vertical, html body #wrapper section article html body #wrapper header header#vertical, html body #wrapper header html body #wrapper footer, html body #wrapper html body #wrapper header footer {
+          width: 100%; }
+          html body #wrapper header nav ul, html body #wrapper header nav html body #wrapper section, html body #wrapper html body #wrapper header nav section, html body #wrapper header nav html body #wrapper section article header#vertical, html body #wrapper section article html body #wrapper header nav header#vertical, html body #wrapper header nav html body #wrapper footer, html body #wrapper html body #wrapper header nav footer {
+            list-style: none;
+            width: 70%;
+            margin-left: 12%; }
+            html body #wrapper header nav ul li, html body #wrapper header nav ul html body #wrapper section, html body #wrapper html body #wrapper header nav ul section, html body #wrapper header nav ul html body #wrapper section article header#vertical, html body #wrapper section article html body #wrapper header nav ul header#vertical, html body #wrapper header nav ul html body #wrapper footer, html body #wrapper html body #wrapper header nav ul footer {
+              border: double #808080;
+              display: inline;
+              padding: 0.7rem 1rem;
+              margin-left: 8%; }
+              html body #wrapper header nav ul li a, html body #wrapper header nav ul li html body #wrapper section, html body #wrapper html body #wrapper header nav ul li section, html body #wrapper header nav ul li html body #wrapper section article header#vertical, html body #wrapper section article html body #wrapper header nav ul li header#vertical, html body #wrapper header nav ul li html body #wrapper footer, html body #wrapper html body #wrapper header nav ul li footer {
+                text-decoration: none;
+                color: #808080;
+                font-size: 1.5rem;
+                margin-top: 10rem; }
+              html body #wrapper header nav ul li:hover, html body #wrapper header nav ul html body #wrapper section, html body #wrapper html body #wrapper header nav ul section, html body #wrapper header nav ul html body #wrapper section article header#vertical, html body #wrapper section article html body #wrapper header nav ul header#vertical, html body #wrapper header nav ul html body #wrapper footer, html body #wrapper html body #wrapper header nav ul footer {
+                background: -webkit-linear-gradient(top, #808080, rgba(255, 255, 255, 0.1)) no-repeat;
+                background: -o-linear-gradient(bottom, #808080, rgba(255, 255, 255, 0.1)) no-repeat;
+                background: -moz-linear-gradient(bottom, #808080, rgba(255, 255, 255, 0.1)) no-repeat;
+                background: linear-gradient(to bottom, #808080, rgba(255, 255, 255, 0.1)) no-repeat; }
+                html body #wrapper header nav ul li:hover a, html body #wrapper header nav ul li:hover html body #wrapper section, html body #wrapper html body #wrapper header nav ul li:hover section, html body #wrapper header nav ul li:hover html body #wrapper section article header#vertical, html body #wrapper section article html body #wrapper header nav ul li:hover header#vertical, html body #wrapper header nav ul li:hover html body #wrapper footer, html body #wrapper html body #wrapper header nav ul li:hover footer {
+                  color: #FFF; }
+      html body #wrapper section {
+        height: auto;
+        width: 95%; }
+        html body #wrapper section header, html body #wrapper section html body #wrapper section, html body #wrapper html body #wrapper section section, html body #wrapper section html body #wrapper section article header#vertical, html body #wrapper section article html body #wrapper section header#vertical, html body #wrapper section html body #wrapper footer, html body #wrapper html body #wrapper section footer {
+          border: none;
+          height: 1.5rem;
+          width: 100%; }
+          html body #wrapper section header h1, html body #wrapper section header html body #wrapper section, html body #wrapper html body #wrapper section header section, html body #wrapper section header html body #wrapper section article header#vertical, html body #wrapper section article html body #wrapper section header header#vertical, html body #wrapper section header html body #wrapper footer, html body #wrapper html body #wrapper section header footer {
+            font-size: 2rem;
+            text-decoration: underline;
+            font-weight: 700; }
+        html body #wrapper section article {
+          border: 1px solid #808080;
+          margin: 20px;
+          width: 95%;
+          padding-bottom: 2rem; }
+          html body #wrapper section article header h2, html body #wrapper section article header html body #wrapper section, html body #wrapper html body #wrapper section article header section, html body #wrapper section article header html body #wrapper section article header#vertical, html body #wrapper section article html body #wrapper section article header header#vertical, html body #wrapper section article header html body #wrapper footer, html body #wrapper html body #wrapper section article header footer {
+            font-weight: 100; }
+          html body #wrapper section article .innerContainer, html body #wrapper section article html body #wrapper section.radial article #innerContainer, html body #wrapper section.radial article html body #wrapper section article #innerContainer {
+            width: 100%;
+            height: 140px; }
+            html body #wrapper section article .innerContainer div.purple, html body #wrapper section article .innerContainer html body #wrapper section.radial article #innerContainer, html body #wrapper section.radial article html body #wrapper section article .innerContainer #innerContainer {
+              height: 100%;
+              width: 16%;
+              display: inline-block;
+              border-radius: 15px;
+              margin: 0px -2px 10px -2px;
+              background: -webkit-linear-gradient(top, #300030, rgba(255, 255, 255, 0.1)) no-repeat;
+              background: -o-linear-gradient(bottom, #300030, rgba(255, 255, 255, 0.1)) no-repeat;
+              background: -moz-linear-gradient(bottom, #300030, rgba(255, 255, 255, 0.1)) no-repeat;
+              background: linear-gradient(to bottom, #300030, rgba(255, 255, 255, 0.1)) no-repeat; }
+            html body #wrapper section article .innerContainer div.blue, html body #wrapper section article .innerContainer html body #wrapper section.radial article #innerContainer, html body #wrapper section.radial article html body #wrapper section article .innerContainer #innerContainer {
+              height: 100%;
+              width: 16%;
+              display: inline-block;
+              border-radius: 15px;
+              margin: 0px -2px 10px -2px;
+              background: -webkit-linear-gradient(top, #0000AB, rgba(255, 255, 255, 0.1)) no-repeat;
+              background: -o-linear-gradient(bottom, #0000AB, rgba(255, 255, 255, 0.1)) no-repeat;
+              background: -moz-linear-gradient(bottom, #0000AB, rgba(255, 255, 255, 0.1)) no-repeat;
+              background: linear-gradient(to bottom, #0000AB, rgba(255, 255, 255, 0.1)) no-repeat; }
+            html body #wrapper section article .innerContainer div.green, html body #wrapper section article .innerContainer html body #wrapper section.radial article #innerContainer, html body #wrapper section.radial article html body #wrapper section article .innerContainer #innerContainer {
+              height: 100%;
+              width: 16%;
+              display: inline-block;
+              border-radius: 15px;
+              margin: 0px -2px 10px -2px;
+              background: -webkit-linear-gradient(top, #002500, rgba(255, 255, 255, 0.1)) no-repeat;
+              background: -o-linear-gradient(bottom, #002500, rgba(255, 255, 255, 0.1)) no-repeat;
+              background: -moz-linear-gradient(bottom, #002500, rgba(255, 255, 255, 0.1)) no-repeat;
+              background: linear-gradient(to bottom, #002500, rgba(255, 255, 255, 0.1)) no-repeat; }
+            html body #wrapper section article .innerContainer div.yellow, html body #wrapper section article .innerContainer html body #wrapper section.radial article #innerContainer, html body #wrapper section.radial article html body #wrapper section article .innerContainer #innerContainer {
+              height: 100%;
+              width: 16%;
+              display: inline-block;
+              border-radius: 15px;
+              margin: 0px -2px 10px -2px;
+              background: -webkit-linear-gradient(top, #F5F500, rgba(255, 255, 255, 0.1)) no-repeat;
+              background: -o-linear-gradient(bottom, #F5F500, rgba(255, 255, 255, 0.1)) no-repeat;
+              background: -moz-linear-gradient(bottom, #F5F500, rgba(255, 255, 255, 0.1)) no-repeat;
+              background: linear-gradient(to bottom, #F5F500, rgba(255, 255, 255, 0.1)) no-repeat; }
+            html body #wrapper section article .innerContainer div.orange, html body #wrapper section article .innerContainer html body #wrapper section.radial article #innerContainer, html body #wrapper section.radial article html body #wrapper section article .innerContainer #innerContainer {
+              height: 100%;
+              width: 16%;
+              display: inline-block;
+              border-radius: 15px;
+              margin: 0px -2px 10px -2px;
+              background: -webkit-linear-gradient(top, #EB9100, rgba(255, 255, 255, 0.1)) no-repeat;
+              background: -o-linear-gradient(bottom, #EB9100, rgba(255, 255, 255, 0.1)) no-repeat;
+              background: -moz-linear-gradient(bottom, #EB9100, rgba(255, 255, 255, 0.1)) no-repeat;
+              background: linear-gradient(to bottom, #EB9100, rgba(255, 255, 255, 0.1)) no-repeat; }
+            html body #wrapper section article .innerContainer div.red, html body #wrapper section article .innerContainer html body #wrapper section.radial article #innerContainer, html body #wrapper section.radial article html body #wrapper section article .innerContainer #innerContainer {
+              height: 100%;
+              width: 16%;
+              display: inline-block;
+              border-radius: 15px;
+              margin: 0px -2px 10px -2px;
+              background: -webkit-linear-gradient(top, #CD0000, rgba(255, 255, 255, 0.1)) no-repeat;
+              background: -o-linear-gradient(bottom, #CD0000, rgba(255, 255, 255, 0.1)) no-repeat;
+              background: -moz-linear-gradient(bottom, #CD0000, rgba(255, 255, 255, 0.1)) no-repeat;
+              background: linear-gradient(to bottom, #CD0000, rgba(255, 255, 255, 0.1)) no-repeat; }
+        html body #wrapper section article:nth-of-type(2) .innerContainer div.purple, html body #wrapper section article:nth-of-type(2) .innerContainer html body #wrapper section.radial article #innerContainer, html body #wrapper section.radial article html body #wrapper section article:nth-of-type(2) .innerContainer #innerContainer {
+          height: 100%;
+          width: 16%;
+          display: inline-block;
+          border-radius: 15px;
+          margin: 0px -2px 10px -2px;
+          background: -webkit-linear-gradient(left, #300030, #FFF);
+          /* For Safari 5.1 to 6.0 */
+          background: -o-linear-gradient(right, #300030, #FFF);
+          /* For Opera 11.1 to 12.0 */
+          background: -moz-linear-gradient(right, #300030, #FFF);
+          /* For Firefox 3.6 to 15 */
+          background: linear-gradient(to right, #300030, #FFF);
+          /* Standard syntax */ }
+        html body #wrapper section article:nth-of-type(2) .innerContainer div.blue, html body #wrapper section article:nth-of-type(2) .innerContainer html body #wrapper section.radial article #innerContainer, html body #wrapper section.radial article html body #wrapper section article:nth-of-type(2) .innerContainer #innerContainer {
+          height: 100%;
+          width: 16%;
+          display: inline-block;
+          border-radius: 15px;
+          margin: 0px -2px 10px -2px;
+          background: -webkit-linear-gradient(left, #0000AB, #FFF);
+          /* For Safari 5.1 to 6.0 */
+          background: -o-linear-gradient(right, #0000AB, #FFF);
+          /* For Opera 11.1 to 12.0 */
+          background: -moz-linear-gradient(right, #0000AB, #FFF);
+          /* For Firefox 3.6 to 15 */
+          background: linear-gradient(to right, #0000AB, #FFF);
+          /* Standard syntax */ }
+        html body #wrapper section article:nth-of-type(2) .innerContainer div.green, html body #wrapper section article:nth-of-type(2) .innerContainer html body #wrapper section.radial article #innerContainer, html body #wrapper section.radial article html body #wrapper section article:nth-of-type(2) .innerContainer #innerContainer {
+          height: 100%;
+          width: 16%;
+          display: inline-block;
+          border-radius: 15px;
+          margin: 0px -2px 10px -2px;
+          background: -webkit-linear-gradient(left, #002500, #FFF);
+          /* For Safari 5.1 to 6.0 */
+          background: -o-linear-gradient(right, #002500, #FFF);
+          /* For Opera 11.1 to 12.0 */
+          background: -moz-linear-gradient(right, #002500, #FFF);
+          /* For Firefox 3.6 to 15 */
+          background: linear-gradient(to right, #002500, #FFF);
+          /* Standard syntax */ }
+        html body #wrapper section article:nth-of-type(2) .innerContainer div.yellow, html body #wrapper section article:nth-of-type(2) .innerContainer html body #wrapper section.radial article #innerContainer, html body #wrapper section.radial article html body #wrapper section article:nth-of-type(2) .innerContainer #innerContainer {
+          height: 100%;
+          width: 16%;
+          display: inline-block;
+          border-radius: 15px;
+          margin: 0px -2px 10px -2px;
+          background: -webkit-linear-gradient(left, #F5F500, #FFF);
+          /* For Safari 5.1 to 6.0 */
+          background: -o-linear-gradient(right, #F5F500, #FFF);
+          /* For Opera 11.1 to 12.0 */
+          background: -moz-linear-gradient(right, #F5F500, #FFF);
+          /* For Firefox 3.6 to 15 */
+          background: linear-gradient(to right, #F5F500, #FFF);
+          /* Standard syntax */ }
+        html body #wrapper section article:nth-of-type(2) .innerContainer div.orange, html body #wrapper section article:nth-of-type(2) .innerContainer html body #wrapper section.radial article #innerContainer, html body #wrapper section.radial article html body #wrapper section article:nth-of-type(2) .innerContainer #innerContainer {
+          height: 100%;
+          width: 16%;
+          display: inline-block;
+          border-radius: 15px;
+          margin: 0px -2px 10px -2px;
+          background: -webkit-linear-gradient(left, #EB9100, #FFF);
+          /* For Safari 5.1 to 6.0 */
+          background: -o-linear-gradient(right, #EB9100, #FFF);
+          /* For Opera 11.1 to 12.0 */
+          background: -moz-linear-gradient(right, #EB9100, #FFF);
+          /* For Firefox 3.6 to 15 */
+          background: linear-gradient(to right, #EB9100, #FFF);
+          /* Standard syntax */ }
+        html body #wrapper section article:nth-of-type(2) .innerContainer div.red, html body #wrapper section article:nth-of-type(2) .innerContainer html body #wrapper section.radial article #innerContainer, html body #wrapper section.radial article html body #wrapper section article:nth-of-type(2) .innerContainer #innerContainer {
+          height: 100%;
+          width: 16%;
+          display: inline-block;
+          border-radius: 15px;
+          margin: 0px -2px 10px -2px;
+          background: -webkit-linear-gradient(left, #CD0000, #FFF);
+          /* For Safari 5.1 to 6.0 */
+          background: -o-linear-gradient(right, #CD0000, #FFF);
+          /* For Opera 11.1 to 12.0 */
+          background: -moz-linear-gradient(right, #CD0000, #FFF);
+          /* For Firefox 3.6 to 15 */
+          background: linear-gradient(to right, #CD0000, #FFF);
+          /* Standard syntax */ }
+        html body #wrapper section article:nth-of-type(3) .innerContainer div.purple, html body #wrapper section article:nth-of-type(3) .innerContainer html body #wrapper section.radial article #innerContainer, html body #wrapper section.radial article html body #wrapper section article:nth-of-type(3) .innerContainer #innerContainer {
+          height: 100%;
+          width: 16%;
+          display: inline-block;
+          border-radius: 15px;
+          margin: 0px -2px 10px -2px;
+          background: -webkit-linear-gradient(left top, #300030, #FFF);
+          /* For Safari 5.1 to 6.0 */
+          background: -o-linear-gradient(bottom right, #300030, #FFF);
+          /* For Opera 11.1 to 12.0 */
+          background: -moz-linear-gradient(bottom right, #300030, #FFF);
+          /* For Firefox 3.6 to 15 */
+          background: linear-gradient(to bottom right, #300030, #FFF);
+          /* Standard syntax */ }
+        html body #wrapper section article:nth-of-type(3) .innerContainer div.blue, html body #wrapper section article:nth-of-type(3) .innerContainer html body #wrapper section.radial article #innerContainer, html body #wrapper section.radial article html body #wrapper section article:nth-of-type(3) .innerContainer #innerContainer {
+          height: 100%;
+          width: 16%;
+          display: inline-block;
+          border-radius: 15px;
+          margin: 0px -2px 10px -2px;
+          background: -webkit-linear-gradient(left top, #0000AB, #FFF);
+          /* For Safari 5.1 to 6.0 */
+          background: -o-linear-gradient(bottom right, #0000AB, #FFF);
+          /* For Opera 11.1 to 12.0 */
+          background: -moz-linear-gradient(bottom right, #0000AB, #FFF);
+          /* For Firefox 3.6 to 15 */
+          background: linear-gradient(to bottom right, #0000AB, #FFF);
+          /* Standard syntax */ }
+        html body #wrapper section article:nth-of-type(3) .innerContainer div.green, html body #wrapper section article:nth-of-type(3) .innerContainer html body #wrapper section.radial article #innerContainer, html body #wrapper section.radial article html body #wrapper section article:nth-of-type(3) .innerContainer #innerContainer {
+          height: 100%;
+          width: 16%;
+          display: inline-block;
+          border-radius: 15px;
+          margin: 0px -2px 10px -2px;
+          background: -webkit-linear-gradient(left top, #002500, #FFF);
+          /* For Safari 5.1 to 6.0 */
+          background: -o-linear-gradient(bottom right, #002500, #FFF);
+          /* For Opera 11.1 to 12.0 */
+          background: -moz-linear-gradient(bottom right, #002500, #FFF);
+          /* For Firefox 3.6 to 15 */
+          background: linear-gradient(to bottom right, #002500, #FFF);
+          /* Standard syntax */ }
+        html body #wrapper section article:nth-of-type(3) .innerContainer div.yellow, html body #wrapper section article:nth-of-type(3) .innerContainer html body #wrapper section.radial article #innerContainer, html body #wrapper section.radial article html body #wrapper section article:nth-of-type(3) .innerContainer #innerContainer {
+          height: 100%;
+          width: 16%;
+          display: inline-block;
+          border-radius: 15px;
+          margin: 0px -2px 10px -2px;
+          background: -webkit-linear-gradient(left top, #F5F500, #FFF);
+          /* For Safari 5.1 to 6.0 */
+          background: -o-linear-gradient(bottom right, #F5F500, #FFF);
+          /* For Opera 11.1 to 12.0 */
+          background: -moz-linear-gradient(bottom right, #F5F500, #FFF);
+          /* For Firefox 3.6 to 15 */
+          background: linear-gradient(to bottom right, #F5F500, #FFF);
+          /* Standard syntax */ }
+        html body #wrapper section article:nth-of-type(3) .innerContainer div.orange, html body #wrapper section article:nth-of-type(3) .innerContainer html body #wrapper section.radial article #innerContainer, html body #wrapper section.radial article html body #wrapper section article:nth-of-type(3) .innerContainer #innerContainer {
+          height: 100%;
+          width: 16%;
+          display: inline-block;
+          border-radius: 15px;
+          margin: 0px -2px 10px -2px;
+          background: -webkit-linear-gradient(left top, #EB9100, #FFF);
+          /* For Safari 5.1 to 6.0 */
+          background: -o-linear-gradient(bottom right, #EB9100, #FFF);
+          /* For Opera 11.1 to 12.0 */
+          background: -moz-linear-gradient(bottom right, #EB9100, #FFF);
+          /* For Firefox 3.6 to 15 */
+          background: linear-gradient(to bottom right, #EB9100, #FFF);
+          /* Standard syntax */ }
+        html body #wrapper section article:nth-of-type(3) .innerContainer div.red, html body #wrapper section article:nth-of-type(3) .innerContainer html body #wrapper section.radial article #innerContainer, html body #wrapper section.radial article html body #wrapper section article:nth-of-type(3) .innerContainer #innerContainer {
+          height: 100%;
+          width: 16%;
+          display: inline-block;
+          border-radius: 15px;
+          margin: 0px -2px 10px -2px;
+          background: -webkit-linear-gradient(left top, #CD0000, #FFF);
+          /* For Safari 5.1 to 6.0 */
+          background: -o-linear-gradient(bottom right, #CD0000, #FFF);
+          /* For Opera 11.1 to 12.0 */
+          background: -moz-linear-gradient(bottom right, #CD0000, #FFF);
+          /* For Firefox 3.6 to 15 */
+          background: linear-gradient(to bottom right, #CD0000, #FFF);
+          /* Standard syntax */ }
+      html body #wrapper section.radial article {
+        padding-top: 2rem; }
+        html body #wrapper section.radial article #innerContainer div.purple {
+          height: 100%;
+          width: 16%;
+          display: inline-block;
+          border-radius: 15px;
+          margin: 0px -2px 10px -2px;
+          background: -webkit-radial-gradient(#300030, #ffffff);
+          /* Safari 5.1 to 6.0 */
+          background: -o-radial-gradient(#300030, #ffffff);
+          /* For Opera 11.6 to 12.0 */
+          background: -moz-radial-gradient(#300030, #ffffff);
+          /* For Firefox 3.6 to 15 */
+          background: radial-gradient(#300030, #ffffff);
+          /* Standard syntax (must be last) */ }
+        html body #wrapper section.radial article #innerContainer div.blue {
+          height: 100%;
+          width: 16%;
+          display: inline-block;
+          border-radius: 15px;
+          margin: 0px -2px 10px -2px;
+          background: -webkit-radial-gradient(#0000AB, #ffffff);
+          /* Safari 5.1 to 6.0 */
+          background: -o-radial-gradient(#0000AB, #ffffff);
+          /* For Opera 11.6 to 12.0 */
+          background: -moz-radial-gradient(#0000AB, #ffffff);
+          /* For Firefox 3.6 to 15 */
+          background: radial-gradient(#0000AB, #ffffff);
+          /* Standard syntax (must be last) */ }
+        html body #wrapper section.radial article #innerContainer div.green {
+          height: 100%;
+          width: 16%;
+          display: inline-block;
+          border-radius: 15px;
+          margin: 0px -2px 10px -2px;
+          background: -webkit-radial-gradient(#002500, #ffffff);
+          /* Safari 5.1 to 6.0 */
+          background: -o-radial-gradient(#002500, #ffffff);
+          /* For Opera 11.6 to 12.0 */
+          background: -moz-radial-gradient(#002500, #ffffff);
+          /* For Firefox 3.6 to 15 */
+          background: radial-gradient(#002500, #ffffff);
+          /* Standard syntax (must be last) */ }
+        html body #wrapper section.radial article #innerContainer div.yellow {
+          height: 100%;
+          width: 16%;
+          display: inline-block;
+          border-radius: 15px;
+          margin: 0px -2px 10px -2px;
+          background: -webkit-radial-gradient(#F5F500, #ffffff);
+          /* Safari 5.1 to 6.0 */
+          background: -o-radial-gradient(#F5F500, #ffffff);
+          /* For Opera 11.6 to 12.0 */
+          background: -moz-radial-gradient(#F5F500, #ffffff);
+          /* For Firefox 3.6 to 15 */
+          background: radial-gradient(#F5F500, #ffffff);
+          /* Standard syntax (must be last) */ }
+        html body #wrapper section.radial article #innerContainer div.orange {
+          height: 100%;
+          width: 16%;
+          display: inline-block;
+          border-radius: 15px;
+          margin: 0px -2px 10px -2px;
+          background: -webkit-radial-gradient(#EB9100, #ffffff);
+          /* Safari 5.1 to 6.0 */
+          background: -o-radial-gradient(#EB9100, #ffffff);
+          /* For Opera 11.6 to 12.0 */
+          background: -moz-radial-gradient(#EB9100, #ffffff);
+          /* For Firefox 3.6 to 15 */
+          background: radial-gradient(#EB9100, #ffffff);
+          /* Standard syntax (must be last) */ }
+        html body #wrapper section.radial article #innerContainer div.red {
+          height: 100%;
+          width: 16%;
+          display: inline-block;
+          border-radius: 15px;
+          margin: 0px -2px 10px -2px;
+          background: -webkit-radial-gradient(#CD0000, #ffffff);
+          /* Safari 5.1 to 6.0 */
+          background: -o-radial-gradient(#CD0000, #ffffff);
+          /* For Opera 11.6 to 12.0 */
+          background: -moz-radial-gradient(#CD0000, #ffffff);
+          /* For Firefox 3.6 to 15 */
+          background: radial-gradient(#CD0000, #ffffff);
+          /* Standard syntax (must be last) */ }
+      html body #wrapper footer {
+        height: auto;
+        width: 95%;
+        text-align: center;
+        padding-bottom: 2rem; }
+        html body #wrapper footer h3 {
+          font-size: 2rem;
+          text-decoration: underline;
+          font-weight: 700; }
+        html body #wrapper footer ul {
+          list-style: none; }
+          html body #wrapper footer ul li a {
+            text-decoration: none;
+            color: #808080;
+            font-size: 1.5rem;
+            line-height: 2.3rem; }

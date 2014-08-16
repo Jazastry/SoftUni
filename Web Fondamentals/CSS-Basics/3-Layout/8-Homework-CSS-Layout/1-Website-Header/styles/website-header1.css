@@ -1,0 +1,205 @@
+html, body, header, ul, li, a, 
+input, section, nav, button, form{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 62.5%;
+}
+
+header {
+    background-color: #254565;   
+    width: 121.2rem;
+    height: 10.85rem;
+    font-family: Calibri;
+    font-size: 1.8rem;  
+    font-weight: 500; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(255,255,255);
+}
+
+section > ul > li,
+nav > ul > li     {
+    display: inline;
+    color: white;
+    cursor: pointer;
+    height: 2rem;
+}
+
+.ul1 {
+	display: inline;
+}
+
+.sectSoftUniLogo {
+	width: 32.7rem;
+	height: 10.9rem;
+	float: left;
+}
+
+.sectSoftUniLogo img {
+	height: 100%;
+	width: 100%;
+}
+
+.rightPartSect {
+	width: 87rem;
+	margin-left: 33.4rem;
+}
+
+.searchSection {
+	width: 87.7rem;
+	height: 3.5rem;
+	padding-top: 2.2rem;
+}
+
+.searchSection > .ul1 > li {
+	float: left;
+}
+
+.bell img {
+	width: 3.23rem;
+	height: 2.19rem;
+}
+
+.bell {
+	height: 2.4rem;
+	margin: 0.67rem 2.3rem 0rem 45.8rem;
+}
+
+.liUser {
+	padding: 0.5rem;
+	margin-top: 0.25rem;
+	margin-right: 0.3rem;
+}
+
+.searchField {
+	height: 3.2rem;
+	width: 22.7rem;
+	border-radius: 0.5rem 0rem 0rem 0.5rem;
+	border-top: 0.1rem solid #D2D2D2;
+	border-bottom: 0.1rem solid #D2D2D2;
+	border-left: 0.1rem solid #D2D2D2; 
+	padding-left: 0.8rem;
+	font-size: 1.3rem;
+}
+
+.searchBtn {
+	height: 3.2rem;
+	width: 3.25rem;
+	border-radius: 0rem 0.5rem 0.5rem 0rem;
+	background-color: rgb(255,255,255);
+	background-image: url("../images/searchBtn.PNG");
+	background-repeat: no-repeat;
+	background-size: 2.5rem 2.5rem; 
+	background-position: 0.25rem 0.25rem;
+	border: 0.1rem solid #D2D2D2;
+}
+
+.searchBtn:hover {
+	background-color: #FF9C00;
+}
+
+.searchBtnLi {
+	width: 3.25rem;
+	height: 3.2rem;
+}
+
+.caret {
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    margin-left: 3px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+nav {
+	width: 100%;
+	height: 5.2rem;
+	padding-top: 0.8rem;
+}
+
+nav .ul1 {
+	padding-bottom: 0rem;
+	padding-top: 2rem;
+	margin-left: 0rem;
+}
+
+nav .ul1 li{
+	font-size: 1.7rem;
+	padding: 0.5rem;
+	margin: 0rem 2.4rem 0rem 0.5rem;
+}
+
+nav .ul1 .liLast {
+	margin-right: 0.5rem;
+}
+
+.ul1 > li:hover
+{
+    -moz-border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    border-radius:6px;
+    background-color: #5078C0;
+}
+
+.li1, .liUser {
+	position: relative;
+}
+
+nav ul ul, .liUser > ul {
+	display: none;
+}
+
+nav ul:after, section ul:after {
+	content: ""; clear: both; display: block;
+}
+
+.li1:hover > ul {
+	display: block;
+	position: absolute;
+	background-color: #254565;
+	width: 20rem;
+	top: 3rem;
+	left: -0.5rem;
+}
+
+.liUser:hover > ul {
+	display: block;
+	position: absolute;
+	background-color: #254565;
+	width: 10rem;
+	line-height: 3rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	top: 3rem;
+	left: -0.5rem;
+}
+
+.dropList > li {
+	border-bottom: 1px solid #5078C0;
+	width: 90%;
+}
+
+.dropListUser > li {
+	border-bottom: 1px solid #5078C0;
+	width: 99%;
+}
+
+.dropList > li:hover, .dropListUser > li:hover {
+	background-color: #FF9C00;
+}
+
+

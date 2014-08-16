@@ -1,0 +1,33 @@
+h1, body {
+	margin: 0px;
+	padding: 0px;
+}
+@font-face {
+    font-family: myFont;
+    src: url(../resources/Animated.ttf);
+}
+
+body section{
+	width: 900px;
+	height: 600px;
+	margin: 10% 10% 10% 10%;
+	border: transparent;
+	background: url("../images/AlexHula.png") no-repeat 492px 199px,
+				url("../images/VladoKHula.png") no-repeat 673px 230px,
+				url("../images/NakovHula.png") no-repeat 412px 154px,
+				url("../images/TediHula.png") no-repeat 262px 360px,
+				url("../images/PetiaHula.png") no-repeat 180px 190px,
+				url("../images/VladoGHula.png") no-repeat 40px 220px ,
+				url("../images/HawaiiBackground.png"),
+				radial-gradient(ellipse 80% 90% at 20% 20%, #F9F9F9 1%, #FBFACB 14%,#FFFFFF 19%, #C8DCF2 30%, #0073DB 80%);
+}
+
+h3 {
+	font-family: myFont;
+	font-size: 46px;
+	text-align: right;
+	margin-top: 14px;
+	margin-right: 20px;
+	color: #FDBC21;
+	letter-spacing: 1px;
+}

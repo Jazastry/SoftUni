@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+
+
+
+  
+
+<title type="text">Software University</title>
+<generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
+<link rel="alternate" type="text/html" href="http://localhost:4000/" />
+<updated>2014-07-12T18:13:34+01:00</updated>
+<id>http://localhost:4000/</id>
+<author>
+  <name>Software University</name>
+  <uri>http://localhost:4000/</uri>
+  <email>info@softuni.bg</email>
+</author>
+
+
+<entry>
+  <title type="html"><![CDATA[Soft Uni FasTrack Courses]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/jekyll/update/Fast-Track-Courses/"/>
+  <id>http://localhost:4000/jekyll/update/Fast-Track-Courses</id>
+  <published>2014-07-11T18:47:17+01:00</published>
+  <updated>2014-07-11T18:47:17+01:00</updated>
+  <author>
+    <name>Software University</name>
+    <uri>http://localhost:4000</uri>
+    <email>info@softuni.bg</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;Fast Track курсовете представляват ускорени курсове, които ви дават максималнo много знания за по-кратко време. Материалът се усвоява лесно поради програмата ни, която включва много упражнения.
+Продължителност: 12-16 седмици
+Натовареност: 1-2 пъти в седмицата (блок 4 часа)
+Без изисквания или входящ изпит
+Завършване с изпит по желание и сертификат&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/Fast-Track-Courses/&quot;&gt;Soft Uni FasTrack Courses&lt;/a&gt; was originally published by Software University at &lt;a href=&quot;http://localhost:4000&quot;&gt;Software University&lt;/a&gt; on July 11, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Abouth The University]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/jekyll/update/Abouth-The-University/"/>
+  <id>http://localhost:4000/jekyll/update/Abouth-The-University</id>
+  <published>2014-07-11T16:47:17+01:00</published>
+  <updated>2014-07-11T16:47:17+01:00</updated>
+  <author>
+    <name>Software University</name>
+    <uri>http://localhost:4000</uri>
+    <email>info@softuni.bg</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;За нас, както и за цялата софтуерна индустрия, е най-важен практическият опит. Нашата мисия е да направим хората, които обучаваме, истински професионалисти в софтуерната индустрия и да им съдействаме в намирането на работа.&lt;/p&gt;
+
+&lt;p&gt;Учебният план, по който се провеждат занятията в Софтуерния университет, се състои от няколко нива – едно подготвително ниво за приемния изпит (2 месеца) и 6 нива обучение по програмиране, технологии и разработка на софтуер (всяко по 4 месеца). Предоставя се възможност за получаване на университетска диплома за висше образование от един от нашите университети-партньори след допълнително обучение при тях с продължителност 1 или 2 години. &lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/Abouth-The-University/&quot;&gt;Abouth The University&lt;/a&gt; was originally published by Software University at &lt;a href=&quot;http://localhost:4000&quot;&gt;Software University&lt;/a&gt; on July 11, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Лятна почивка + график за ниво #1]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/jekyll/update/News-1/"/>
+  <id>http://localhost:4000/jekyll/update/News-1</id>
+  <published>2014-07-11T15:47:17+01:00</published>
+  <updated>2014-07-11T15:47:17+01:00</updated>
+  <author>
+    <name>Software University</name>
+    <uri>http://localhost:4000</uri>
+    <email>info@softuni.bg</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;Лятна почивка + график за ниво #1
+13/06/2014
+Публикувано от: Alexandra Svilarova&lt;/p&gt;
+
+&lt;p&gt;Приятели, лятото идва и е време за малко почивка. Вече сме определили дните, в които максимално да се отдадете на релакс, а именно от 2 - 10 август включително.&lt;/p&gt;
+
+&lt;p&gt;За да може да се насладите на летните месеци, трябва да си организирате времето добре. Ето и графика до края на Ниво #1:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;6, 7 и 8 юли - изпити по Web Fundamentals (HTML + CSS);
+9 и 10 юли - стартира JavaScript Basics;
+27, 28 и 29 юли - изпити по JavaScript Basics;
+30, 31 юли и 1 август - защити на екипните работи по JavaScript Basics;
+от 2 до 10 август - почивка;
+11 и 12 август - стартира PHP Basics;
+25, 26 и 27 август - защити на екините работи по PHP Basics;
+24, 28 и 29 август - изпити по PHP Basics;
+Поправителната сесия за ниво #1 - предстои да бъде планирана (най-вероятно септември).
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Приемен изпит за ниво #0 (което стартира на 25/27 май):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;25 юли от 9:30 до 15:30 и от 16:00 до 22:00 ч.
+&lt;/code&gt;&lt;/pre&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/News-1/&quot;&gt;Лятна почивка + график за ниво #1&lt;/a&gt; was originally published by Software University at &lt;a href=&quot;http://localhost:4000&quot;&gt;Software University&lt;/a&gt; on July 11, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Ниво #0 стартира на 5 юли]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/jekyll/update/News/"/>
+  <id>http://localhost:4000/jekyll/update/News</id>
+  <published>2014-07-11T15:47:17+01:00</published>
+  <updated>2014-07-11T15:47:17+01:00</updated>
+  <author>
+    <name>Software University</name>
+    <uri>http://localhost:4000</uri>
+    <email>info@softuni.bg</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;Ниво #0 стартира на 5 юли
+18/06/2014
+Публикувано от: Alexandra Svilarova&lt;/p&gt;
+
+&lt;p&gt;СофтУни удължава срока за кандидатстване за Ниво #0 (подготвителен курс по основи на програмирането с езика C#) до 3 юли. Курсът стартира на 5 юли. Тези от вас, които са кандидатствали до 17 юни, вече са уведомени по майл. Тези, които не са се регистрирали, могат да го направят и да попълнят формата за кандидатстване: http://softuni.bg/apply. Може да изберете една от двете форми на обучение: присъствено или онлайн.&lt;/p&gt;
+
+&lt;p&gt;Началото на курса е 5 юли. Продължителността му е два месеца, като занятията се провеждат веднъж седмично (събота) от 18:00 до 22:00 часа. Информация за това, което се изучава по време на курса, може да видите тук.&lt;/p&gt;
+
+&lt;p&gt;След края на Ниво #0, се явявате на изпит, който е едновременно и приемен за Ниво #1. На изпита ще може да се ползва език за програмиране по избор: C#, C/C++, Java или JavaScript. Може да се запишете и директно за изпита и да пропуснете подготвителното ниво (може да посочите това във формата за кандидатстване като изберете онлайн обучение за ниво #0). Примерни задачи за изпит може да видите тук. &lt;/p&gt;
+
+&lt;p&gt;След първия месец на обучение (Ниво #0), ще се събира такса в размер на 50 лева за изпита в края на нивото. Тъй като Ниво #0 е безплатно, тази сума ще се приспадне от таксата за присъствено обучение, като вместо 480 лева, ще платите 430 лева. Това се отнася и за онлайн обучението – вместо 150 лева, ще платите 100 лева.&lt;/p&gt;
+
+&lt;p&gt;Позволено е да се запишете за Ниво #0 повторно (ако вече сте записани за майския курс). Позволено е и да сте записани в Ниво #0 и в Ниво #1 едновременно (ако искате да затвърдите знанията и уменията си по C#).
+18/06/2014
+Публикувано от: Alexandra Svilarova&lt;/p&gt;
+
+&lt;p&gt;СофтУни удължава срока за кандидатстване за Ниво #0 (подготвителен курс по основи на програмирането с езика C#) до 3 юли. Курсът стартира на 5 юли. Тези от вас, които са кандидатствали до 17 юни, вече са уведомени по майл. Тези, които не са се регистрирали, могат да го направят и да попълнят формата за кандидатстване: http://softuni.bg/apply. Може да изберете една от двете форми на обучение: присъствено или онлайн.&lt;/p&gt;
+
+&lt;p&gt;Началото на курса е 5 юли. Продължителността му е два месеца, като занятията се провеждат веднъж седмично (събота) от 18:00 до 22:00 часа. Информация за това, което се изучава по време на курса, може да видите тук.&lt;/p&gt;
+
+&lt;p&gt;След края на Ниво #0, се явявате на изпит, който е едновременно и приемен за Ниво #1. На изпита ще може да се ползва език за програмиране по избор: C#, C/C++, Java или JavaScript. Може да се запишете и директно за изпита и да пропуснете подготвителното ниво (може да посочите това във формата за кандидатстване като изберете онлайн обучение за ниво #0). Примерни задачи за изпит може да видите тук. &lt;/p&gt;
+
+&lt;p&gt;След първия месец на обучение (Ниво #0), ще се събира такса в размер на 50 лева за изпита в края на нивото. Тъй като Ниво #0 е безплатно, тази сума ще се приспадне от таксата за присъствено обучение, като вместо 480 лева, ще платите 430 лева. Това се отнася и за онлайн обучението – вместо 150 лева, ще платите 100 лева.&lt;/p&gt;
+
+&lt;p&gt;Позволено е да се запишете за Ниво #0 повторно (ако вече сте записани за майския курс). Позволено е и да сте записани в Ниво #0 и в Ниво #1 едновременно (ако искате да затвърдите знанията и уменията си по C#).&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/jekyll/update/News/&quot;&gt;Ниво #0 стартира на 5 юли&lt;/a&gt; was originally published by Software University at &lt;a href=&quot;http://localhost:4000&quot;&gt;Software University&lt;/a&gt; on July 11, 2014.&lt;/p&gt;</content>
+</entry>
+
+</feed>

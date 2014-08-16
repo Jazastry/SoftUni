@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Styling a HTML Form</title>
+        <link rel="stylesheet" href="styles/styling-a-html-form.css">
+    </head>
+    <body>
+        <form>
+        	<section>
+        		<header class="headerTop">
+        			<h2>Step 1: Your details</h2>
+        		</header>
+				<section>
+					<label for="name">Name</label>
+					<input id="name" type="text" placeholder="First and last name">
+        		</section>
+        		<section>
+        			<label for="email">Email</label>	
+        			<input id="email" type="email" placeholder="example@domain.com">
+        		</section>	
+        		<section>
+        			<label for="phone">Phone</label>
+        			<input id="phone" type="tel" placeholder=" eg. +447500000000">
+        		</section>
+        	</section>
+        	<section>
+        		<header>
+        			<h2>Step 2: Delivery address</h2>
+        		</header>
+        		<section class="textareaSect">
+	        		<label for="addres">Addres</label>
+	        		<textarea id="addres" rows="4" cols="50">	
+					</textarea>
+				</section>	
+				
+				<section>
+					<label for="postCode">Post code</label>
+	        		<input id="postCode" type="number">
+        		</section>
+
+        		<section>	
+					<label for="country">Country</label>
+	        		<input id="country" type="text">
+        		</section>
+
+        	</section>
+        	<section>
+				<header>
+        			<h2>Step 3: Card details</h2>
+        		</header>
+				<section class="cardTypes">
+					<p class="cardTypeLabel">Card Type</p><br>
+					
+		        		<input id="visa" type="radio" value="visa" name="cardType">
+		        		<label for="visa"><img src="images/visa-logo.PNG"/>VISA</label>
+
+		        		<input id="amEx" type="radio" value="amEx" name="cardType">
+		        		<label for="amEx"><img src="images/amex-logo.PNG"/>AmEx</label>
+
+		        		<input id="masterCard" type="radio" value="masterCard" name="cardType">
+		        		<label for="masterCard"><img src="images/mastercard-logo.PNG"/>Mastercard</label>
+	        		
+	        	</section>	
+			</section>
+			
+			<section>
+	        	<section>	
+	        		<label for="cardNumb">Card number</label>
+	        		<input id="cardNumb" type="text">
+        		</section>
+				
+				<section>	
+	        		<label for="securityCode">Security code</label>
+	        		<input id="securityCode" type="text">
+        		</section>
+				
+				<section>
+	        		<label for="cardName">Name of card</label>
+	        		<input id="cardName" type="text" placeholder="exact name as on the card">
+        		</section>
+
+        		<input type="submit" value="BUY IT!"/>
+        	</section>
+        </form>
+    </body>
+</html>

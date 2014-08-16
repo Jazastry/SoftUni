@@ -1,0 +1,11 @@
+body {
+	padding-top: 60px; 
+}
+.upLine {
+	width: 70%;
+	display: inline-block;
+	padding-left: 15px;
+	margin-top: 20px;
+	padding-top: 20px;
+	border-top: 2px solid #E1E1E1;
+}
