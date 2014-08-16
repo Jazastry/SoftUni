@@ -1,0 +1,155 @@
+html,
+body,
+#wrapper,
+table {
+  padding: 0px;
+  margin: 0px; }
+
+html {
+  font-size: 62.5%;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  font-family: Arial; }
+  html body {
+    width: 100%;
+    height: 100%;
+    position: relative; }
+    html body #blockingDiv {
+      width: 100%;
+      height: 100%;
+      display: none;
+      background: transparent;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1; }
+    html body #leftSide {
+      width: 30%;
+      position: absolute;
+      left: -250px;
+      top: 0px;
+      font-size: 3rem;
+      color: #169C8D; }
+      html body #leftSide #turnX {
+        display: none; }
+      html body #leftSide #pointsX {
+        font-size: 5rem;
+        display: block;
+        height: 30%;
+        width: 100%; }
+    html body #rightSide {
+      width: 30%;
+      position: absolute;
+      right: -250px;
+      top: 0px;
+      font-size: 3rem;
+      color: #7F00FF; }
+      html body #rightSide #turnO {
+        display: none; }
+      html body #rightSide #pointsO {
+        font-size: 5rem;
+        display: block;
+        height: 30%;
+        width: 100%; }
+    html body .wrapper {
+      width: 500px;
+      height: 500px;
+      margin: 100px auto;
+      color: white;
+      position: relative; }
+      html body .wrapper table {
+        width: 100%;
+        height: 100%;
+        border-collapse: collapse;
+        border-style: hidden; }
+        html body .wrapper table td {
+          border: 10px solid #b4b4b4;
+          width: 30%;
+          height: 30%; }
+          html body .wrapper table td div {
+            display: block;
+            width: 100%;
+            height: 100%;
+            color: white;
+            cursor: pointer;
+            font-size: 100px;
+            text-align: center;
+            padding-top: 12%; }
+      html body .wrapper #endLine {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: none; }
+        html body .wrapper #endLine #position1 {
+          display: none; }
+        html body .wrapper #endLine #position2 {
+          display: none; }
+        html body .wrapper #endLine #position3 {
+          display: none; }
+        html body .wrapper #endLine #position4 {
+          display: none; }
+        html body .wrapper #endLine #position5 {
+          display: none; }
+        html body .wrapper #endLine #position6 {
+          display: none; }
+        html body .wrapper #endLine #position7 {
+          display: none; }
+        html body .wrapper #endLine #position8 {
+          display: none; }
+      html body .wrapper #baner {
+        width: 330px;
+        height: 120px;
+        border: 5px solid #AA2AFF;
+        background: #000;
+        color: #b4b4b4;
+        font-size: 2rem;
+        position: absolute;
+        top: -90px;
+        left: 90px;
+        display: none;
+        text-align: center;
+        z-index: 3; }
+        html body .wrapper #baner p {
+          display: block;
+          width: 100%;
+          position: relative; }
+        html body .wrapper #baner #btnYes {
+          background: #000;
+          border: none;
+          border: 2px solid #b4b4b4;
+          color: #b4b4b4;
+          width: 80px;
+          height: 30px;
+          display: none;
+          cursor: pointer;
+          position: absolute;
+          top: 78px;
+          left: 70px; }
+        html body .wrapper #baner #btnNo {
+          background: #000;
+          border: none;
+          border: 2px solid #b4b4b4;
+          color: #b4b4b4;
+          width: 80px;
+          height: 30px;
+          display: none;
+          cursor: pointer;
+          position: absolute;
+          top: 78px;
+          left: 165px; }
+        html body .wrapper #baner #btnOk {
+          background: #000;
+          border: none;
+          border: 2px solid #b4b4b4;
+          color: #b4b4b4;
+          width: 80px;
+          height: 30px;
+          display: none;
+          cursor: pointer;
+          position: absolute;
+          top: 78px;
+          left: 110px; }
+
+table {
+  border: none; }

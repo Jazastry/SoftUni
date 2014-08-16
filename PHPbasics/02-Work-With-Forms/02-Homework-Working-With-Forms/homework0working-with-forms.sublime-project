@@ -1,0 +1,14 @@
+{
+    "folders":
+    [
+        {
+            "follow_symlinks": true,
+            "path": "C://Users//Ale//Dropbox//SoftUni//PHPbasics//02-Work-With-Forms//02-Homework-Working-With-Forms"
+        }
+    ],
+    "settings": {
+        "xdebug": {
+             "url": "http://localhost:9000",
+        }
+    }
+}

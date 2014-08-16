@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <div>first div</div>
+  <div>second div</div>
+  <div class="empty"></div>
+  <div>third div<div>inner div</div></div>
+  <ul id="result"></ul>
+  <script>
+     var divs = document.getElementsByTagName('div');
+     var texts = [];
+     var lis;
+     var text; 
+     var empty;
+     var uList = document.getElementById("result");
+
+     for (var i = 0; i < divs.length; i++) {
+     	
+     	texts[i] = divs[i].innerHTML.replace('<div>', '\n').replace('</div>', '');
+
+     };
+   	for (var i = 0; i < divs.length; i++) {
+   		lis = document.createElement('li');
+   		text = document.createTextNode(texts[i].toString());
+
+
+   		lis.appendChild(text);
+		document.getElementById('result').appendChild(lis);
+   	};
+
+  </script>
+</body>
+</html>

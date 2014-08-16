@@ -1,0 +1,46 @@
+html, body, section, input, button, p {
+	margin: 0px;
+	padding: 0px;
+} 
+html {
+	font-size: 62.5%;
+	height: auto;
+	width: 100%;
+}
+section {
+	height: 200px;
+	width: 400px;
+	display: block;
+	margin: 5% auto;
+}
+input, p {
+	color: #FE9E13;
+	background-color: #234465;
+}
+input,p {
+	width: 95%;
+	height: 23%;
+	display: block;
+	padding-left: 5%;
+}
+button {
+	width: 50%;
+	height: 27%;
+	margin: 6% 23%;
+	background: #FFF;
+	border: none;
+	border: 2px solid #000;
+	font-size: 2rem;
+	transition: 0.5s;
+}
+button:hover {
+	background-color: #C3C3C3;
+}
+input {
+	font-size: 1.7rem;
+}
+p {
+	font-size: 3rem;
+	line-height: 4.4rem;
+}
+

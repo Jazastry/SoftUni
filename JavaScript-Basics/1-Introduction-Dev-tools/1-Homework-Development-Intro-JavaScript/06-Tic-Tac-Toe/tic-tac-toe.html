@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel=StyleSheet href="css/tic-tac-toe.css" type="text/css" media=screen>
+</head>
+<body>
+    <div id="blockingDiv"></div>
+    <div class="wrapper" >
+        <div id="leftSide">  
+            <p id="pointsX">0</p>          
+            <p id="turnX">TURN X</p>
+        </div>    
+        <div id="rightSide">        
+            <p id="pointsO">0</p>    
+            <p id="turnO">TURN O</p>
+        </div>    
+        <table id="gameField" onclick="clickAction(event)">
+            <tr>
+                <td>
+                    <div id="one" class="playCell"></div>
+                </td>
+                <td>
+                    <div id="twoo" class="playCell"></div>
+                </td>
+                <td>
+                    <div id="three" class="playCell"></div>
+                </td>
+            </tr>
+            <tr>
+            	<td>
+                    <div id="for" class="playCell"></div>
+            	</td>
+            	<td>
+                    <div id="five" class="playCell"></div>
+            	</td>
+            	<td>
+                    <div id="six" class="playCell"></div>
+            	</td>
+            </tr>
+            <tr>
+            	<td>
+                    <div id="seven" class="playCell"></div>
+            	</td>
+            	<td>
+                    <div id="eight" class="playCell"></div>
+            	</td>
+            	<td>
+                    <div id="nine" class="playCell"></div>
+            	</td>
+            </tr>            
+        </table>
+        <div id='endLine'>
+            <svg height="500" width="500">
+
+                <line id="position1" x1="5" y1="80" x2="490" y2="80" style="stroke:#B4B4B4;stroke-width:10" />
+                <line id="position2" x1="5" y1="247" x2="490" y2="247" style="stroke:#B4B4B4;stroke-width:10" />
+                <line id="position3" x1="5" y1="410" x2="490" y2="410" style="stroke:#B4B4B4;stroke-width:10" />
+
+                <line id="position4" x1="80" y1="5" x2="80" y2="495" style="stroke:#B4B4B4;stroke-width:10" />
+                <line id="position5" x1="247" y1="5" x2="247" y2="495" style="stroke:#B4B4B4;stroke-width:10" />
+                <line id="position6" x1="410" y1="5" x2="410" y2="495" style="stroke:#B4B4B4;stroke-width:10" />
+
+                <line id="position7" x1="5" y1="5" x2="495" y2="495" style="stroke:#B4B4B4;stroke-width:10" />
+                <line id="position8" x1="5" y1="490" x2="490" y2="5" style="stroke:#B4B4B4;stroke-width:10" />    
+            </svg>
+        </div>
+        <div id='baner' onclick="onAlertClicks(event)">
+            <p id="banerP"></p>
+            <button id="btnYes">Yes</button>
+            <button id="btnNo">No</button>
+            <button id="btnOk">OK!</button>
+        </div>
+   
+    </div>
+
+    <script src="js/tic-tac-toe.js" type="text/javascript"></script>
+</body>
+</html>

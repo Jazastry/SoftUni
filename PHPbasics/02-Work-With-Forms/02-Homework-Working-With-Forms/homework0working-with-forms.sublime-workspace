@@ -1,0 +1,1285 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"min",
+				"minka"
+			],
+			[
+				"dele",
+				"deleteRow"
+			],
+			[
+				"inner",
+				"innerHTML"
+			],
+			[
+				"inn",
+				"innerHTML"
+			],
+			[
+				"create",
+				"createElement  (function)"
+			],
+			[
+				"getElement",
+				"getElementById('aSome')"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"check",
+				"checkNumb1	doubleRakiaNumbs.js"
+			],
+			[
+				"inNumb",
+				"inNumb1"
+			],
+			[
+				"reverse",
+				"reverseSentence"
+			],
+			[
+				"current",
+				"currentField"
+			],
+			[
+				"computerS",
+				"computerShoot()	main.js"
+			],
+			[
+				"playerSh",
+				"playerShoot(e)	main.js"
+			],
+			[
+				"playerS",
+				"playerShoot(e)	main.js"
+			],
+			[
+				"start",
+				"startAction"
+			],
+			[
+				"star",
+				"startAction"
+			],
+			[
+				"attacke",
+				"attackedZone"
+			],
+			[
+				"get",
+				"getElementsByTagName('aSome')"
+			],
+			[
+				"find",
+				"findCardFrequency"
+			],
+			[
+				"index",
+				"indexSingle"
+			],
+			[
+				"count",
+				"countMax"
+			],
+			[
+				"player",
+				"playerShips"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"to",
+				"toLowerCase()"
+			],
+			[
+				"replace",
+				"replaceSpaces"
+			],
+			[
+				"click",
+				"clickElem"
+			],
+			[
+				"playerShip",
+				"playerShipOrient(e)	main.js"
+			],
+			[
+				"border",
+				"border-radius:   (property)"
+			],
+			[
+				"ship",
+				"shipFront"
+			],
+			[
+				"getE",
+				"getElementById('aSome')"
+			],
+			[
+				"active",
+				"activCell	main.js"
+			],
+			[
+				"fiel",
+				"field1"
+			],
+			[
+				"fie",
+				"field1"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"co",
+				"colour"
+			],
+			[
+				"img",
+				"img_create"
+			],
+			[
+				"cr",
+				"createElement  (function)"
+			],
+			[
+				"backgro",
+				"background-size"
+			],
+			[
+				"ba",
+				"battleField1"
+			],
+			[
+				"t",
+				"transparent"
+			],
+			[
+				"rever",
+				"reverseString"
+			],
+			[
+				"nums",
+				"numsCount	numberFinder.js"
+			],
+			[
+				"number",
+				"numberArr"
+			],
+			[
+				"numb",
+				"number"
+			],
+			[
+				"object",
+				"Object  (class)"
+			],
+			[
+				"result",
+				"resultB"
+			],
+			[
+				"resu",
+				"resultB"
+			],
+			[
+				"sort",
+				"sortNumber"
+			],
+			[
+				"points",
+				"pointsX"
+			],
+			[
+				"getEle",
+				"getElementsByTagName('aSome')"
+			],
+			[
+				"bt",
+				"btnOk"
+			],
+			[
+				"mix",
+				"mix	Sass-function"
+			],
+			[
+				"btn",
+				"btnYes"
+			],
+			[
+				"tr",
+				"transparent  (value)"
+			],
+			[
+				"bane",
+				"banerP"
+			],
+			[
+				"getElementBy",
+				"getElementById('cell"
+			],
+			[
+				"bann",
+				"bannerP"
+			],
+			[
+				"winer",
+				"winerLine()	tic-tac-toe.js"
+			],
+			[
+				"position",
+				"position7"
+			],
+			[
+				"winn",
+				"winningPosition"
+			],
+			[
+				"counter",
+				"counterWhole"
+			],
+			[
+				"cell",
+				"cell2"
+			],
+			[
+				"doH",
+				"doHaveWinner()	tic-tac-toe.js"
+			],
+			[
+				"in",
+				"innerHTML"
+			],
+			[
+				"out",
+				"outpuField"
+			],
+			[
+				"input",
+				"inputField"
+			],
+			[
+				"backgrond-",
+				"background-color"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"haveO",
+				"haveOrNot"
+			],
+			[
+				"ran",
+				"random  (function)"
+			],
+			[
+				"tree",
+				"treeHouseCompare(a, b)	treehouse.js"
+			],
+			[
+				"is",
+				"isPrime"
+			],
+			[
+				"l",
+				"length  (variable)"
+			],
+			[
+				"round",
+				"roundNumb"
+			],
+			[
+				"rou",
+				"roundNumb"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"pro",
+				"processed"
+			],
+			[
+				"consl",
+				"console"
+			],
+			[
+				"r",
+				"round  (function)"
+			],
+			[
+				"ho",
+				"horizontal-gradient"
+			],
+			[
+				"margin",
+				"margin-initial"
+			],
+			[
+				"sing",
+				"single-bord-box"
+			],
+			[
+				"un",
+				"underline  (value)"
+			],
+			[
+				"gre",
+				"greye-color"
+			],
+			[
+				"text",
+				"text-align:   (property)"
+			],
+			[
+				"fan",
+				"fantasy  (value)"
+			],
+			[
+				"th",
+				"the-main-back"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"let",
+				"letter-spacing"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"main",
+				"mainContent"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"m",
+				"main1"
+			],
+			[
+				"me",
+				"messages"
+			],
+			[
+				"mai",
+				"mainContent"
+			],
+			[
+				"head",
+				"headerDiv"
+			],
+			[
+				"cont",
+				"contain  (value)"
+			],
+			[
+				"fig",
+				"figcaption"
+			],
+			[
+				"arti",
+				"articleContent"
+			],
+			[
+				"vi",
+				"videoPagesLinks"
+			],
+			[
+				"faceb",
+				"facebookImbed"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"sty",
+				"stylesheet"
+			],
+			[
+				"sear",
+				"searchBtn"
+			],
+			[
+				"drop",
+				"dropListUser"
+			],
+			[
+				"h",
+				"hover"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"li",
+				"liUser"
+			],
+			[
+				"san",
+				"sans"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"sea",
+				"searchSection"
+			],
+			[
+				"sect",
+				"sectSoftUniLogo"
+			],
+			[
+				"se",
+				"sectSoftUniLogo"
+			],
+			[
+				"logo",
+				"logoSoftUni"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"card",
+				"cardTypeLabel"
+			],
+			[
+				"texta",
+				"textareaSect"
+			],
+			[
+				"visa",
+				"visaLbl"
+			],
+			[
+				"bl",
+				"inline-block"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "01-Print-Tags/PrintTags.php",
+			"settings":
+			{
+				"buffer_size": 524,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "homework0working-with-forms.sublime-project",
+			"settings":
+			{
+				"buffer_size": 261,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/php.sublime-build",
+	"command_palette":
+	{
+		"height": 383.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"package setti",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"sublim",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"lint",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"pacl",
+				"Package Control: Install Package"
+			],
+			[
+				"user",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"js",
+				"JSHint"
+			],
+			[
+				"ad",
+				"Package Control: Add Repository"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"apc",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"bui",
+				"Build: Build"
+			],
+			[
+				"build",
+				"Build: Build"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Packkage ",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: HTML - Script"
+			],
+			[
+				"coo",
+				"Color Picker"
+			],
+			[
+				"CSS",
+				"CSSPrimer: Prime CSS from HTML file"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"Package Control: Pre",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Ale/Dropbox/SoftUni/PHPbasics/02-Work-With-Forms/02-Homework-Working-With-Forms/01-Print-Tags/PrintTags.php ",
+		"/C/Users/Ale/Dropbox/SoftUni/PHPbasics/02-PHP SYntax/01-Homework-PHP-Syntax/07-Form-Data/GetFormData.php ",
+		"/C/Users/Ale/Dropbox/SoftUni/PHPbasics/02-PHP SYntax/01-Homework-PHP-Syntax/06-HTML-Table/InformationTable.php",
+		"/C/xampp/php/php.ini",
+		"/C/xampp/apache/conf/httpd.conf",
+		"/C/Users/Ale/Dropbox/SoftUni/PHPbasics/02-PHP SYntax/01-Homework-PHP-Syntax/05-Lazy-Sundays/LazySundays.php",
+		"/C/Users/Ale/Dropbox/SoftUni/PHPbasics/XAMP-LAMP-WAMP/Test-Folder/Test-Project/test-PHP.php",
+		"/C/Users/Ale/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/Ale/AppData/Roaming/Sublime Text 3/Packages/User/php.sublime-build",
+		"/C/Users/Ale/AppData/Roaming/Sublime Text 3/Packages/User/node.sublime-build",
+		"/C/Users/Ale/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Ale/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/xampp/htdocs/Jazastry-TestFolder/php-file.php",
+		"/C/Users/Ale/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/Default (Windows).sublime-keymap",
+		"/C/Users/Ale/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Ale/AppData/Roaming/Sublime Text 3/Packages/JSLint/JSLint.sublime-settings",
+		"/C/Users/Ale/AppData/Roaming/Sublime Text 3/Packages/JSLint/JSLint.sublime-commands",
+		"/C/Users/Ale/AppData/Roaming/Sublime Text 3/Packages/JSLint/README.md",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/4-Functions-Objects/ToCheck/Homework-Функции и обекти-14651/JavaScript Fourth Homework/02.N-thDigitOfNumber/nthDigitOfNumber.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/4-Functions-Objects/ToCheck/Homework-Функции и обекти-14644/Homework/5.ReverseWords/5.ReverseWords/reverseWords.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/4-Functions-Objects/ToCheck/Homework-Функции и обекти-14644/Homework/4.BiggerThan/4.BiggerThan/biggerThanNeighbors.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/4-Functions-Objects/ToCheck/Homework-Функции и обекти-14644/Homework/3.LargestSum/3.LargestSum/largestSumOfDigits.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/4-Functions-Objects/ToCheck/Homework-Функции и обекти-14644/Homework/2.NthDigit/2.NthDigit/nthDigitOfNumber.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/4-Functions-Objects/ToCheck/Homework-Функции и обекти-14644/Homework/1.LastDigit/1.LastDigit/lastDigit.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/ToCheck/Homework-Цикли, масиви, стрингове-14669/03-Javascript-Loops-Arrays-Strings/15-Most-Frequent-Word.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/1-Introduction-Dev-tools/Homework-Въведение в JavaScript. Инструменти за JS разработка-12852/01. JavaScriptIntroduction/02. Numbers1To10/scripts/numbers1to10.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/5-Work-With-Dom/5-Homework-DOM-and-Events/03-Hide-Odd-Rows/hideOddRows.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/5-Work-With-Dom/5-Homework-DOM-and-Events/03-Hide-Odd-Rows/index.html",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/5-Work-With-Dom/5-Homework-DOM-and-Events/03-Hide-Odd-Rows/hideOddRows.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/5-Work-With-Dom/5-Homework-DOM-and-Events/01-Like-Unlike-Button/style.css",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/5-Work-With-Dom/5-Homework-DOM-and-Events/02-Display-DIV-s-Content/index.html",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/5-Work-With-Dom/5-Homework-DOM-and-Events/01-Like-Unlike-Button/script.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/5-Work-With-Dom/5-Homework-DOM-and-Events/01-Like-Unlike-Button/index.html",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/Exam 28-7-2014/Exam Solutions/01-Double-Rakia-Numbers/doubleRakiaNumbs.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/4-Functions-Objects/4-Homework-Functions-Objects/03-Number-With-Largest-Sum-Of-Digits/largestSumOfDigits.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/4-Functions-Objects/4-Homework-Functions-Objects/05-Reverse-Every-Word-In-A-String/reverseWords.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/4-Functions-Objects/4-Homework-Functions-Objects/06-Count-Number-Of-Divs/countOfDivs.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/4-Functions-Objects/4-Homework-Functions-Objects/06-Count-Number-Of-Divs/index.html",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/4-Functions-Objects/4-Homework-Functions-Objects/07-Find-Youngest-Person/youngestPerson.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/4-Functions-Objects/4-Homework-Functions-Objects/06-Count-Number-Of-Divs/countOfDivs.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/4-Functions-Objects/4-Homework-Functions-Objects/07-Find-Youngest-Person/youngestPerson.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/4-Functions-Objects/4-Homework-Functions-Objects/02-Nth-Digit-Number/nthDigitOfNumber.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/4-Functions-Objects/4-Homework-Functions-Objects/02-Nth-Digit-Number/nthDigitOfNumber.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/4-Functions-Objects/4-Homework-Functions-Objects/01-Last-Digit-Of-Number/lastDigitOfNumber.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/4-Functions-Objects/4-Homework-Functions-Objects/01-Last-Digit-Of-Number/lastDigitOfNumber.js ",
+		"/C/Users/Ale/Desktop/ButtonFunray-teamwork.git/trunk/BattleShips-Main/css/score.css",
+		"/C/Users/Ale/Desktop/ButtonFunray-teamwork.git/trunk/BattleShips-Main/css/style.scss",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/15-Most-Frequent-Word/frequentWord.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/09-Most-Frequent-Number/numberFinder.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/16-Card-Frequences/cardFrequencies.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/11-Check-The-Brackets/bracketsChecker.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/16-Card-Frequences/cardFrequencies.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/09-Most-Frequent-Number/Test.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/09-Most-Frequent-Number/numberFinder2.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/09-Most-Frequent-Number/numberFinder1.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/14-Palindromes/palindromesExtract.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/15-Most-Frequent-Word/frequentWord.js ",
+		"/C/Users/Ale/Desktop/ButtonFunray-teamwork.git/trunk/BattleShips-Main/js/main.js.r16",
+		"/C/Users/Ale/Desktop/ButtonFunray-teamwork.git/trunk/BattleShips-Main/js/main.js.r14",
+		"/C/Users/Ale/Desktop/ButtonFunray-teamwork.git/trunk/BattleShips-Main/js/main.js.mine",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/12-Sunstring-Count/substringSearch.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/13-Replace-The-White-Spaces/spaceReplacer.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/14-Palindromes/palindromesExtract.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/13-Replace-The-White-Spaces/spaceReplacer.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/12-Sunstring-Count/substringSearch.js ",
+		"/C/Users/Ale/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Ale/Desktop/ButtonFunray-teamwork.git/trunk/Jasen - BattleShips/index.html",
+		"/C/Users/Ale/Desktop/ButtonFunray-teamwork.git/trunk/Jasen - BattleShips/css/style.scss",
+		"/C/Users/Ale/Desktop/ButtonFunray-teamwork.git/trunk/Jasen - BattleShips/css/style.css",
+		"/C/Users/Ale/Desktop/ButtonFunray-teamwork.git/trunk/Jasen - BattleShips/js/main.js",
+		"/C/Users/Ale/Desktop/shipBack.png",
+		"/C/Users/Ale/Desktop/ButtonFunray-teamwork.git/trunk/Pesho-BattleShips-Cover/styles/seaBattle.css",
+		"/C/Users/Ale/Desktop/ButtonFunray-teamwork.git/trunk/Pesho-BattleShips-Cover/script/seaBattle.js",
+		"/C/Users/Ale/Desktop/test1.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/11-Check-The-Brackets/bracketsChecker.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/10-Reverse-String/stringReverser.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/10-Reverse-String/stringReverser.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/9-Most-Frequent-Number/numberFinder.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/minMaxNumbers.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/4-Create-Array/arrayBuilder.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/5-Compare-Chars/charComparer.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/6-Maximal-Sequence/sequenceFinder.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/7-Maximal-Increasing-Sequence/maxSequenceFinder.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/8-Sort-Array/arraySorter.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/1-Introduction-Dev-tools/1-Homework-Development-Intro-JavaScript/06-Tic-Tac-Toe/js/tic-tac-toe.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/9-Most-Frequent-Number/numberFinder.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/8-Sort-Array/arraySorter.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/7-Maximal-Increasing-Sequence/index.html",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/7-Maximal-Increasing-Sequence/maxSequenceFinder.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/6-Maximal-Sequence/sequenceFinder.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/5-Compare-Chars/charComparer.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/3-Properties/index.html",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/3-Properties/js/docProperties.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/4-Create-Array/arrayBuilder.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/numberChecker.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/docProperties.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/minMaxNumbers.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/3-Loops-Arrays-Strings/3-Homework-Loops-Arrays-Strings/numberChecker.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/1-Introduction-Dev-tools/1-Homework-Development-Intro-JavaScript/06-Tic-Tac-Toe/tic-tac-toe.html",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/1-Introduction-Dev-tools/1-Homework-Development-Intro-JavaScript/06-Tic-Tac-Toe/css/tic-tac-toe.scss",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/2-Syntax/2-Homework-JavaScript-Syntax/14-Calculate-Expression/scripts/calcExpression.js ",
+		"/C/Users/Ale/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Ale/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/2-Syntax/2-Homework-JavaScript-Syntax/13-Digital-Soothsayer/digital-shooter.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/2-Syntax/2-Homework-JavaScript-Syntax/05-Division-By-3/divisionChecker.js",
+		"/C/Users/Ale/AppData/Roaming/Sublime Text 3/Packages/JSLint/Default.sublime-keymap",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/2-Syntax/2-Homework-JavaScript-Syntax/05-Division-By-3/divisionChecker.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/2-Syntax/2-Homework-JavaScript-Syntax/03-Check-If-NUmber-Is-Even/evenChecker2.js",
+		"/C/Users/Ale/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/2-Syntax/2-Homework-JavaScript-Syntax/12-Variables/variables.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/2-Syntax/2-Homework-JavaScript-Syntax/11-Digit-as-Word/digitAsWord.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/2-Syntax/2-Homework-JavaScript-Syntax/11-Digit-as-Word/digitAsWord.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/2-Syntax/2-Homework-JavaScript-Syntax/10-Digit-Checker/digitChecker.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/2-Syntax/2-Homework-JavaScript-Syntax/10-Digit-Checker/digitChecker.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/2-Syntax/2-Homework-JavaScript-Syntax/8-Cylinder-Volume/cylinderVol.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/2-Syntax/2-Homework-JavaScript-Syntax/9-Tree-Or-House/treehouse.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/2-Syntax/2-Homework-JavaScript-Syntax/9-Tree-Or-House/treehouse.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/2-Syntax/2-Homework-JavaScript-Syntax/7-The-Lifetime-Supply-Calculator/lifetimeSupplyCalc.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/2-Syntax/2-Homework-JavaScript-Syntax/8-Cylinder-Volume/cylinderVol.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/2-Syntax/2. JavaScript-Syntax-Homework.docx",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/2-Syntax/2-Homework-JavaScript-Syntax/7-The-Lifetime-Supply-Calculator/lifetimeSupplyCalc.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/2-Syntax/2-Homework-JavaScript-Syntax/1-Powerfull-Cars/powerfulCars.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/2-Syntax/2-Homework-JavaScript-Syntax/6-Bit-Checker/checkingBits.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/2-Syntax/2-Homework-JavaScript-Syntax/6-Bit-Checker/checkingBits.js ",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/2-Syntax/2-Homework-JavaScript-Syntax/4-Check-if-Number-is-Prime/primeChecker2.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/2-Syntax/2-Homework-JavaScript-Syntax/4-Check-if-Number-is-Prime/primeChecker.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/2-Syntax/2-Homework-JavaScript-Syntax/2-Simple-Calculations/roundingNumbers.js",
+		"/C/Users/Ale/Dropbox/SoftUni/JavaScript-Basics/2-Syntax/2-Homework-JavaScript-Syntax/4-Check-if-Number-is-Prime/primeChecker.js "
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\",
+			"”",
+			"“",
+			"”",
+			"“",
+			"textField",
+			"checknumb",
+			"i",
+			"1",
+			".inIndex",
+			"2",
+			"i",
+			"Things",
+			"day",
+			"playerField",
+			"fieldName",
+			"playerField",
+			"currentField",
+			"playerField",
+			"sign.jpg",
+			"i",
+			"div",
+			"prop",
+			"i",
+			"obj",
+			"i",
+			"&&",
+			"alert",
+			"alert\\",
+			"alert",
+			"i",
+			"oImg",
+			"804",
+			"504",
+			"42",
+			"1",
+			"i",
+			"j",
+			"i",
+			"Things",
+			"temporary",
+			"tmp",
+			"value2",
+			"sortMe",
+			"i",
+			"';'],\n",
+			"i",
+			"points",
+			"pointsX",
+			"alertCell",
+			"mistakeCell",
+			"red",
+			"green",
+			"blue",
+			"70",
+			"4",
+			"3",
+			"row",
+			"//",
+			"\\",
+			"procesedValue",
+			"separated",
+			"];\n",
+			"value",
+			"variablesTypes",
+			"In",
+			"2",
+			"processed",
+			");",
+			"fRow",
+			";\n",
+			"md",
+			"sm",
+			"header",
+			"section",
+			"id=\"two-columns\"",
+			"id=\"welcome\"",
+			"id=\"content\"",
+			"id=\"page\"",
+			"px",
+			"</p>",
+			"<p>",
+			"p",
+			"intro",
+			"<\n"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"sm",
+			"md",
+			"div",
+			"$px",
+			"</h2>",
+			"<h2>",
+			"intro1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "01-Print-Tags/PrintTags.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 524,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								337,
+								337
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "homework0working-with-forms.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "homework0working-with-forms.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 286.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 3
+	}
+}
