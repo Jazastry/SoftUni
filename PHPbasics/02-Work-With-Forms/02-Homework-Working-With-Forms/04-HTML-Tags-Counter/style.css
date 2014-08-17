@@ -1,0 +1,6 @@
+form {
+	width: 200px;
+}
+input, label {
+	margin: 0.4rem;
+}
