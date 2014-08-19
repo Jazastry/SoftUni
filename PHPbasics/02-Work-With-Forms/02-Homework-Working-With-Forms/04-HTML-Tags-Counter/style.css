@@ -1,6 +1,14 @@
+html {
+    font-size: 1.3rem;
+}
 form {
 	width: 200px;
 }
 input, label {
-	margin: 0.4rem;
+	margin: 0.6rem;
+}
+p {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 5px;
 }
