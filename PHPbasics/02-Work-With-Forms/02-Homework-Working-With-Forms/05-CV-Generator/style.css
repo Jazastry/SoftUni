@@ -24,3 +24,9 @@ fieldset:nth-child(2) > input {
 .langInitialInputs > label{
 	display: block;
 }
+table, th, td, tr {
+	border: 1px solid #000;
+}
+th {
+	width: 100%;
+}

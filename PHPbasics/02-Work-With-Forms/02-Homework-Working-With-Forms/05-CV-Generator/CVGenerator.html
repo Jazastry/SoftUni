@@ -6,19 +6,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body id="myBody">
-<form method="post" id="cvInputForm" action=CVGenerator.php"">
+<form method="post" id="cvInputForm" action="CVGenerator.php">
     <fieldset>
         <legend>Personal Information</legend>
-        <input type="text" name="firstName" placeholder="First Name">
-        <input type="text" name="lastName" placeholder="Last Name">
-        <input type="email" name="email" placeholder="Email">
-        <input type="tel" name="telephone" placeholder="Phone Number">
+        <input type="text" name="firstName" placeholder="First Name" required>
+        <input type="text" name="lastName" placeholder="Last Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="tel" name="telephone" placeholder="Phone Number" required>
 
         <label for="female" >Female</label>
-        <input id="female" value="female" type="radio" name="gender">
+        <input id="female" value="female" type="radio" name="gender" >
 
         <label for="male">Male</label>
-        <input id="male" value="male" type="radio" name="gender">
+        <input id="male" value="male" type="radio" name="gender" checked>
 
         <br>
         <lable for="birth-date">Birth Date</lable>
@@ -52,9 +52,9 @@
         <div class="computerSkillsField">
             <div class="progInputInitial">
                 <label for="program-languages">Programing Languages</label>
-                <input type="text" id="program-languages" name="programLanguages">
+                <input type="text" id="program-languages" name="programLanguages[0]">
 
-                <select name="progLangLevel" id="prog-languages-level">
+                <select name="progLangLevel[0]" id="prog-languages-level">
                     <option value="Beginer" selected="selected">Beginer</option>
                     <option value="Mediun">Mediun</option>
                     <option value="Pro">Pro</option>
@@ -73,23 +73,23 @@
             <div class="langInitialInputs">
 
                 <label for="languages">Languages</label>
-                <input name="languages" id="languages" type="text">
+                <input name="languages[0]" id="languages" type="text">
 
-                <select name="languageComprehension">
+                <select name="languageComprehension[0]">
                     <option value="" disabled="disabled" selected="selected">-Comprehesion-</option>
                     <option value="Low">Low</option>
                     <option value="Medium">Medium</option>
                     <option value="High">High</option>
                 </select>
 
-                <select name="languageReadingSkills" >
+                <select name="languageReadingSkills[0]" >
                     <option value="" disabled="disabled" selected="selected">-Reading-</option>
                     <option value="Low">Low</option>
                     <option value="Medium">Medium</option>
                     <option value="High">High</option>
                 </select>
 
-                <select name="languageWritingSkills" >
+                <select name="languageWritingSkills[0]" >
                     <option value="" disabled="disabled" selected="selected">-Writing-</option>
                     <option value="Low">Low</option>
                     <option value="Medium">Medium</option>
@@ -103,17 +103,17 @@
         </div>
         <br>
         <label for="driverLicenseB">B</label>
-        <input id="driverLicenseB" type="radio" name="driverLicense" value="B">
+        <input id="driverLicenseB" type="checkbox" name="driverLicense[0]" value="B" checked>
 
         <label for="driverLicenseA">A</label>
-        <input id="driverLicenseA" type="radio" name="driverLicense" value="A">
+        <input id="driverLicenseA" type="checkbox" name="driverLicense[1]" value="A">
 
         <label for="driverLicenseC">C</label>
-        <input id="driverLicenseC" type="radio" name="driverLicense" value="C">
+        <input id="driverLicenseC" type="checkbox" name="driverLicense[2]" value="C">
     </fieldset>
     <input type="submit" name="submit">
 </form>
-
 </body>
 <script src="script.js"></script>
+<?php require 'CVGenerator.php';?>
 </html>

@@ -3,6 +3,8 @@ var divTwo = document.getElementById('langButtonsDiv');
 var clickedEl;
 var parentEl;
 var btns;
+var counterProg = 1;
+var counterLang  = 1;
 
 divOne.addEventListener('click', function(e) {   
     clickedEl = e.target;
@@ -37,27 +39,27 @@ function removeElement(el) {
 
 function addElement(el) {
 
-    var inputHtmlProg = '<input type="text" name="program_languages">' +
-                         '<select name="prog_languages_level" id="prog-languages-level">' +
+    var inputHtmlProg = '<input type="text" name="programLanguages'+ '['+ counterProg +']' +'">' +
+                         '<select name="progLangLevel'+ '['+ counterProg +']' +'" id="prog-languages-level">' +
                             '<option value="Beginer" selected="selected">Beginer</option>' +
                             '<option value="Mediun">Mediun</option>' +
                             '<option value="Pro">Pro</option>' +
                         '</select>';
 
-    var inputHTMLLang = '<input name="languages" id="languages" type="text">' +
-                        '<select name="language_comprehension" id="">' +
+    var inputHTMLLang = '<input name="languages'+ '['+ counterLang +']' +'" id="languages" type="text">' +
+                        '<select name="languageComprehension'+ '['+ counterLang +']' +'" id="">' +
                             '<option value="" disabled="disabled" selected="selected">-Comprehesion-</option>' +
                             '<option value="Low">Low</option>' +
                             '<option value="Medium">Medium</option>' +
                             '<option value="High">High</option>' +
                         '</select>' +
-                        '<select name="language_reading_skills" >' +
+                        '<select name="languageReadingSkills'+ '['+ counterLang +']' +'" >' +
                             '<option value="" disabled="disabled" selected="selected">-Reading-</option>' +
                             '<option value="Low">Low</option>' +
                             '<option value="Medium">Medium</option>' +
                             '<option value="High">High</option>' +
                         '</select>' +
-                        '<select name="language_writing_skills" >' +
+                        '<select name="languageWritingSkills'+ '['+ counterLang +']' +'" >' +
                             '<option value="" disabled="disabled" selected="selected">-Writing-</option>' +
                             '<option value="Low">Low</option>' +
                             '<option value="Medium">Medium</option>' +
@@ -70,11 +72,13 @@ function addElement(el) {
         btns = document.getElementById('progButtonsDiv');
         newDiv.setAttribute('class', 'progInputInitial');
         newDiv.innerHTML = inputHtmlProg;
+        counterProg++;
 
     } else if (el.getAttribute('class') === 'languagesField') {
         btns = document.getElementById('langButtonsDiv');
         newDiv.setAttribute('class', 'langInitialInputs');
         newDiv.innerHTML = inputHTMLLang;
+        counterLang++;
     }
 
     el.insertBefore(newDiv,btns);

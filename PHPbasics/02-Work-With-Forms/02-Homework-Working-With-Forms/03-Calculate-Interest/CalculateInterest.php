@@ -32,10 +32,6 @@
     <input type="submit" />
 </form>
 <?php
-   // $input = array("amount" => "1000",
-   //     "currency" => "eur",
-   //     "annual_interest" => "12",
-   //     "period" => "6");
 
     if (isset($_POST['amount']) && isset($_POST['currency']) && isset($_POST['annual_interest']) && isset($_POST['period'])) {
         $p = (int)$_POST['amount'];
