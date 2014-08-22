@@ -1,7 +1,6 @@
 <?php
     if (isset($_POST['submit'])) {
 
-        $validation = true;
         $firstName = $_POST["firstName"];
         $lastName = $_POST["lastName"];
         $email = $_POST["email"];
@@ -14,50 +13,67 @@
         $lastWorkToDate = $_POST["lastWorkToDate"];
         $programLanguages = $_POST["programLanguages"];
         $progLangLevel = $_POST["progLangLevel"];
-         $languages = $_POST["languages"];
+        $languages = $_POST["languages"];
         $languageComprehension = $_POST["languageComprehension"];
         $languageReadingSkills = $_POST["languageReadingSkills"];
         $languageWritingSkills = $_POST["languageWritingSkills"];
+        $validation = 0;
+        $errorPlace = "";
         $driverLicense;
         if (isset($_POST["driverLicense"])) {
             $driverLicense = $_POST["driverLicense"];
         }
-
-        if (preg_match('/[\W\d]+/', $firstName) ||
-           preg_match('/[\W\d]+/', $lastName)) {
-           $validation = false;
+        if ((preg_replace('/[a-zA-Z]{2,20}/', "OK", $firstName) != 'OK') ||
+            (preg_replace('/[a-zA-Z]{2,20}/', "OK", $lastName) != 'OK')) {
+           $validation = 1;
+           $errorPlace = 'First or Last Name Field is Mistaken ! Only letters Between 2 and 20 symbols are permited !';           
         }
         for ($i=0; $i < count($languages); $i++) { 
-            if (preg_match('/[\W\d]+/', $languages[$i])) {
-                $validation = false;
+            if (preg_replace('/[a-zA-Z]{2,20}/', "OK", $languages) != 'OK') {
+                $validation = 1;
+                $errorPlace = 'Languages Field is Mistaken ! Only letters Between 2 and 20 symbols are permited !';                 
             }
         }
+        if (preg_replace('/[\d \-+]+/', "", $telephone) != "") {
+            $validation = 1;
+            $errorPlace = 'Telephone number is Mistaken ! "\n"
+             Only Numbers and \“+\”, \“-\”, \“ \” are permited !';             
+        }
+        if (preg_replace('/[a-zA-Z0-9]{2,20}/', "OK",  $lastWorkName) != 'OK') {
+            $validation = 1;
+            $errorPlace = 'Last Work Place Field is Mistaken ! Only letters Between 2 and 20 symbols are permited !';                 
+        }
+        if (preg_replace('/[a-z0-9]+\.{0,1}[a-z0-9]+@{1}([a-z]+\.{0,1})+[\w]+/', "OK", $email) != 'OK') {
+            $validation = 1;
+            $errorPlace = 'The Email Field is Mistaken ! Only Letters, Numbers Only one \“@\”, only one \“.\”
+                 Example: example@example.com is permited !';                 
+        }    
 
-        if ($validation) {
+        if ($validation === 1) {
+        ?>
+        <!doctype html>
+        <html>
+            <head>
+                <meta charset="utf-8">
+                <title>Redirect</title>
+            </head>
+            <body>
 
-            //echo('First Name, Last Name and Languages Fields - > Invalid Input ! '."\n".'Fill the Form Again !'
-                ?><!doctype html>
-                <html>
-                    <head>
-                        <meta charset="utf-8">
-                        <title>Redirect</title>
-                    </head>
-                    <body>
+                <p>Invalid Input !</p>
+                <p><?php echo $errorPlace ?></p>
+                <button onclick="myFunction()">Reopen Form</button>
 
-                        <p>Invalid Input Refill !</p>
-                        <button onclick="myFunction()">Reopen</button>
+                <script>
+                function myFunction() {
+                    window.open("CVGenerator.html",'_self',false);
+                }
+                </script>
+            </body>
+        </html> <?php
 
-                        <script>
-                        function myFunction() {
-                            window.open("CVGenerator.html",'_self',false);
-                        }
-                        </script>
-                    </body>
-                </html> <?php
-
-              //  ); 
         } else {
-            ?><!doctype html>
+        ?>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
