@@ -1,6 +1,7 @@
 <?php
     if (isset($_POST['submit'])) {
 
+        $validation = true;
         $firstName = $_POST["firstName"];
         $lastName = $_POST["lastName"];
         $email = $_POST["email"];
@@ -13,7 +14,7 @@
         $lastWorkToDate = $_POST["lastWorkToDate"];
         $programLanguages = $_POST["programLanguages"];
         $progLangLevel = $_POST["progLangLevel"];
-        $languages = $_POST["languages"];
+         $languages = $_POST["languages"];
         $languageComprehension = $_POST["languageComprehension"];
         $languageReadingSkills = $_POST["languageReadingSkills"];
         $languageWritingSkills = $_POST["languageWritingSkills"];
@@ -21,10 +22,42 @@
         if (isset($_POST["driverLicense"])) {
             $driverLicense = $_POST["driverLicense"];
         }
-    } 
-    
-?>
-<!doctype html>
+
+        if (preg_match('/[\W\d]+/', $firstName) ||
+           preg_match('/[\W\d]+/', $lastName)) {
+           $validation = false;
+        }
+        for ($i=0; $i < count($languages); $i++) { 
+            if (preg_match('/[\W\d]+/', $languages[$i])) {
+                $validation = false;
+            }
+        }
+
+        if ($validation) {
+
+            //echo('First Name, Last Name and Languages Fields - > Invalid Input ! '."\n".'Fill the Form Again !'
+                ?><!doctype html>
+                <html>
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Redirect</title>
+                    </head>
+                    <body>
+
+                        <p>Invalid Input Refill !</p>
+                        <button onclick="myFunction()">Reopen</button>
+
+                        <script>
+                        function myFunction() {
+                            window.open("CVGenerator.html",'_self',false);
+                        }
+                        </script>
+                    </body>
+                </html> <?php
+
+              //  ); 
+        } else {
+            ?><!doctype html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -150,4 +183,7 @@
             </tr>
         </table>
     </body> 
-</html>
+</html><?php
+        }       
+    }     
+?>

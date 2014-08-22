@@ -8,8 +8,8 @@
     ],
     "settings": {
         "xdebug": {
-             "url": "http://localhost:9000",
-             "path": "C://xampp//php",
+             "url": "localhost:9000",
+             "path": "",
         }
     }
 }

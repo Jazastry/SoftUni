@@ -28,7 +28,7 @@
           <file leaf-file-name="CVGenerator.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/05-CV-Generator/CVGenerator.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="152" column="7" selection-start="4888" selection-end="4888" vertical-scroll-proportion="-85.57692" vertical-offset="359" max-vertical-offset="2686">
+                <state line="189" column="0" selection-start="6086" selection-end="6086" vertical-scroll-proportion="0.0" vertical-offset="988" max-vertical-offset="3315">
                   <folding />
                 </state>
               </provider>
@@ -46,7 +46,7 @@
           <file leaf-file-name="CVGenerator.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/05-CV-Generator/CVGenerator.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="69" column="32" selection-start="2901" selection-end="2901" vertical-scroll-proportion="0.56198347" vertical-offset="833" max-vertical-offset="2108">
+                <state line="72" column="43" selection-start="3020" selection-end="3020" vertical-scroll-proportion="0.646281" vertical-offset="833" max-vertical-offset="2108">
                   <folding />
                 </state>
               </provider>
@@ -59,8 +59,10 @@
           <file leaf-file-name="CVGenerator.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/05-CV-Generator/CVGenerator.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="152" column="0" selection-start="4881" selection-end="4881" vertical-scroll-proportion="3.9933884" vertical-offset="168" max-vertical-offset="2686">
-                  <folding />
+                <state line="187" column="0" selection-start="6072" selection-end="6072" vertical-scroll-proportion="0.89752066" vertical-offset="2636" max-vertical-offset="3315">
+                  <folding>
+                    <marker date="1408635601492" expanded="true" signature="40:51" placeholder="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -130,7 +132,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -193,6 +194,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,11 +296,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -327,6 +329,27 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/05-CV-Generator/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="0" selection-start="2377" selection-end="2377" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-CV-Generator/CVGenerator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="32" selection-start="2901" selection-end="2901" vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="2108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-CV-Generator/CVGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="7" selection-start="4888" selection-end="4888" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2686">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/05-CV-Generator/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="0" selection-start="2377" selection-end="2377" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="1530">
@@ -609,14 +632,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/05-CV-Generator/CVGenerator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="7" selection-start="4888" selection-end="4888" vertical-scroll-proportion="-85.57692" vertical-offset="359" max-vertical-offset="2686">
+        <state line="189" column="0" selection-start="6086" selection-end="6086" vertical-scroll-proportion="0.0" vertical-offset="988" max-vertical-offset="3315">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/05-CV-Generator/CVGenerator.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="32" selection-start="2901" selection-end="2901" vertical-scroll-proportion="0.56198347" vertical-offset="833" max-vertical-offset="2108">
+        <state line="72" column="43" selection-start="3020" selection-end="3020" vertical-scroll-proportion="0.646281" vertical-offset="833" max-vertical-offset="2108">
           <folding />
         </state>
       </provider>
