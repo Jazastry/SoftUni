@@ -1,0 +1,6 @@
+table, tr, td, th{
+	border: 1px solid #000;
+}
+tr:last-child, th {
+	font-weight: 600;
+};
