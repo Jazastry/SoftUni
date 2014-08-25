@@ -1,0 +1,14 @@
+html {
+	font-family: 'Consolas';
+}
+textarea {
+	width: 300px;
+	height: 100px;
+	display: block;
+}
+.blue {
+	color: #00F;
+}
+.red {
+	color: #F00;
+}

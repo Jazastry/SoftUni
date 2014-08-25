@@ -1,0 +1,20 @@
+html {
+	width: 100%;
+}
+table, td, tr {
+	border: 1px solid #000;
+	background: #E1E1E1;
+	font-family: 'Consolas';
+	font-weight: 800;
+}
+input[type=submit] {
+	display: block;
+	margin-bottom: 5px;
+}
+.textArea {
+	resize: none;
+	width: 400px;
+	height: 100px;
+	display: block;
+	margin-bottom: 5px;
+}

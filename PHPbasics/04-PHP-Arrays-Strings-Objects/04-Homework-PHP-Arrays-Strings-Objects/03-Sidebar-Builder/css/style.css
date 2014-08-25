@@ -1,0 +1,41 @@
+html, ul, li, header, body {
+	margin: 0px;
+	padding: 0px;
+}
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	position: relative;!
+}
+.sidebar {
+	height: 90%;
+	position: absolute;
+	right: 10px;
+}
+.sidebar  > section{
+	width: 200px;
+	border-radius: 15px;
+	border: 1px solid #000;
+    background: -webkit-linear-gradient(#AAD4FF, #2A7FFF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#AAD4FF, #2A7FFF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#AAD4FF, #2A7FFF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#AAD4FF, #2A7FFF); /* Standard syntax (must be last) */
+	color: #000;
+	margin: 1rem;
+	padding-bottom: 0.5rem;
+	padding-top: 0.5rem;
+}
+.sidebar > section header {
+	font-size: 1.4rem;
+	font-weight: 800;
+	margin-left: 1rem;
+	border-bottom: 2px solid black;
+}
+.sidebar section ul {
+	margin-left: 3rem;
+}
+.sidebar section a {
+	color: #000;
+}
