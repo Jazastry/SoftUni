@@ -42,7 +42,6 @@
 
         $s = $p*pow(1+($j/$m),$t);
 
-        //echo(pow(1.01,6)*1000);
         echo $currency . ' ';
         printf("%.2f",$s);
     }

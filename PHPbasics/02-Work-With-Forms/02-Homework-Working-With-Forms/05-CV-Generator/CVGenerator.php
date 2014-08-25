@@ -47,7 +47,7 @@
             $validation = 1;
             $errorPlace = 'The Email Field is Mistaken ! Only Letters, Numbers Only one \“@\”, only one \“.\”
                  Example: example@example.com is permited !';                 
-        }    
+        }
 
         if ($validation === 1) {
         ?>
