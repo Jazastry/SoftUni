@@ -20,7 +20,7 @@ function rotation(arr) {
 		position += 1;
 		
 			
-		if (position == 4) {
+		if (position === 4) {
 		
 			position = 0;
 		}
@@ -55,7 +55,7 @@ function rotation(arr) {
 	 
 	 for(var o = 1 ; o < inArr.length; o++) {
 	 
-		if (o != 0) {
+		if (o !== 0) {
 		
 			 wordsArr[o-1] = inArr[o];
 		}
@@ -64,7 +64,7 @@ function rotation(arr) {
 	  var resultStr = '';
 	  var res = '';
 	 
-	 if (position == 0) {
+	 if (position === 0) {
 		
 		for(var k = 0 ; k < wordsArr.length; k++) {
 		
