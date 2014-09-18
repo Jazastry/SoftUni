@@ -1,0 +1,131 @@
+html, body, div, li, ul, p {
+  margin: 0px;
+  padding: 0px; }
+
+html {
+  font-size: 62.5%;
+  width: 100%;
+  height: 100%; }
+  html body {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/bgImage.jpg");
+    background-size: 100% 100%;
+    position: relative; }
+    html body #wrapper {
+      width: 1050px;
+      margin: 0px auto; }
+      html body #wrapper #field1 {
+        width: 480px;
+        height: 467px;
+        margin-top: 20px;
+        margin-left: 0px;
+        display: inline-block;
+		box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 1);
+		-moz-background-image: url(../images/mozocean.jpg);
+        background-image: url("../images/ocean.jpg"); }
+        html body #wrapper #field1 div {
+			font-size: 0;
+          width: 38px;
+          height: 37px;
+          display: inline-block;
+          outline: 1px solid #000;
+          margin-right: -1px;
+          background: transparent;
+          cursor: pointer; }
+        html body #wrapper #field1 div:active {
+          background: rgba(255, 255, 255, 0.3); }
+      html body #wrapper #field2 {
+		
+        width: 480px;
+        height: 467px;
+        margin-top: 20px;
+        margin-left: 86px;
+        display: inline-block;
+		box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 1);
+        background-image: url("../images/ocean.jpg"); }
+        html body #wrapper #field2 div {
+          width: 38px;
+          height: 37px;
+          display: inline-block;
+          outline: 1px solid #000;
+          margin-right: -1px;
+          cursor: pointer;
+          background: rgba(255, 255, 255, 0.6); }
+        html body #wrapper #field2 div:active {
+          background: rgba(255, 255, 255, 0.3); }
+    html body #playerFieldPrompt {
+      position: absolute;
+      top: 200px;
+      left: 200px;
+      width: 300px;
+      height: 100px;
+      font-size: 2rem;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 5px;
+      padding: 1.5rem;
+      display: none;
+      z-index: 20; }
+      html body #playerFieldPrompt ul {
+        list-style: none;
+        text-align: center; }
+        html body #playerFieldPrompt ul li {
+          display: inline-block;
+          width: 90px;
+          height: 30px;
+          border: 1px solid #000;
+          background: #C3C3C3;
+          text-align: center;
+          color: #000;
+          line-height: 30px;
+          cursor: pointer;
+          transition: 0.5s;
+          margin-left: 17px; }
+        html body #playerFieldPrompt ul li:hover {
+          background: #E1E1E1; }
+        html body #playerFieldPrompt ul li:active {
+          background: rgba(255, 255, 255, 0.9); }
+        html body #playerFieldPrompt ul img {
+          margin-left: 17px; }
+    html body #bomberLeft {
+      width: 80px;
+      height: 110px;
+      
+	  background: url("../images/leftGun.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      position: absolute;
+      bottom: 10px;
+      right: 20px;
+      bottom: 20px;
+      right: 20px; }
+
+@keyframes gran {
+  html body 10%  {
+    -webkit-transform: translate(20px, 20px);
+    transform: translate(20px, 20px); }
+  html body 50%  {
+    -webkit-transform: translate(20px, 20px);
+    transform: translate(300px, 300px); }
+  html body 100%  {
+    -webkit-transform: translate(20px, 20px);
+    transform: translate(1000px, 100px); } }
+    html body #bomberRight {
+      width: 80px;
+      height: 110px;
+      background: url("../images/rightGun.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      position: absolute;
+      bottom: 10px;
+      left: 20px; }
+
+    html body #cover {
+      width: 100%;
+      height: 100%;
+      background: transparent;
+      position: absolute;
+      display: none;
+      top: 0px;
+      left: 0px;
+      z-index: 15; }
