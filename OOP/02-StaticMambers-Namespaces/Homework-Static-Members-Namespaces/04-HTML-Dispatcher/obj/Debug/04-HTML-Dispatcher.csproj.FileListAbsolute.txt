@@ -1,0 +1,6 @@
+C:\SoftUni.git\trunk\OOP\02-StaticMambers-Namespaces\Homework-Static-Members-Namespaces\04-HTML-Dispatcher\bin\Debug\04-HTML-Dispatcher.exe.config
+C:\SoftUni.git\trunk\OOP\02-StaticMambers-Namespaces\Homework-Static-Members-Namespaces\04-HTML-Dispatcher\obj\Debug\04-HTML-Dispatcher.csprojResolveAssemblyReference.cache
+C:\SoftUni.git\trunk\OOP\02-StaticMambers-Namespaces\Homework-Static-Members-Namespaces\04-HTML-Dispatcher\bin\Debug\04-HTML-Dispatcher.exe
+C:\SoftUni.git\trunk\OOP\02-StaticMambers-Namespaces\Homework-Static-Members-Namespaces\04-HTML-Dispatcher\bin\Debug\04-HTML-Dispatcher.pdb
+C:\SoftUni.git\trunk\OOP\02-StaticMambers-Namespaces\Homework-Static-Members-Namespaces\04-HTML-Dispatcher\obj\Debug\04-HTML-Dispatcher.exe
+C:\SoftUni.git\trunk\OOP\02-StaticMambers-Namespaces\Homework-Static-Members-Namespaces\04-HTML-Dispatcher\obj\Debug\04-HTML-Dispatcher.pdb
