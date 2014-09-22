@@ -1,0 +1,4 @@
+Point3D(X=-7, Y=-4, Z=3)
+Point3D(X=17, Y=6, Z=2.5)
+Point3D(X=19, Y=8, Z=3.7)
+Point3D(X=25, Y=8, Z=3.7)
