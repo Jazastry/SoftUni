@@ -1,6 +1,0 @@
-C:\SoftUni.git\trunk\OOP\01-Defining-Classes\01-Homework-Defining-Classes\01-Homework-Defining-Classes\01-Person\bin\Debug\01-Person.exe.config
-C:\SoftUni.git\trunk\OOP\01-Defining-Classes\01-Homework-Defining-Classes\01-Homework-Defining-Classes\01-Person\bin\Debug\01-Person.exe
-C:\SoftUni.git\trunk\OOP\01-Defining-Classes\01-Homework-Defining-Classes\01-Homework-Defining-Classes\01-Person\bin\Debug\01-Person.pdb
-C:\SoftUni.git\trunk\OOP\01-Defining-Classes\01-Homework-Defining-Classes\01-Homework-Defining-Classes\01-Person\obj\Debug\01-Person.csprojResolveAssemblyReference.cache
-C:\SoftUni.git\trunk\OOP\01-Defining-Classes\01-Homework-Defining-Classes\01-Homework-Defining-Classes\01-Person\obj\Debug\01-Person.exe
-C:\SoftUni.git\trunk\OOP\01-Defining-Classes\01-Homework-Defining-Classes\01-Homework-Defining-Classes\01-Person\obj\Debug\01-Person.pdb
