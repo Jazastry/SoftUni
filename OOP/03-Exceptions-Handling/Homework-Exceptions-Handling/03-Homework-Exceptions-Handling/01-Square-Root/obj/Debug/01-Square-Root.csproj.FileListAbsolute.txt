@@ -1,6 +1,0 @@
-C:\SoftUni.git\trunk\OOP\03-Exceptions-Handling\Homework-Exceptions-Demos\03-Homework-Exceptions-Handling\01-Square-Root\bin\Debug\01-Square-Root.exe.config
-C:\SoftUni.git\trunk\OOP\03-Exceptions-Handling\Homework-Exceptions-Demos\03-Homework-Exceptions-Handling\01-Square-Root\bin\Debug\01-Square-Root.exe
-C:\SoftUni.git\trunk\OOP\03-Exceptions-Handling\Homework-Exceptions-Demos\03-Homework-Exceptions-Handling\01-Square-Root\bin\Debug\01-Square-Root.pdb
-C:\SoftUni.git\trunk\OOP\03-Exceptions-Handling\Homework-Exceptions-Demos\03-Homework-Exceptions-Handling\01-Square-Root\obj\Debug\01-Square-Root.csprojResolveAssemblyReference.cache
-C:\SoftUni.git\trunk\OOP\03-Exceptions-Handling\Homework-Exceptions-Demos\03-Homework-Exceptions-Handling\01-Square-Root\obj\Debug\01-Square-Root.exe
-C:\SoftUni.git\trunk\OOP\03-Exceptions-Handling\Homework-Exceptions-Demos\03-Homework-Exceptions-Handling\01-Square-Root\obj\Debug\01-Square-Root.pdb

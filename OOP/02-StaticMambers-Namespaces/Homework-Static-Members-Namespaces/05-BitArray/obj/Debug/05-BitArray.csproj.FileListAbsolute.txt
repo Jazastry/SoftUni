@@ -1,6 +1,0 @@
-C:\SoftUni.git\trunk\OOP\02-StaticMambers-Namespaces\Homework-Static-Members-Namespaces\05-BitArray\bin\Debug\05-BitArray.exe.config
-C:\SoftUni.git\trunk\OOP\02-StaticMambers-Namespaces\Homework-Static-Members-Namespaces\05-BitArray\bin\Debug\05-BitArray.exe
-C:\SoftUni.git\trunk\OOP\02-StaticMambers-Namespaces\Homework-Static-Members-Namespaces\05-BitArray\bin\Debug\05-BitArray.pdb
-C:\SoftUni.git\trunk\OOP\02-StaticMambers-Namespaces\Homework-Static-Members-Namespaces\05-BitArray\obj\Debug\05-BitArray.csprojResolveAssemblyReference.cache
-C:\SoftUni.git\trunk\OOP\02-StaticMambers-Namespaces\Homework-Static-Members-Namespaces\05-BitArray\obj\Debug\05-BitArray.exe
-C:\SoftUni.git\trunk\OOP\02-StaticMambers-Namespaces\Homework-Static-Members-Namespaces\05-BitArray\obj\Debug\05-BitArray.pdb

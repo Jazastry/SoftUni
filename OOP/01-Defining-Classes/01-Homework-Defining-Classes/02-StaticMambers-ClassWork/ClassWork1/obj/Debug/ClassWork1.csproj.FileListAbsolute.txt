@@ -1,6 +1,0 @@
-C:\SoftUni.git\trunk\OOP\01-Defining-Classes\01-Homework-Defining-Classes\02-StaticMambers-ClassWork\ClassWork1\bin\Debug\ClassWork1.exe.config
-C:\SoftUni.git\trunk\OOP\01-Defining-Classes\01-Homework-Defining-Classes\02-StaticMambers-ClassWork\ClassWork1\bin\Debug\ClassWork1.exe
-C:\SoftUni.git\trunk\OOP\01-Defining-Classes\01-Homework-Defining-Classes\02-StaticMambers-ClassWork\ClassWork1\bin\Debug\ClassWork1.pdb
-C:\SoftUni.git\trunk\OOP\01-Defining-Classes\01-Homework-Defining-Classes\02-StaticMambers-ClassWork\ClassWork1\obj\Debug\ClassWork1.csprojResolveAssemblyReference.cache
-C:\SoftUni.git\trunk\OOP\01-Defining-Classes\01-Homework-Defining-Classes\02-StaticMambers-ClassWork\ClassWork1\obj\Debug\ClassWork1.exe
-C:\SoftUni.git\trunk\OOP\01-Defining-Classes\01-Homework-Defining-Classes\02-StaticMambers-ClassWork\ClassWork1\obj\Debug\ClassWork1.pdb

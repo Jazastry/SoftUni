@@ -1,6 +1,0 @@
-C:\SoftUni.git\trunk\OOP\01-Defining-Classes\01-Homework-Defining-Classes\01-Homework-Defining-Classes\01-Laptopp-Shop\bin\Debug\01-Laptopp-Shop.exe.config
-C:\SoftUni.git\trunk\OOP\01-Defining-Classes\01-Homework-Defining-Classes\01-Homework-Defining-Classes\01-Laptopp-Shop\obj\Debug\01-Laptopp-Shop.exe
-C:\SoftUni.git\trunk\OOP\01-Defining-Classes\01-Homework-Defining-Classes\01-Homework-Defining-Classes\01-Laptopp-Shop\obj\Debug\01-Laptopp-Shop.pdb
-C:\SoftUni.git\trunk\OOP\01-Defining-Classes\01-Homework-Defining-Classes\01-Homework-Defining-Classes\01-Laptopp-Shop\bin\Debug\01-Laptopp-Shop.exe
-C:\SoftUni.git\trunk\OOP\01-Defining-Classes\01-Homework-Defining-Classes\01-Homework-Defining-Classes\01-Laptopp-Shop\bin\Debug\01-Laptopp-Shop.pdb
-C:\SoftUni.git\trunk\OOP\01-Defining-Classes\01-Homework-Defining-Classes\01-Homework-Defining-Classes\01-Laptopp-Shop\obj\Debug\02-Laptopp-Shop.csprojResolveAssemblyReference.cache
