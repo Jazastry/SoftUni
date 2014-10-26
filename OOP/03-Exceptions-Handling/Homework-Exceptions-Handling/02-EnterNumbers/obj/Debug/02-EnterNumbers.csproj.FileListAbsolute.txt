@@ -1,6 +1,0 @@
-C:\SoftUni.git\trunk\OOP\03-Exceptions-Handling\Homework-Exceptions-Handling\03-Homework-Exceptions-Handling\02-EnterNumbers\bin\Debug\02-EnterNumbers.exe.config
-C:\SoftUni.git\trunk\OOP\03-Exceptions-Handling\Homework-Exceptions-Handling\03-Homework-Exceptions-Handling\02-EnterNumbers\bin\Debug\02-EnterNumbers.exe
-C:\SoftUni.git\trunk\OOP\03-Exceptions-Handling\Homework-Exceptions-Handling\03-Homework-Exceptions-Handling\02-EnterNumbers\bin\Debug\02-EnterNumbers.pdb
-C:\SoftUni.git\trunk\OOP\03-Exceptions-Handling\Homework-Exceptions-Handling\03-Homework-Exceptions-Handling\02-EnterNumbers\obj\Debug\02-EnterNumbers.csprojResolveAssemblyReference.cache
-C:\SoftUni.git\trunk\OOP\03-Exceptions-Handling\Homework-Exceptions-Handling\03-Homework-Exceptions-Handling\02-EnterNumbers\obj\Debug\02-EnterNumbers.exe
-C:\SoftUni.git\trunk\OOP\03-Exceptions-Handling\Homework-Exceptions-Handling\03-Homework-Exceptions-Handling\02-EnterNumbers\obj\Debug\02-EnterNumbers.pdb
