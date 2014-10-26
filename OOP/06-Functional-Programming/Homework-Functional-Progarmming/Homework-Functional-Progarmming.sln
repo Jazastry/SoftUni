@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilderExtesions", "StringBuilderExtesion\StringBuilderExtesions.csproj", "{D2B15F59-9249-4226-BC41-FC40A85C1177}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqExtensions", "LINQExtensions\LinqExtensions.csproj", "{30DC25A6-F51F-4716-AD38-775DF315FDB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentProblems", "StudentProblems\StudentProblems.csproj", "{A70505B8-2E3F-4570-9800-5D67AA16918C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2B15F59-9249-4226-BC41-FC40A85C1177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B15F59-9249-4226-BC41-FC40A85C1177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B15F59-9249-4226-BC41-FC40A85C1177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B15F59-9249-4226-BC41-FC40A85C1177}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30DC25A6-F51F-4716-AD38-775DF315FDB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30DC25A6-F51F-4716-AD38-775DF315FDB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30DC25A6-F51F-4716-AD38-775DF315FDB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30DC25A6-F51F-4716-AD38-775DF315FDB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A70505B8-2E3F-4570-9800-5D67AA16918C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A70505B8-2E3F-4570-9800-5D67AA16918C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A70505B8-2E3F-4570-9800-5D67AA16918C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A70505B8-2E3F-4570-9800-5D67AA16918C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

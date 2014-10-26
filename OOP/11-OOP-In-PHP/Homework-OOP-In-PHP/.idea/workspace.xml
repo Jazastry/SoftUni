@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="761b63ac-7ca4-4ffc-b48b-00ae6c8057cc" name="Default" comment="" />
+    <ignored path="Homework-OOP-In-PHP.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Homework-OOP-In-PHP" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.81755984">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="Bedroom.class.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/HotelReservationSystem/Bedroom.class.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="22" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="493">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Apartment.class.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/HotelReservationSystem/Apartment.class.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="8" column="32" selection-start="119" selection-end="119" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="493">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="HotelReservationMain.php" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/HotelReservationSystem/HotelReservationMain.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="15" column="40" selection-start="484" selection-end="484" vertical-scroll-proportion="0.52904564" vertical-offset="0" max-vertical-offset="1632">
+                  <folding>
+                    <element signature="e#112#149#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BookingManager.class.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/HotelReservationSystem/BookingManager.class.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="31" column="9" selection-start="870" selection-end="870" vertical-scroll-proportion="-16.846153" vertical-offset="4" max-vertical-offset="765">
+                  <folding>
+                    <element signature="e#122#160#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="IReservable.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/HotelReservationSystem/IReservable.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="10" column="24" selection-start="173" selection-end="173" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="238">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="RoomTypes.class.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/HotelReservationSystem/RoomTypes.class.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="9" column="10" selection-start="152" selection-end="160" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="221">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="EReservationException.class.php" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/HotelReservationSystem/EReservationException.class.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="4" column="31" selection-start="159" selection-end="159" vertical-scroll-proportion="0.16748768" vertical-offset="0" max-vertical-offset="406">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SingleRoom.class.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/HotelReservationSystem/SingleRoom.class.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="7" column="32" selection-start="118" selection-end="118" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="459">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Guest.class.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/HotelReservationSystem/Guest.class.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1173">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Room.class.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/HotelReservationSystem/Room.class.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="11" column="14" selection-start="169" selection-end="169" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="3417">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Reservation.class.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/HotelReservationSystem/Reservation.class.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="9" column="14" selection-start="135" selection-end="135" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="1479">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/HotelReservationSystem/Room.php" />
+        <option value="$PROJECT_DIR$/HotelReservationSystem/Reservation.php" />
+        <option value="$PROJECT_DIR$/HotelReservationSystem/Client.php" />
+        <option value="$PROJECT_DIR$/HotelReservationSystem/Client.class.php" />
+        <option value="$PROJECT_DIR$/HotelReservationSystem/Animall.class.php" />
+        <option value="$PROJECT_DIR$/HotelReservationSystem/RoomTypes.class.php" />
+        <option value="$PROJECT_DIR$/HotelReservationSystem/IReservable.php" />
+        <option value="$PROJECT_DIR$/HotelReservationSystem/EReservationException.class.php" />
+        <option value="$PROJECT_DIR$/HotelReservationSystem/BookingManager.class.php" />
+        <option value="$PROJECT_DIR$/HotelReservationSystem/Bedroom.class.php" />
+        <option value="$PROJECT_DIR$/HotelReservationSystem/Apartment.clas.php" />
+        <option value="$PROJECT_DIR$/HotelReservationSystem/Base/Guest.class.php" />
+        <option value="$PROJECT_DIR$/HotelReservationSystem/ApartmentTypes/SingleRoom.class.php" />
+        <option value="$PROJECT_DIR$/HotelReservationSystem/Base/Room.class.php" />
+        <option value="$PROJECT_DIR$/HotelReservationSystem/Base/Reservation.class.php" />
+        <option value="$PROJECT_DIR$/HotelReservationSystem/ApartmentTypes/Apartment.class.php" />
+        <option value="$PROJECT_DIR$/HotelReservationSystem/HotelReservationMain.php" />
+        <option value="$PROJECT_DIR$/HotelReservationSystem/SingleRoom.class.php" />
+        <option value="$PROJECT_DIR$/HotelReservationSystem/Apartment.class.php" />
+        <option value="$PROJECT_DIR$/HotelReservationSystem/Guest.class.php" />
+        <option value="$PROJECT_DIR$/HotelReservationSystem/Reservation.class.php" />
+        <option value="$PROJECT_DIR$/HotelReservationSystem/Room.class.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP Interpreter" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="776" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>UndefinedPHP</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PhpUndefinedClassInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Homework-OOP-In-PHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="preferences.updates" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HotelReservationSystem/Base" />
+    <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\SoftUni\OOP\11-OOP-In-PHP\Homework-OOP-In-PHP\HotelReservationSystem" />
+      <recent name="C:\SoftUni\OOP\11-OOP-In-PHP\Homework-OOP-In-PHP\HotelReservationSystem\Base" />
+      <recent name="C:\SoftUni\OOP\11-OOP-In-PHP\Homework-OOP-In-PHP\HotelReservationSystem\ApartmentTypes" />
+      <recent name="C:\SoftUni\OOP\11-OOP-In-PHP\Homework-OOP-In-PHP\HotelReservationSystem\Interfaces" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.HotelReservationMain.php">
+    <configuration default="false" name="HotelReservationMain.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/HotelReservationSystem/HotelReservationMain.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Script.HotelReservationMain.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.HotelReservationMain.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="761b63ac-7ca4-4ffc-b48b-00ae6c8057cc" name="Default" comment="" />
+      <created>1413725387023</created>
+      <updated>1413725387023</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.309375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1880597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1716418" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14925373" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/HotelReservationSystem/HotelReservationMain.php</url>
+          <line>60</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/Bedroom.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="80" selection-start="328" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/Apartment.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="16" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/RoomTypes.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="10" selection-start="152" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/HotelReservationMain.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="25" selection-start="2632" selection-end="2632" vertical-scroll-proportion="0.0" vertical-offset="1301" max-vertical-offset="1615">
+          <folding>
+            <element signature="e#112#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/BookingManager.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="9" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="850">
+          <folding>
+            <element signature="e#122#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/IReservable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="24" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/EReservationException.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="31" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/SingleRoom.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="29" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/Guest.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="20" selection-start="979" selection-end="992" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/Room.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="20" selection-start="2366" selection-end="2381" vertical-scroll-proportion="0.0" vertical-offset="2159" max-vertical-offset="3502">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/Reservation.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="20" selection-start="1186" selection-end="1198" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/Reservation.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="4" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/Room.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="32" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="2975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/SingleRoom.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="43" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/RoomTypes.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="37" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/HotelReservationMain.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="11" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
+          <folding>
+            <element signature="e#112#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/IReservable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="37" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/Guest.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="37" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/EReservationException.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="37" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/Reservation.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="32" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/Room.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="5" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/HotelReservationMain.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="32" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
+          <folding>
+            <element signature="e#112#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/IReservable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/Guest.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="16" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Core_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="171" column="6" selection-start="4537" selection-end="4537" vertical-scroll-proportion="-4.6538463" vertical-offset="2786" max-vertical-offset="5916">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/IReservable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="24" selection-start="173" selection-end="173" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/Bedroom.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/BookingManager.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="9" selection-start="870" selection-end="870" vertical-scroll-proportion="-16.846153" vertical-offset="4" max-vertical-offset="765">
+          <folding>
+            <element signature="e#122#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/Apartment.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="32" selection-start="119" selection-end="119" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/RoomTypes.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="10" selection-start="152" selection-end="160" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/Guest.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/SingleRoom.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="32" selection-start="118" selection-end="118" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/Reservation.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="14" selection-start="135" selection-end="135" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="1479">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/Room.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="14" selection-start="169" selection-end="169" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="3417">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/EReservationException.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="31" selection-start="159" selection-end="159" vertical-scroll-proportion="0.16748768" vertical-offset="0" max-vertical-offset="406">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HotelReservationSystem/HotelReservationMain.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="40" selection-start="484" selection-end="484" vertical-scroll-proportion="0.52904564" vertical-offset="0" max-vertical-offset="1632">
+          <folding>
+            <element signature="e#112#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
