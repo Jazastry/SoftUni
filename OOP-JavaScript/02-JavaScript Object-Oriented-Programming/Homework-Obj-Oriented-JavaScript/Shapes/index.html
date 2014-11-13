@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Shapes</title>
+        <link rel="stylesheet" href="style.css">
+    <body>
+    	<form class="floatL">
+    		<section id="head">
+	    		Shape X:
+	    		<input id="shapeX" type="number" name="shapeX" min="0" max="500" step="1">
+	    		Shape Y:
+	    		<input id="shapeY" type="number" name="shapeY" min="0" max="500" step="1">
+	    		Shape Color:
+	    		<input id="colorBox" type="color" name="colorBox">
+    		</section>
+    	
+    		<section id="shapesSelect">
+    			<select id="selectShape" >
+					<option selected="selected" disabled>Select Shape</option>
+					<option value="circle">Circle</option>
+					<option value="rectangle">Rectangle</option>
+					<option value="triangle">Triangle</option>
+					<option value="segment">Segment</option>
+				</select> 
+				<section id="shapeProp"></section>
+    		</section>
+    		<section id="bottom">
+    			<textarea id="shapesInfo" class="floatL" name="shapesInfo"></textarea>
+    			<section  class="buttons floatL">
+	    			<button id="up" type="button">&uarr;</button>
+	    			<button id="down" type="button">&darr;</button>
+	    			<button id="delete" type="button">-</button>
+    			</section>
+    			<section id="clear"></section>
+				<button id="add" type="button">Add</button>
+    		</section>
+    	</form>
+    	
+    	<canvas id="myCanvas"></canvas>   
+
+        <script src="Shape.js"></script>	
+    </body>
+</html>

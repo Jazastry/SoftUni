@@ -1,0 +1,51 @@
+.container, .section {
+	border: 2px solid #000;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+ 
+.container>h1, .section>h2 {
+	text-align: right;
+	margin-right: 20px;
+}
+
+.container>.inputSection>input[type=text] {
+	height: 20px;
+	width: 500px;
+}
+
+.container>.inputSection>button {
+	margin-left: 5px;
+}
+
+/*ITEM SECTION*/
+.item>input[type=checkbox] {
+	float: left;
+	margin-right: 30px;
+}
+
+input[type=checkbox]:checked + h3 {
+  background-color: green;
+}
+
+ .item {
+ 	height: 30px;
+ 	border-bottom: 1px solid #000;
+ }
+
+/*INPUT SECTION*/
+ .section>.inputSection {
+	text-align: right;
+	margin-top: 10px;
+}
+
+.section>.inputSection>button {
+	height: 25px;
+	width: 25px;
+	margin-left: 5px;
+}
+
+.section>.inputSection>input {
+	height: 20px;
+	width: 500px;
+}

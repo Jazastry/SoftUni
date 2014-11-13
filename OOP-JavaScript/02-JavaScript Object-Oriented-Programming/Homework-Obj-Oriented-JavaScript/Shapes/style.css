@@ -1,0 +1,58 @@
+body {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+form {
+	width: 600px;
+	height: 400px;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.floatL {
+	float: left;
+}
+
+#shapesSelect {
+	width: 99%;
+	height: 100px;
+} 
+
+#clear {
+	clear: both;
+}
+
+canvas {
+	width: 600px;
+	height: 350px;
+	margin-left: 20px;
+	border: 1px solid black;
+}
+
+select {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+textarea {
+	width: 85%;
+	height: 200px;
+} 
+
+button {
+	width: 40px;
+	height: 40px;
+}
+
+.buttons {
+	width: 50px;
+	margin-left: 10px;	
+}
+
+#add {
+	margin: 20px;
+}
+
+input[type="number"] {
+	width: 70px;
+}
