@@ -1,0 +1,6 @@
+H:\15-Code-Tuning-and-Optimization\15-Code-Optimization-Homework\Operations Performance Tests\SortingPerformanceTests\bin\Debug\SortingPerformanceTests.exe.config
+H:\15-Code-Tuning-and-Optimization\15-Code-Optimization-Homework\Operations Performance Tests\SortingPerformanceTests\obj\Debug\SortingPerformanceTests.csprojResolveAssemblyReference.cache
+H:\15-Code-Tuning-and-Optimization\15-Code-Optimization-Homework\Operations Performance Tests\SortingPerformanceTests\bin\Debug\SortingPerformanceTests.exe
+H:\15-Code-Tuning-and-Optimization\15-Code-Optimization-Homework\Operations Performance Tests\SortingPerformanceTests\bin\Debug\SortingPerformanceTests.pdb
+H:\15-Code-Tuning-and-Optimization\15-Code-Optimization-Homework\Operations Performance Tests\SortingPerformanceTests\obj\Debug\SortingPerformanceTests.exe
+H:\15-Code-Tuning-and-Optimization\15-Code-Optimization-Homework\Operations Performance Tests\SortingPerformanceTests\obj\Debug\SortingPerformanceTests.pdb

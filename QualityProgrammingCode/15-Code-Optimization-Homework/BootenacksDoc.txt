@@ -1,5 +1,0 @@
-﻿BottleNeck:
-
-	file: OrbitsCalculator.cs
-	 01: Ln 96, Col 36
-	 02: Ln 98, Col 17

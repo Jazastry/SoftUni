@@ -1,0 +1,11 @@
+C:\SoftUni\KPK\15-Code-Tuning-and-Optimization\15-Code-Optimization-Homework\Operations Performance Tests\Operations Performance Tests\bin\Debug\Operations Performance Tests.exe.config
+C:\SoftUni\KPK\15-Code-Tuning-and-Optimization\15-Code-Optimization-Homework\Operations Performance Tests\Operations Performance Tests\obj\Debug\Operations Performance Tests.exe
+C:\SoftUni\KPK\15-Code-Tuning-and-Optimization\15-Code-Optimization-Homework\Operations Performance Tests\Operations Performance Tests\bin\Debug\Operations Performance Tests.exe
+C:\SoftUni\KPK\15-Code-Tuning-and-Optimization\15-Code-Optimization-Homework\Operations Performance Tests\Operations Performance Tests\bin\Debug\Operations Performance Tests.pdb
+C:\SoftUni\KPK\15-Code-Tuning-and-Optimization\15-Code-Optimization-Homework\Operations Performance Tests\Operations Performance Tests\obj\Debug\Operations Performance Tests.pdb
+H:\15-Code-Tuning-and-Optimization\15-Code-Optimization-Homework\Operations Performance Tests\Operations Performance Tests\bin\Debug\Operations Performance Tests.exe.config
+H:\15-Code-Tuning-and-Optimization\15-Code-Optimization-Homework\Operations Performance Tests\Operations Performance Tests\obj\Debug\Operations Performance Tests.exe
+H:\15-Code-Tuning-and-Optimization\15-Code-Optimization-Homework\Operations Performance Tests\Operations Performance Tests\obj\Debug\Operations Performance Tests.pdb
+H:\15-Code-Tuning-and-Optimization\15-Code-Optimization-Homework\02-Operations Performance Tests\Operations Performance Tests\bin\Debug\Operations Performance Tests.exe.config
+H:\15-Code-Tuning-and-Optimization\15-Code-Optimization-Homework\02-Operations Performance Tests\Operations Performance Tests\obj\Debug\Operations Performance Tests.exe
+H:\15-Code-Tuning-and-Optimization\15-Code-Optimization-Homework\02-Operations Performance Tests\Operations Performance Tests\obj\Debug\Operations Performance Tests.pdb
