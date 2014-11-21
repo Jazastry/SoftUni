@@ -7,3 +7,6 @@ C:\SoftUni\KPK\15-Code-Tuning-and-Optimization\15-Code-Optimization-Homework\Ope
 H:\15-Code-Tuning-and-Optimization\15-Code-Optimization-Homework\Operations Performance Tests\OperationsPerformanceTestsB\bin\Debug\OperationsPerformanceTestsB.exe.config
 H:\15-Code-Tuning-and-Optimization\15-Code-Optimization-Homework\Operations Performance Tests\OperationsPerformanceTestsB\obj\Debug\OperationsPerformanceTestsB.exe
 H:\15-Code-Tuning-and-Optimization\15-Code-Optimization-Homework\Operations Performance Tests\OperationsPerformanceTestsB\obj\Debug\OperationsPerformanceTestsB.pdb
+C:\Users\Jazz\Desktop\SoftUni.git\trunk\QualityProgrammingCode\15-Code-Optimization-Homework\02-Operations Performance Tests\OperationsPerformanceTestsB\bin\Debug\OperationsPerformanceTestsB.exe.config
+C:\Users\Jazz\Desktop\SoftUni.git\trunk\QualityProgrammingCode\15-Code-Optimization-Homework\02-Operations Performance Tests\OperationsPerformanceTestsB\obj\Debug\OperationsPerformanceTestsB.exe
+C:\Users\Jazz\Desktop\SoftUni.git\trunk\QualityProgrammingCode\15-Code-Optimization-Homework\02-Operations Performance Tests\OperationsPerformanceTestsB\obj\Debug\OperationsPerformanceTestsB.pdb

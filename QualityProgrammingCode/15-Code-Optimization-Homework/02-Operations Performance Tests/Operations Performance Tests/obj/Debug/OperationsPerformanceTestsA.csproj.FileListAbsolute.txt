@@ -9,3 +9,6 @@ H:\15-Code-Tuning-and-Optimization\15-Code-Optimization-Homework\Operations Perf
 H:\15-Code-Tuning-and-Optimization\15-Code-Optimization-Homework\02-Operations Performance Tests\Operations Performance Tests\bin\Debug\Operations Performance Tests.exe.config
 H:\15-Code-Tuning-and-Optimization\15-Code-Optimization-Homework\02-Operations Performance Tests\Operations Performance Tests\obj\Debug\Operations Performance Tests.exe
 H:\15-Code-Tuning-and-Optimization\15-Code-Optimization-Homework\02-Operations Performance Tests\Operations Performance Tests\obj\Debug\Operations Performance Tests.pdb
+C:\Users\Jazz\Desktop\SoftUni.git\trunk\QualityProgrammingCode\15-Code-Optimization-Homework\02-Operations Performance Tests\Operations Performance Tests\bin\Debug\Operations Performance Tests.exe.config
+C:\Users\Jazz\Desktop\SoftUni.git\trunk\QualityProgrammingCode\15-Code-Optimization-Homework\02-Operations Performance Tests\Operations Performance Tests\obj\Debug\Operations Performance Tests.exe
+C:\Users\Jazz\Desktop\SoftUni.git\trunk\QualityProgrammingCode\15-Code-Optimization-Homework\02-Operations Performance Tests\Operations Performance Tests\obj\Debug\Operations Performance Tests.pdb
