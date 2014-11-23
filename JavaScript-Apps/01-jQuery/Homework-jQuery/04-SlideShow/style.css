@@ -1,0 +1,22 @@
+body {
+	width: 100%;
+}
+#right {
+	position: absolute;
+	top: 30;
+	right:10px;
+	z-index: 1;
+}
+#left {
+	position: absolute;
+	top: 30;
+	left: 10px;
+	z-index: 1;
+}
+
+.slider {
+	height: 300px;
+	width: 1000px;
+	background-color: #76923C;
+	z-index: 0;
+}
