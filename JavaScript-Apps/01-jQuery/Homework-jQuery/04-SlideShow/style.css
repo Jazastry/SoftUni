@@ -1,5 +1,6 @@
 body {
 	width: 100%;
+	z-index: 1;
 }
 #right {
 	position: absolute;
@@ -14,9 +15,30 @@ body {
 	z-index: 1;
 }
 
+.slideHolder {
+	height: 302px;
+	width: 95%;
+	border: 2px solid black;
+	position: absolute;
+	overflow: hidden;
+}
 .slider {
 	height: 300px;
-	width: 1000px;
-	background-color: #76923C;
+	width: 100%;
 	z-index: 0;
+	display: inline;
+	float: left;
+	position: absolute;
+}
+#slider1 {
+	background-color: #03D803;
+}
+#slider2 {
+	background-color: #B1B107;
+}
+#slider3 {
+	background-color: #890A0A;
+}
+#slider4 {
+	background-color: #0D0D62;
 }
