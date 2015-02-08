@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Untitled</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="author" href="humans.txt">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    </head>
+    <body>
+    	<div id="questions">
+	    	<h1 id="demo"></h1>
+	        <div id="one">
+	        	<h3 id="questionOne">Is there any light in Mordor ?</h3>
+				<input type="radio" name="questionOne" value="Yes" checked> Yes
+				<br>
+				<input type="radio" name="questionOne" value="No"> No
+				<br>
+				<input type="radio" name="questionOne" value="Maybe"> Maybe
+				<br>
+				<input type="radio" name="questionOne" value="Indifferent"> Indifferent
+				<br>
+	        </div>
+	        <div id="two">
+	        	<h3 id="questionTwo">Are you human ?</h3>
+				<input type="radio" name="questionTwo" value="Yes" checked> Yes.
+				<br>
+				<input type="radio" name="questionTwo" value="No"> No
+				<br>
+				<input type="radio" name="questionTwo" value="Maybe"> Maybe
+				<br>
+				<input type="radio" name="questionTwo" value="Indifferent"> Indifferent
+				<br>
+	        </div>
+	        <div id="three">
+	        	<h3 id="questionThree">Do computers have souls ?</h3>
+				<input type="radio" name="questionThree" value="Yes" checked> Yes.
+				<br>
+				<input type="radio" name="questionThree" value="No"> No
+				<br>
+				<input type="radio" name="questionThree" value="Maybe"> Maybe
+				<br>
+				<input type="radio" name="questionThree" value="Only Apple Computers have souls !"> Only Apple Computers have souls !
+				<br>
+	        </div>
+	        <button id="submitBtn" type="button">Submit Answers</button>
+	    </div>    
+        <div id="result"> 
+        	<h3 id='answerHolder'></h3>       	
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

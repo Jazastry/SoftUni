@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Phonebook</title>
+	<link rel="stylesheet" href="./css/styles.css">
+  	<script src="scripts/libs/jquery-1.11.0.min.js"></script>
+	<script src="scripts/libs/sammy-latest.min.js"></script>
+	<script src="./scripts/libs/underscore-min.js"></script>
+</head>
+
+<body>
+	<header id="header">Phonebook<span></span></header>
+	<div class="notifications"></div>
+
+	<!-- Left sidebar menu -->
+	<ul id="menu">
+		<li><a id="nav-home" class="link">Home</a></li>
+		<li><a id="nav-phonebook" class="link">Phonebook</a></li>
+		<li><a id="nav-add-phone" class="link">Add Phone</a></li>
+		<li><a id="nav-edit-profile" class="link">Edit Profile</a></li>
+		<li><a id="nav-logout" class="link">Logout</a></li>
+	</ul>
+	
+	<!-- Main screen placeholder -->
+	<main id="wrapper"></main>
+	
+	
+	<!-- Welcome screen -->
+	<div id="welcome-screen" class="dialog-box">
+		<h1>Welcome</h1>
+		<a id="loginBtn1" class="button">Login</a>
+		<a id="registerBtn1" class="button">Register</a>
+	</div>
+	
+	<br/>
+
+	<!-- Registration screen -->
+	<div id="register-form" class="dialog-box">
+		<h1>Register</h1>
+		<p>
+			<label for="username">Username:</label>
+			<input type="text" id="username" />
+		</p>
+		<p>
+			<label for="password">Password:</label>
+			<input type="password" id="password" />
+		</p>
+		<p>
+			<label for="fullName">Full Name:</label>
+			<input type="text" id="fullName" />
+		</p>
+		<p class="buttons">
+			<a id="registegFormRegister" class="button">Register</a>
+			<a id="loginBtn2" class="button">Login</a>
+		</p>
+	</div>
+
+	<br/>
+
+	<!-- Login screen -->
+	<div id="login-form" class="dialog-box">
+		<h1>Login</h1>
+		<p>
+			<label for="username">Username:</label>
+			<input type="text" id="username" />
+		</p>
+		<p>
+			<label for="password">Password:</label>
+			<input type="password" id="password" />
+		</p>
+		<p class="buttons">
+			<a id="loginFormLogin" class="button">Login</a>
+			<a id="registerBtn2" class="button">Register</a>
+		<p>
+	</div>
+
+	<br/>
+	
+	<!-- User home screen -->
+	<div id="user-home" class="dialog-box">
+		<h1></h1>
+		<p>Please use the navigation menu on the left.</p>
+	</div>
+
+	<br/>
+	
+	<!-- Phonebook screen -->
+	<div id="phonesDiv">
+		<table id="phones">
+			<tr class="zeroTr">
+				<th>Name</th>
+				<th>Phone</th>
+				<th>Action</th>
+			</tr>
+			<tr class="zeroTr">
+				<td></td>
+				<td></td>
+				<td>
+					<a class="link">Edit</a>
+					<a class="link">Delete</a>
+				</td>
+			</tr>
+		</table>
+		<p><a class="button">Add Phone</a></p>
+	</div>
+
+	<br/>
+	
+	<!-- Add phone screen -->
+	<div id="add-phone-form" class="dialog-box">
+		<h1>Add Phone</h1>
+		<p>
+			<label for="personName">Name:</label>
+			<input type="text" id="personName">
+		</p>
+		<p>
+			<label for="phoneNumber">Number:</label>
+			<input type="text" id="phoneNumber">
+		</p>
+		<p class="buttons">
+			<a href="#" class="button">Add</a>
+			<a href="#" class="button">Cancel</a>
+		</p>
+	</div>
+	
+	<br/>
+	
+	<!-- Edit phone screen -->
+	<div id="edit-phone-form" class="dialog-box">
+		<h1>Edit Phone</h1>
+		<p>
+			<label for="personName">Name:</label>
+			<input type="text" id="personName" value="">
+		</p>
+		<p>
+			<label for="phoneNumber">Number:</label>
+			<input type="text" id="phoneNumber" value="">
+		</p>
+		<p class="buttons">
+			<a href="#" class="button">Edit</a>
+			<a href="#" class="button">Cancel</a>
+		</p>
+	</div>
+	
+	<br/>
+	
+	<!-- Delete phone screen -->
+	<div id="delete-phone-form" class="dialog-box">
+		<h1>Confirm Delete Phone?</h1>
+		<p>
+			<label for="personName">Name:</label>
+			<input type="text" id="personName" value="Peter Norton" disabled="disabled">
+		</p>
+		<p>
+			<label for="phoneNumber">Number:</label>
+			<input type="text" id="phoneNumber" value="+1 855 344 567" disabled="disabled">
+		</p>
+		<p class="buttons">
+			<a href="#" class="button">Delete</a>
+			<a href="#" class="button">Cancel</a>
+		</p>
+	</div>
+	
+	<br/>
+	
+	<!-- Edit user profile screen -->
+<!-- 	<div id="edit-profile-form" class="dialog-box">
+		<h1>Edit Profile</h1>
+		<p>
+			<label for="username">Username:</label>
+			<input type="text" id="username" value="nakov">
+		</p>
+		<p>
+			<label for="password">Password:</label>
+			<input type="password" id="password">
+		</p>
+		<p>
+			<label for="fullName">Full Name:</label>
+			<input type="text" id="fullName" value="Svetlin Nakov">
+		</p>
+		<p class="buttons">
+			<a href="#" class="button">Edit</a>
+			<a href="#" class="button">Cancel</a>
+		</p>
+	</div> -->
+	
+	<footer id="footer">&copy; 2014 by Software University Foundation, No Rights Reserved</footer>
+	<script type="text/javascript" src="scripts/ajax-requester.js"></script>
+	<script type="text/javascript" src="scripts/data-persister.js"></script>
+	<script type="text/javascript" src="scripts/controller.js"></script>
+	<script type="text/javascript" src="scripts/main.js"></script>
+</body>
+
+</html>

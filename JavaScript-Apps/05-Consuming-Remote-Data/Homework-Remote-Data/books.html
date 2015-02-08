@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Books</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+	<div class="notifications">Some Text</div>
+	<main id="main">
+		<h3>Books</h3>		
+		<div id="booksList">
+			<ul id="allBooks">
+				
+			</ul>
+		</div>
+		<div id="controls">	
+			Book Name : <input type="text" id="bookName"><br>
+			Book Autor : <input type="text" id="bookAutor"><br>
+			<button id="addNewBook">Add New Book</button>
+			<button id="changeBook">Change Book Data</button><br>
+			Book ID : <input type="text" id="bookId">
+			<button id="deleteBook">Delete Book</button>	
+		</div>
+	</main>
+	<script src="scripts/libs/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="scripts/ajax-requester.js"></script>
+	<script type="text/javascript" src="scripts/data-persister.js"></script>
+	<script type="text/javascript" src="scripts/controller.js"></script>
+	<script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</html>
