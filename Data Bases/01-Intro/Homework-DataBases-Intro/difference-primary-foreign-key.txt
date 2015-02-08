@@ -1,0 +1,7 @@
+	Te primary key is database table column data which holds unique value (numeric, string), used 
+to select the data saved in the coresponding row.
+	The foreign key is database table column data which holds unique value (numeric, string),
+used to conect data arguments in separate tables.
+	The difference between a primary and foreign key is that primary key holds the unic value
+coresponding to it`s own data table in contrast foreign key coresponds to data in a different 
+, outer data table.

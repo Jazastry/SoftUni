@@ -1,0 +1,24 @@
+Datbase Indexing
+
+	A database index is a data structure that improves the speed of data retrieval operations 
+	on a database table.
+
+	Indexing Methods
+
+		- non-clustered
+			The data is present in arbitrary order, but the logical ordering is specified by 
+			the index. The data rows may be spread throughout the table regardless of the 
+			value of the indexed column or expression. The non-clustered index tree contains 
+			the index keys in sorted order, with the leaf level of the index containing the 
+			pointer to the record.
+		- clustered
+			Clustering alters the data block into a certain distinct order to match the index, 
+			resulting in the row data being stored in order. Therefore, only one clustered 
+			index can be created on a given database table. Clustered indices can greatly 
+			increase overall speed of retrieval, but usually only where the data is accessed 
+			sequentially in the same or reverse order of the clustered index, or when a range 
+			of items is selected.
+
+	Indexing speeds up retrieving table information by indrexed columns much faster, but 
+	dealing (deleting, updating) indexed columns is slower, because of need to be changed 
+	also index information.

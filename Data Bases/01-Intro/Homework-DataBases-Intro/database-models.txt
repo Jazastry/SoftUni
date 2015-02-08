@@ -1,0 +1,49 @@
+Databases Types
+
+- Hierarchical database model
+
+	The hierarchical database model mandates that each child record has only one
+	parent, whereas each parent record can have one or more child records. In order to 
+	retrieve data from a hierarchical database the whole tree needs to be traversed 
+	starting from the root node.
+
+- Network model
+
+	The network model allows each record to have multiple parent and child records, 
+	forming a generalized graph structure.
+
+- Relational model
+
+	The relational database model represents information as collection of finite set of 
+	constrained variables of possible values. The content of database satisfies the constrains 
+	(both of variable and connections) in every moment of the existance of the data.
+	Data fields in these tables point to indexes in other tables, such pointers represent the 
+	relationships.
+
+- Object model
+
+	Stores data as objects (object-oriented-programming) the data base is closely integrated with the programming language. It gives more consistent maintaining of the data within one environment and both database and the language will use same model of representation.
+		Take place in application areas such as engineering and spatial databases, telecommunications, 
+	and scientific areas such as high energy physics and molecular biology. Another group of object 
+	databases focuses on embedded use in devices, packaged software, and real-time systems.
+		Most object databases also offer some kind of query language, allowing objects to be found using 
+	a declarative programming approach
+		An object database stores complex data and relationships between data directly, without mapping
+	to relational rows and columns, and this makes them suitable for applications dealing with very 
+	complex data.[9] Objects have a many to many relationship and are accessed by the use of pointers. 
+	Pointers are linked to objects to establish relationships. Another benefit of an OODBMS is that it 
+	can be programmed with small procedural differences without affecting the entire system.
+
+- Document model 
+
+	Consists of data stored in document format. Documents are retrieved by unic id. Gives advantage
+	of more flexible data size and type storage, disadvantage of les structured and restrained data base.
+
+- Entity-atribute-value model - EAV
+
+	The data is recorded in three column table : 
+		- entity - the item being described
+		- attribute - a foreign key to a table of atribute difinitions, names, discription, ID constrains
+		and etc.
+		- value - the value of the atribute
+	The EAV database is maintained by numerous metadata supporting tables. The metadata tables are typicaly outnumber the EAV tables, and are standard relational tables.

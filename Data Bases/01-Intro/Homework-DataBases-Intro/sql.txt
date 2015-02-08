@@ -1,0 +1,11 @@
+SQL - Structured Query Languag
+
+	Is a special-purpose declarative programming language designed for managing data held in a relational 
+	database management system (RDBMS), or for stream processing in a relational data stream 
+	management system (RDSMS).
+
+	It is used to create, update, search, retrieve and delete information in relational database objects.
+
+	Following command results table consisting of CustomerName column from Customers table:
+	
+	SELECT CustomerName FROM Customers;

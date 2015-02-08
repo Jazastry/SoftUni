@@ -1,0 +1,11 @@
+A NoSQL (often interpreted as Not Only SQL) database provides a mechanism for storage and retrieval of data 
+that is modeled in means other than the tabular relations used in relational databases. Motivations for this 
+approach include simplicity of design, horizontal scaling, and finer control over availability.
+	
+	NoSQL databases:		
+    - Column type: Accumulo, Cassandra, Druid, HBase, Vertica
+    - Document type: Clusterpoint, Apache CouchDB, Couchbase, MarkLogic, MongoDB, OrientDB
+    - Key-value type: CouchDB, Dynamo, FoundationDB, MemcacheDB, Redis, Riak
+    - Graph type: Allegro, Neo4J, InfiniteGraph, OrientDB, Virtuoso, Stardog
+    - Multi-model: OrientDB, FoundationDB, ArangoDB, Alchemy Database, CortexDB
+

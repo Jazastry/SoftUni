@@ -1,0 +1,7 @@
+	A table in DataBase terms corresponds to a predicate variable. The contents of a table to a 
+relation, key constraints, other constraints, and SQL queries correspond to predicates.
+	The information is tables is stored in a way to corespond and answer to all constrains asked by
+the column and table predicates, no data is stored if all constrains are not satisfied.
+	The difference between tables and relations is that in the tables are stored information 
+and predicates related to data storing, in contrast in relations are stored the relations 
+between dta tables.

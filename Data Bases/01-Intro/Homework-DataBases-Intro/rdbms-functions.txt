@@ -1,0 +1,6 @@
+Main functions performed by a RDBMS
+	- providing a declarative method for specifying data and queries
+	- providing to users directly state what information database contains 
+	- providing to users retrieving information they want from DB
+	- taking care of describing data structures for sorting the data and retrieval 
+	procedures for answering queries

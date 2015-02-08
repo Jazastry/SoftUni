@@ -1,0 +1,13 @@
+There are three types of relations in terms of relational database tables.
+	- one to one
+		one entity in the first table is connected with olny one entity from the other
+		(like one country can have only one prezident for the current mandat) 
+
+	- one to many
+		one entiy in the first or second table can be connected to many entityes in the 
+		other table
+		(one year have many months but one month is part only of one year)
+
+	- many to many
+		many entityes fron one table can be in relations with many from other
+		(one man can be fan of many football clubs, and one football club can have many fans)

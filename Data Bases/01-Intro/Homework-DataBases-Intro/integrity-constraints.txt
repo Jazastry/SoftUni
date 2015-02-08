@@ -1,0 +1,13 @@
+Integrity Constrsains
+	- primary key constraint
+		. the primary key can`t be null
+		. it`s used to indentify rows in the table, have to be unique to 
+		ensure that the rows contain different data and are not repeated
+	- unique key constraint
+		. the unique key have to be unique and not null
+	- foreign key constraint
+		. foreign key is unic for it`s own table and have to be valid existing
+		value from related table, ensures that two tables are conected with existing
+		valid rows
+	- check constraint
+		. are conditional expressions that ensure entered data coresponds ti it`s purpose
