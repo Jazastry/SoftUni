@@ -1,0 +1,70 @@
+<div class="row">
+	<div class="container">
+		<div class="col-md-6">
+			<div class="well bs-component">
+				<form class="form-horizontal">
+					<fieldset>
+						<legend>New Video</legend>
+						<div class="form-group">
+							<label for="inputEmail" class="col-lg-2 control-label">Title</label>
+							<div class="col-lg-10">
+								<input ng-model="newVideo.title" class="form-control" id="inputEmail" placeholder="Email" type="text">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="puctureUrl" class="col-lg-2 control-label">Picture URL</label>
+							<div class="col-lg-10">
+								<input ng-model="newVideo.pictureUrl" class="form-control" id="puctureUrl" placeholder="Url" type="text">
+							</div>
+						</div>	
+						<div class="form-group">
+							<label for="videoLength" class="col-lg-2 control-label">Length</label>
+							<div class="col-lg-10">
+								<input ng-model="newVideo.length" class="form-control" id="videoLength" placeholder="Video Length in Min." type="text">
+							</div>
+						</div>
+<!-- 						<div class="form-group">
+							<label for="category" class="col-lg-2 control-label">Category</label>
+							<div class="col-lg-10">
+								<input class="form-control" id="category" placeholder="Video Category" type="text">
+							</div>
+						</div>	 -->
+						<div class="form-group">
+							<label class="col-lg-2 control-label" for="select">Category</label>
+							<div class="col-lg-10">
+								<select ng-model="newVideo.category" id="select" class="form-control">
+									<option>IT</option>
+									<option>SCF</option>
+									<option>History</option>
+									<option>Technology</option>
+									<option>Other</option>
+								</select>
+							</div>	
+						</div>
+						<div class="form-group">
+							<label class="col-lg-2 control-label">Subtitles</label>
+							<div class="col-lg-8">
+								<div class="radio">
+									<label>
+									<input ng-model="newVideo.haveSubtitles" id="haveSubtitles" type="radio" value="true" name="subtitles">
+									Have
+									</label>
+									<label>
+									<input ng-model="newVideo.haveSubtitles" checked="checked" id="dontHaveSubtitles" type="radio" value="false" name="subtitles">
+									Don't have
+									</label>
+								</div>
+							</div>
+						</div>	
+						<div class="form-group">
+							<div class="col-lg-10 col-lg-offset-2">
+								<button class="btn btn-default">Reset</button>
+								<!-- <button ng-click="saveVideo(newVideo)" class="btn btn-default" type="button">Submit</button> -->
+							</div>
+						</div>				
+					</fieldset>
+				</form>
+			</div>	
+		</div>
+	</div>
+</div>	

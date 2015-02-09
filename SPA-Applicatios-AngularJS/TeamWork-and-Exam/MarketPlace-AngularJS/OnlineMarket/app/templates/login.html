@@ -1,0 +1,31 @@
+<div class="bs-docs-section clearfix">
+	<div class="row">
+		<navigation-public></navigation-public>
+	</div>
+</div>
+<div class="col-lg-1"></div>
+<form class="form-horizontal col-lg-8">
+	<fieldset>
+		<legend>Login</legend>
+		<div class="form-group">
+			<label for="username" class="col-lg-2 control-label">Username</label>
+			<div class="col-lg-10">
+				<input class="form-control" id="username" placeholder="Username" type="text" ng-model="user.username" required="required">
+				<!-- <span ng-show="form.email.$dirty && form.email.$error.required">Email is required</span> -->
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="inputPassword" class="col-lg-2 control-label">Password</label>
+			<div class="col-lg-10">
+				<input class="form-control" id="inputPassword" placeholder="Password" type="password" ng-model="user.password" required="required">
+			<!-- 	<span ng-show="form.password.$dirty && form.password.$error.required">Password is required</span> -->
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-lg-10 col-lg-offset-2">
+				<button class="btn btn-default" ng-click="redirectTo('#/')">Cancel</button>
+				<button type="submit" class="btn btn-primary" ng-click="login(user)">Submit</button>
+			</div>
+		</div>
+	</fieldset>
+</form>

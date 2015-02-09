@@ -1,0 +1,33 @@
+<div class="bs-component"> 
+	<div class="col-lg-12 text-center" ng-hide="ready">
+		<img src="./images/loading.gif" alt="" width="400px">
+	</div>
+	<div class="jumbotron" ng-repeat="ad in ads.ads " ng-cloak>		
+		<div class="row"> 
+			<div class="container">
+				<div class="col-lg-9">
+					<h4>{{ ad.title }}</h4>
+				</div>
+				<div class="col-lg-3">{{ ad.date | date:"dd-MMM-yyyy" }}</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">				
+				<div class="col-lg-5">
+					<img class="col-lg-12" ng-src="{{ ad.imageDataUrl }}" src="" alt="">
+				</div>			 
+				<div class="col-lg-7">
+					<div class="panel panel-default col-lg-12">
+						<div class="panel-body">{{ ad.text }}</div>							
+					</div>
+					<div class="panel-heading">Name: {{ ad.ownerName }}</div>
+					<div class="panel-heading">Email: {{ ad.ownerEmail }}</div>
+					<div class="panel-heading">Phone: {{ ad.ownerPhone }}</div>
+					<div class="panel-heading" >Town: {{ townFilter(ad.townId)[0].name }}</div>
+				</div>
+				<!-- towns | filter:{id:ad.townId} -->
+			</div>
+		</div> 
+	</div>
+</div>
+

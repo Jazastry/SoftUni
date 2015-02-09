@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ads</title>
+	<link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css" />
+	<link rel="stylesheet" href="lib/bootstrap/bootstrap-theme.css" />
+	<link rel="stylesheet" href="lib/bootstrap/bootstrap-responsive.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body ng-app="app" ng-controller="MainController">
+	<div class="container">
+		<div ng-view></div>
+	</div>	
+	<script src="lib/jquery/jquery-1.11.0.min.js"></script>
+	<script src="lib/bootstrap/bootstrap.js"></script>
+	
+	<script src="lib/angular1/angular.js"></script>
+	<script src="lib/angular1/angular-route.js"></script>
+	<script src="lib/angular1/angular-resource.js"></script>
+	<script src="lib/angular1/angular-local-storage.js"></script>
+	<script src="lib/bootstrap/ui-bootstrap-tpls-0.12.0.js"></script>
+	<script src="lib/underscore/underscore.js"></script>
+
+	<script src="js/app.js"></script>
+	<script src="js/controllers/MainController.js"></script>
+	<script src="js/controllers/HomePublicController.js"></script>
+	<script src="js/controllers/HomeUserController.js"></script>
+	<script src="js/controllers/NewAdController.js"></script>
+	<script src="js/controllers/LoginController.js"></script>
+	<script src="js/controllers/NavPublicController.js"></script>
+	<script src="js/controllers/RegisterController.js"></script>
+	<script src="js/controllers/PaginationController.js"></script>
+	<script src="js/controllers/LoggedUserAdsController.js"></script>
+	<script src="js/controllers/AdsPublicController.js"></script>
+	<script src="js/controllers/AdsFiltersController.js"></script>
+	<script src="js/controllers/LoggedInNavController.js"></script>
+	<script src="js/services/data/adsRequester.js"></script>
+	<script src="js/services/data/townsRequester.js"></script>
+	<script src="js/services/data/categoriesRequester.js"></script>	
+	<script src="js/services/data/userRequester.js"></script>
+	<script src="js/services/authentication.js"></script>
+	<script src="js/services/adsUpdater.js"></script>
+	<script src="js/services/filter.js"></script>
+	<script src="js/directives/navigation-public.js"></script>
+	<script src="js/directives/ads-public.js"></script>
+	<script src="js/directives/ads-filters.js"></script>	
+	<script src="js/directives/ads-pagination.js"></script>		
+	<script src="js/directives/navigation-logged.js"></script>	
+</body>
+</html>

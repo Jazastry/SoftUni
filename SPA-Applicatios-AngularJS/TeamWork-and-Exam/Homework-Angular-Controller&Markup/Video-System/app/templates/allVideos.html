@@ -1,0 +1,34 @@
+<div class="container">
+	<div class="btn-group">
+		<a class="btn btn-default">Category</a>
+		<a class="btn btn-default">Date</a>
+		<a class="btn btn-default">Have Subtitles</a>
+	</div>	
+	<div class="col-lg-9">
+	    <div ng-repeat="video in videoObjects">
+	    	<div class="row">
+				<h4>{{ video.title }}</h4>
+				<img ng-src="{{ video.pictureUrl }}" class="col-md-8">
+				<div class="col-md-4">
+					<p>Length: {{ video.length }}</p>
+					<p>Category: {{ video.category }}</p>
+					<p>Subscribers count: {{ video.subscribers }}</p>
+					<p>Date: {{ video.date | date:"dd-MMM-yyyy" }}</p>
+					<p>HaveSubtitles: {{ haveSubs(video.haveSubtitles) }}</p>
+				</div>	
+			</div>
+			<br>
+			<div class="row">
+				<div ng-repeat="comment in video.comments">
+					<div class="container panel panel-defaul">
+						<p>User: {{ comment.username }}</p>
+						<p>Comment: {{ comment.content }}</p>
+						<p>Date: {{ comment.date | date:"dd-MMM-yyyy" }}</p>
+						<p>Likes: {{ comment.likes }}</p>	
+						<p>Website: {{ comment.websiteUrl }}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

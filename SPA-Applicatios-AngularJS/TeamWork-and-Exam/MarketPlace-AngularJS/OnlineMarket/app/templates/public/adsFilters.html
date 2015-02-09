@@ -1,0 +1,23 @@
+<div class="bs-component">
+	<h6>Filter By</h6>
+	<div class="row col-lg-12">		
+		<label for="CategorySelect">Category</label>
+		<select class="col-lg-12" name="CategorySelect" ng-model="currentCategory" ng-change="categoryChanged(currentCategory)">				
+			<option value="">All</option>						
+				<option value="{{category.id}}" data-toggle="tab" ng-repeat="category in categories">	
+						{{ category.name }}										
+				</option>
+			</ul>				
+		</select>
+	</div>
+	<div class="row col-lg-12">
+		<label for="TownSelect">Town</label>
+		<select class="col-lg-12" name="TownSelect" ng-model="currentTown" ng-change="townChanged(currentTown)">
+			<option value="">All</option>						
+				<option value="{{town.id}}" data-toggle="tab" ng-repeat="town in towns">
+						{{ town.name }}				
+				</option>
+			</ul>				
+		</select>		
+	</div>
+</div>
