@@ -1,0 +1,2 @@
+What is Transact-SQL (T-SQL)?
+	- T-SQL expands on the SQL standard to include procedural programming, local variables, various support functions for string processing, date processing, mathematics, etc. and changes to the DELETE and UPDATE statements.
