@@ -1,0 +1,4 @@
+{ "_id" : { "$oid" : "54ec6393bb6d721e072e27ef"} , "text" : "Message One" , "date" : "Tue Feb 24 2015 13:42:11 GMT+0200" , "user" : { "username" : "Zahari" , "fullName" : "Zahari Zahariev" , "website" : "www.zahri.com"}}
+{ "_id" : { "$oid" : "54ec6393bb6d721e072e27f0"} , "text" : "Message Two" , "date" : "Tue Feb 24 2015 13:42:11 GMT+0200" , "user" : { "username" : "Gosho" , "fullName" : "Gosho Goshev" , "website" : "www.goshko.com"}}
+{ "_id" : { "$oid" : "54ec6393bb6d721e072e27f1"} , "text" : "Message Three" , "date" : "Tue Feb 24 2015 13:42:11 GMT+0200" , "user" : { "username" : "Minka" , "fullName" : "Minka Minkova" , "website" : "www.minka.com"}}
+{ "_id" : { "$oid" : "54ec6393bb6d721e072e27f2"} , "text" : "Message Four" , "date" : "Tue Feb 24 2015 13:42:11 GMT+0200" , "user" : { "username" : "Pesho" , "fullName" : "Pesho Peshev" , "website" : "www.pesho.com"}}

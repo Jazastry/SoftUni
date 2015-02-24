@@ -1,0 +1,15 @@
+// To backup database run mongodump on running mongod instance
+// it will backup all databases in running mongod.
+// --out points to the direstory where you want to place backups
+
+// EXAMPLE 
+mongodump --out \data\backup\
+
+// delete backuped database
+use <name of your database>
+db.dropDatabase();
+
+// to restore put path to directory in witch are mongo .exe files in 
+// your invironment variables -> PATH variable, or open cmd in the folder where are mongo .exe files
+// open cmd in folder containing backups and run
+monrogestore <path to your folder containing .bson backup files>
