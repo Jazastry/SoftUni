@@ -231,38 +231,108 @@ FULL JOIN Countries c
 ON t.CountryId = c.Id
 GROUP BY t.Name, c.Name
 ORDER BY t.Name, c.Name
-
+GO
 /* 17. */
 
-USE [Ads] 
+CREATE VIEW AllAds 
+AS
+	SELECT a.Id, a.Title,
+		u.UserName AS Author, a.Date,
+		t.Name AS Town,
+		c.Name AS Category,
+		s.Status
+	FROM Ads a
+	JOIN AspNetUsers u
+	ON a.OwnerId = u.Id
+	LEFT JOIN Towns t
+	ON a.TownId = t.Id
+	LEFT JOIN Categories c
+	ON a.CategoryId = c.Id
+	JOIN AdStatuses s
+	ON a.StatusId = s.Id
+	GROUP BY a.Id, a.Title,
+		u.UserName, a.Date,
+		t.Name,
+		c.Name,
+		s.Status
 GO
 
-/* ENABLE CLR EXTERNAL USE */
-sp_configure 'clr enabled', 1
-GO
-RECONFIGURE
+SELECT * FROM AllAds
 GO
 
-/* LOAD EXTERNAL ASSEMBLY PATH SHOUD ASSSIGN THE PATH TO StrConcat.dll (FROM Homework-Transact-SQL FOLDER) */
-CREATE ASSEMBLY StrConcat 
-FROM 'C:\StrConcat.dll'
-WITH permission_set = Safe;
+USE Ads
 GO
 
-DROP ASSEMBLY StrConcat
+CREATE FUNCTION fn_ListUsersAds
+  ()
+RETURNS @tbl_ResultTable TABLE
+(UserName NVARCHAR(50), AdDates NVARCHAR(300) NULL)
+AS
+BEGIN
+	DECLARE @datesResultString NVARCHAR(200);
+	SET @datesResultString = '';
+------------------------------------------------------------
+	DECLARE usersCursor CURSOR READ_ONLY FOR
+	SELECT a.Author FROM (SELECT DISTINCT Author FROM AllAds) a
+	OPEN usersCursor
 
-CREATE AGGREGATE StrConcat (@input nvarchar(200)) RETURNS nvarchar(max)
-EXTERNAL NAME StrConcat.StrConcat;
+	DECLARE @currentUserName NVARCHAR(50)
+	FETCH NEXT FROM usersCursor 
+	INTO @currentUserName
+
+	WHILE @@FETCH_STATUS = 0
+		BEGIN		
+
+	--		DECLARE @datesResultString NVARCHAR(200);
+	--SET @datesResultString = '';
+		-----------------------------------------------------------------
+		DECLARE datesCursor CURSOR READ_ONLY FOR
+		SELECT a.Date FROM (SELECT Date FROM AllAds WHERE Author = @currentUserName GROUP BY Date) a
+		OPEN datesCursor
+		--(SELECT Id FROM AspNetUsers WHERE UserName = @currentUserName)
+		DECLARE @currentDate DATE
+		FETCH NEXT FROM datesCursor 
+		INTO @currentDate
+
+		WHILE @@FETCH_STATUS = 0
+			BEGIN		
+
+			SET @datesResultString += FORMAT(@currentDate, 'yyyymmdd') + '; '
+
+			FETCH NEXT FROM datesCursor 
+			INTO @currentDate
+			END
+		CLOSE datesCursor
+		DEALLOCATE datesCursor
+		IF (@datesResultString <> '')
+			BEGIN
+				SET @datesResultString = LEFT(@datesResultString, LEN(@datesResultString) - 2)
+			END
+		-----------------------------------------------------------------
+		IF (@datesResultString = '')
+			BEGIN
+			INSERT INTO @tbl_ResultTable (UserName, AdDates)
+			VALUES (@currentUserName, NULL)
+			END
+		ELSE 
+			BEGIN
+			INSERT INTO @tbl_ResultTable (UserName, AdDates)
+			VALUES (@currentUserName, @datesResultString)
+			END
+
+		SET @datesResultString = '';
+
+		FETCH NEXT FROM usersCursor 
+		INTO @currentUserName
+		END
+	CLOSE usersCursor
+	DEALLOCATE usersCursor
+
+------------------------------------------------------------	
+	RETURN 
+END
 GO
 
-DROP AGGREGATE StrConcat;
+DROP FUNCTION fn_ListUsersAds
 
-SELECT u.UserName,
-         (SELECT dbo.StrConcat(CONVERT(nvarchar(8),a.Date, 112)) FROM Ads a WHERE a.OwnerId = u.Id)
- 
-		 AS [AdDates]
-FROM AspNetUsers u
-LEFT JOIN Ads a
-ON a.OwnerId = u.Id
-GROUP BY u.UserName, u.Id
-ORDER BY u.UserName DESC
+SELECT * FROM fn_ListUsersAds() ORDER BY UserName DESC
