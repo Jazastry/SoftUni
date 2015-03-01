@@ -1,0 +1,70 @@
+:::::::::  AUTORS ::::::::::::
+> SADD autors:names "Pesho"
+(integer) 1
+> SADD autors:names "Maria"
+(integer) 1
+> SADD autors:names "Steve"
+(integer) 1
+::::::::: AUTORS INFO ::::::::::
+> HSET autors:Pesho name "Pesho Peshev"
+(integer) 1
+> HSET autors:Maria name "Maria Peneva"
+(integer) 1
+> HSET autors:Steve name "Steve Willson"
+(integer) 1
+> HSET autors:Maria email "maria@gmail.com"
+(integer) 1
+> HSET autors:Maria phone "+35924897242"
+(integer) 1
+> HSET autors:Pesho email "pesho@gmail.com"
+(integer) 1
+> HSET autors:Pesho phone "+3593737722"
+(integer) 1
+> HSET autors:Steve email "steve@gmail.com"
+(integer) 1
+> HSET autors:Steve phone "+359326354438"
+(integer) 1
+::::::::: ADDS INFO ::::::::::::::
+> HSET add:1 title "BMW 320 for Sale"
+(integer) 1
+> HSET add:1 description "BMW 320d, 2.0 diesel, 4 doors, automatic transmission. Year: 2007. Miles: 107,000. Price: 2400 EUR."
+(integer) 1
+> HSET add:1 location "Sofia"
+(integer) 1
+> HSET add:1 date "2014-12-26 12:37"
+(integer) 1
+> HSET add:1 autor_username "Maria"
+(integer) 1
+> HSET add:2 title "Job as Housekeeper"
+(integer) 1
+> HSET add:2 description "I am looking for a job as housekeeper."
+(integer) 1
+> HSET add:2 location "Plovdiv"
+(integer) 1
+> HSET add:2 date "2014-12-30 23:43"
+(integer) 1
+> HSET add:2 autor_username "Pesho"
+(integer) 1
+> HSET add:3 title "3 bed apartment to let"
+(integer) 1
+> HSET add:3 description "Very good. A must see. Price: 750 EUR."
+(integer) 1
+> HSET add:3 location "Sofia"
+(integer) 1
+> HSET add:3 date "2015-01-17 10:44"
+(integer) 1
+> HSET add:3 autor_username "Steve"
+(integer) 1
+> HSET add:4 title "Free MP3 Player"
+(integer) 1
+> HSET add:4 description "Free MP3 player, broken."
+(integer) 1
+> HSET add:4 location "Rousse"
+(integer) 1
+> HSET add:4 date "2014-11-28 21:15"
+(integer) 1
+> HSET add:4 autor_username "Maria"
+(integer) 1
+::::::: ADDS COUNT :::::::::
+> SET adds:count 4
+OK
