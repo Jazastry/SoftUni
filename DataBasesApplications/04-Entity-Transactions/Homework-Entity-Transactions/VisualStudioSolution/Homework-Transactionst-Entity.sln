@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsDB.Model", "NewsDBModel\NewsDB.Model.csproj", "{0CF53FE3-9C71-44F5-AF9E-264A28BD1CEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsDB.Context", "NewsDB.Context\NewsDB.Context.csproj", "{B8698D2E-BC44-4B99-9B5B-115E153F6668}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsDb.ConsoleApplication", "NewsDb.ConsoleApplication\NewsDb.ConsoleApplication.csproj", "{0213F209-3FDD-4083-A822-3E71B7A540C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ATMProblems", "ATMProblems", "{DFE28B2E-7DE2-4F94-AF84-7C19061305E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atm.Model", "Atm.Model\Atm.Model.csproj", "{32369EF2-177A-40B5-A335-2A0F1F09C1F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atm.Context", "ATMContext\Atm.Context.csproj", "{96FC597D-CC77-4118-9345-BDB298A7E55A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransatcionalAtmWithdraw", "TransatcionalAtmWithdraw\TransatcionalAtmWithdraw.csproj", "{01C9A2E3-58A4-4786-91B8-F4101C84C186}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CF53FE3-9C71-44F5-AF9E-264A28BD1CEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF53FE3-9C71-44F5-AF9E-264A28BD1CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF53FE3-9C71-44F5-AF9E-264A28BD1CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF53FE3-9C71-44F5-AF9E-264A28BD1CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8698D2E-BC44-4B99-9B5B-115E153F6668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8698D2E-BC44-4B99-9B5B-115E153F6668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8698D2E-BC44-4B99-9B5B-115E153F6668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8698D2E-BC44-4B99-9B5B-115E153F6668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0213F209-3FDD-4083-A822-3E71B7A540C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0213F209-3FDD-4083-A822-3E71B7A540C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0213F209-3FDD-4083-A822-3E71B7A540C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0213F209-3FDD-4083-A822-3E71B7A540C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32369EF2-177A-40B5-A335-2A0F1F09C1F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32369EF2-177A-40B5-A335-2A0F1F09C1F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32369EF2-177A-40B5-A335-2A0F1F09C1F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32369EF2-177A-40B5-A335-2A0F1F09C1F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96FC597D-CC77-4118-9345-BDB298A7E55A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96FC597D-CC77-4118-9345-BDB298A7E55A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96FC597D-CC77-4118-9345-BDB298A7E55A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96FC597D-CC77-4118-9345-BDB298A7E55A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01C9A2E3-58A4-4786-91B8-F4101C84C186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C9A2E3-58A4-4786-91B8-F4101C84C186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C9A2E3-58A4-4786-91B8-F4101C84C186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C9A2E3-58A4-4786-91B8-F4101C84C186}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32369EF2-177A-40B5-A335-2A0F1F09C1F0} = {DFE28B2E-7DE2-4F94-AF84-7C19061305E9}
+		{96FC597D-CC77-4118-9345-BDB298A7E55A} = {DFE28B2E-7DE2-4F94-AF84-7C19061305E9}
+	EndGlobalSection
+EndGlobal

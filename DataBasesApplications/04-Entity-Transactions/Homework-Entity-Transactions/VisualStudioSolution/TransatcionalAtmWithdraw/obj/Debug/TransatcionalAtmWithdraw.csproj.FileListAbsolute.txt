@@ -1,0 +1,10 @@
+C:\Users\Jazzy\Documents\Visual Studio 2013\Projects\Homework-Transactionst-Entity\TransatcionalAtmWithdraw\bin\Debug\TransatcionalAtmWithdraw.pdb
+C:\Users\Jazzy\Documents\Visual Studio 2013\Projects\Homework-Transactionst-Entity\TransatcionalAtmWithdraw\bin\Debug\EntityFramework.dll
+C:\Users\Jazzy\Documents\Visual Studio 2013\Projects\Homework-Transactionst-Entity\TransatcionalAtmWithdraw\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jazzy\Documents\Visual Studio 2013\Projects\Homework-Transactionst-Entity\TransatcionalAtmWithdraw\bin\Debug\EntityFramework.xml
+C:\Users\Jazzy\Documents\Visual Studio 2013\Projects\Homework-Transactionst-Entity\TransatcionalAtmWithdraw\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jazzy\Documents\Visual Studio 2013\Projects\Homework-Transactionst-Entity\TransatcionalAtmWithdraw\obj\Debug\TransatcionalAtmWithdraw.csprojResolveAssemblyReference.cache
+C:\Users\Jazzy\Documents\Visual Studio 2013\Projects\Homework-Transactionst-Entity\TransatcionalAtmWithdraw\obj\Debug\TransatcionalAtmWithdraw.pdb
+C:\Users\Jazzy\Documents\Visual Studio 2013\Projects\Homework-Transactionst-Entity\TransatcionalAtmWithdraw\bin\Debug\TransatcionalAtmWithdraw.exe.config
+C:\Users\Jazzy\Documents\Visual Studio 2013\Projects\Homework-Transactionst-Entity\TransatcionalAtmWithdraw\bin\Debug\TransatcionalAtmWithdraw.exe
+C:\Users\Jazzy\Documents\Visual Studio 2013\Projects\Homework-Transactionst-Entity\TransatcionalAtmWithdraw\obj\Debug\TransatcionalAtmWithdraw.exe

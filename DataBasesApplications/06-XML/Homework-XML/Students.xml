@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<students xmlns="urn:students">
+  <student>
+    <name>Josko Joskov</name> 
+    <gender>male</gender>
+    <birth-date>1990-03-01</birth-date>
+    <phone-number optional="true"></phone-number>
+    <email>jsoko@google.com</email>
+    <university>Soft Uni</university>
+    <speciality>Frontend</speciality>
+    <faculty-number optional="true"></faculty-number>
+    <takem-exams>
+      <exam>
+        <exam-name>HTML basics</exam-name>
+        <date-taken>2015-01-28</date-taken>
+        <grade>#3</grade>
+      </exam>
+      <exam>
+        <exam-name>JavaScript basics</exam-name>
+        <date-taken>2015-02-15</date-taken>
+        <grade>#3</grade>
+      </exam>
+    </takem-exams>
+  </student>
+  <student>
+    <name>Kiro Kirov</name>
+    <gender>male</gender>
+    <birth-date>1990-03-01</birth-date>
+    <phone-number optional="true"></phone-number>
+    <email>kiro@google.com</email>
+    <university>Soft Uni</university>
+    <speciality>Backend</speciality>
+    <faculty-number optional="true"></faculty-number>
+    <takem-exams>
+      <exam>
+        <exam-name>Back End Technologies</exam-name>
+        <date-taken>2015-01-28</date-taken>
+        <grade>#5</grade>
+      </exam>
+      <exam>
+        <exam-name>Data Base Advanced</exam-name>
+        <date-taken>2015-02-15</date-taken>
+        <grade>#3</grade>
+      </exam>
+    </takem-exams>
+  </student>
+</students>

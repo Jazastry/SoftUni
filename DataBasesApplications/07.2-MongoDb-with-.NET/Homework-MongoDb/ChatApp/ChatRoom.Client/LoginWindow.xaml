@@ -1,0 +1,11 @@
+﻿<Window x:Class="ChatRoom.Client.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Login Window" Height="300" Width="300">
+    <Grid>
+        <Button Name="LoginBtn" FontSize="20" Content="Login" HorizontalAlignment="Left" Margin="30,159,0,0" VerticalAlignment="Top" Width="237" Height="36" Click="LoginBtn_Click"/>
+        <TextBox Name="LoginUserName" FontSize="20" HorizontalAlignment="Left" Height="41" Margin="30,92,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="237"/>
+        <TextBlock FontSize="17" HorizontalAlignment="Left" Height="28" Margin="30,59,0,0" TextWrapping="Wrap" Text="User Name" VerticalAlignment="Top" Width="237"/>
+
+    </Grid>
+</Window>
