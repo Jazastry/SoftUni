@@ -23,7 +23,8 @@ app.factory('authentication', ['localStorageService', function(localStorageServi
 	}
 
 	function removeUserData() {
-		return localStorageService.remove(key); // returns true if succeed
+		// returns true if succeed
+		return localStorageService.remove(key); 
 	}
 
 	function isUserAdmin() {		

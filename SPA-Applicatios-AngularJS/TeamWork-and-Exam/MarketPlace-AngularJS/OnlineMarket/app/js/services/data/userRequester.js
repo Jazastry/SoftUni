@@ -1,7 +1,7 @@
 app.factory('userRequester', ['$resource', 'baseServiceUrl', 'authentication',
 			 function($resource, baseServiceUrl, authentication){
 
-	var baseUrl = baseServiceUrl + 'user/';
+	var baseUrl = baseServiceUrl + 'api/account/';
 
 	function register(user) {
 		var resource = $resource(baseUrl + 'register')

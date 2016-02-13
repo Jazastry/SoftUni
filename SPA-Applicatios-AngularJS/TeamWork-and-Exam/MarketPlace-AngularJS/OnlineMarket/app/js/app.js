@@ -1,7 +1,7 @@
 var app = angular.module('app', ['ngResource', 'ngRoute', 'LocalStorageModule', 'ui.bootstrap']);
 
-app.constant('baseServiceUrl', 'http://localhost:1337/api/');
-
+app.constant('baseServiceUrl', 'http://softuni-ads.azurewebsites.net/api/'); 
+  //chat-44.apphb.com/api/
 app.config(['$routeProvider', 'localStorageServiceProvider', 
 				function($routeProvider, localStorageServiceProvider) {	
 
@@ -19,7 +19,7 @@ app.config(['$routeProvider', 'localStorageServiceProvider',
 	});
 	$routeProvider.when('/user/home', {
 		templateUrl: 'templates/userHome.html',
-		controller: 'HomeUserController'
+		controller: 'HomeUserController',
 	});
 	$routeProvider.when('/user/ads/publish', {
 		templateUrl: 'templates/user/newAd.html',
